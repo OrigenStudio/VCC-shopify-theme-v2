@@ -26,7 +26,16 @@
             {%- endif -%}
           {%- endfor -%}
           {%- assign alt_products_total = alt_products_total | plus: 1 -%}
-          <a href="{{ alt_product.url }}" title="{{ alt_product.title }}">
+
+          <script>
+            console.log("=====================================")
+            console.log("{{ alt_product.title }}");
+            console.log("{{ alt_product.url }}");
+            console.log("=====================================")
+          </script>
+
+          {% comment %} <a href="{{ alt_product.url }}" title="{{ alt_product.title }}"> {% endcomment %}
+          <a onClick="changeProduct('{{ alt_product.url }}')" title="{{ alt_product.title }}">
             <div data-value="{{ swatch_color | escape }}" class="swatch-element color-swatch color {{ swatch_color | handle }}{% if alt_product.available %} available{% else %} soldout{% endif %} {% if alt_product.id == product.id %} selected {% endif %}">
               <div class="tooltip">
                 {{ alt_product.title | split: '-' | last }}
@@ -47,3 +56,48 @@
     {{ products_output }}
   </div>
 {%- endif -%}
+
+
+<script>
+  function changeProduct(newURL) {
+    
+    let sectionID = "{{ section.id }}";
+    let requestURL;
+
+    if (window.location.href.includes('localhost') || window.location.href.includes('127.0.0.1')) {
+      requestURL = `http://127.0.0.1:9292${newURL}?section_id=${sectionID}`;
+    } else {
+      requestURL = `https://velodrom-barcelona.myshopify.com${newURL}?section_id=${sectionID}`;
+    }
+
+    fetch(requestURL)
+      .then(response => response.text())
+      .then((responseText) => {
+        const newHtml = new DOMParser()
+          .parseFromString(responseText, 'text/html')    
+          .getElementById('MainProduct-{{ section.id }}')
+          .innerHTML
+        
+        console.log(newHtml); 
+
+        document.getElementById('MainProduct-{{ section.id }}').innerHTML = newHtml 
+        history.pushState({}, '', newURL)
+    })
+  }
+
+  onpopstate = (event) => {
+    let sectionID = "{{ section.id }}";
+    let requestURL = `${event.currentTarget.location.href}?section_id=${sectionID}`;
+
+    fetch(requestURL)
+      .then(response => response.text())
+      .then((responseText) => {
+        const newHtml = new DOMParser()
+          .parseFromString(responseText, 'text/html')    
+          .getElementById('MainProduct-{{ section.id }}')
+          .innerHTML
+        
+        document.getElementById('MainProduct-{{ section.id }}').innerHTML = newHtml 
+    })
+  };
+</script>
