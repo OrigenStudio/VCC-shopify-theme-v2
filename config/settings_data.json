@@ -494,5 +494,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".shopify-preview-bar {display: none }"
+    ]
   }
 }
