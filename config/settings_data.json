@@ -149,7 +149,7 @@
         "type": "header",
         "settings": {
           "logo": "shopify:\/\/shop_images\/VelodromLogoSM_1.png",
-          "menu": "test-menu",
+          "menu": "cro-menu-2024",
           "menu_type_desktop": "mega"
         }
       },
@@ -497,7 +497,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".shopify-preview-bar {display: none }"
+      ".shopify-preview-bar {display: none;}"
     ]
   }
 }
