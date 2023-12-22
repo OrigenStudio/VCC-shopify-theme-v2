@@ -229,12 +229,19 @@ header-drawer {
 }
 
 summary.list-menu__item {
+
+    font-size: 14px;
 }
 
 .list-menu__item {
     display: flex;
     align-items: center;
     {% comment %} line-height: calc(1 + 0.3 / var(--font-body-scale)); {% endcomment %}
+}
+
+.special_prices {
+    {% comment %} color: #ff0000; {% endcomment %}
+    color: rgb(255, 59, 48);
 }
 
 .list-menu__item.link-with-image {
@@ -355,9 +362,9 @@ summary.list-menu__item {
                                                                                     <div>{{ grandchildlink.title | split: '|' | first | escape }}</div>
                                                                                 </a>
                                                                             {%- else -%}
-                                                                                <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                                                                                {% comment %} <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
                                                                                 {{ grandchildlink.title | escape }}
-                                                                                </a>
+                                                                                </a> {% endcomment %}
                                                                             {%- endif -%}
                                                                         </li>
                                                                         {%- endfor -%}
@@ -686,7 +693,23 @@ summary.list-menu__item {
                             <header-menu>
                                 <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
                                 {% assign linkTitle = link.title | split: '#' %}
-                                <summary class="header__menu-item list-menu__item link focus-inset" {%- if link.title contains '#' -%}style="color:#{{ linkTitle | last }}"{% endif %}>
+
+
+                                    <script>
+                                        // log para ver si el link es special prices
+                                        console.log("{{ linkTitle | last }}");
+                                    </script>
+
+
+                                {% comment %} <summary class="header__menu-item list-menu__item link focus-inset" {%- if link.title contains '#' -%}style="color:#{{ linkTitle | last }}"{% endif %}>
+                                    
+                                    si es special prices le añadimos la clase
+
+                                {% endcomment %}
+
+                                <summary class="header__menu-item list-menu__item link focus-inset {% if link.title == 'SPECIAL PRICES' %}special_prices{% endif %}" {%- if link.title contains '#' -%}style="color:#{{ linkTitle | last }}"{% endif %}>
+
+                            
                                     <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ linkTitle | first | escape }}</span>
                                 </summary>
                                 <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
