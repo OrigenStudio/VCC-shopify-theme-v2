@@ -693,23 +693,7 @@ summary.list-menu__item {
                             <header-menu>
                                 <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
                                 {% assign linkTitle = link.title | split: '#' %}
-
-
-                                    <script>
-                                        // log para ver si el link es special prices
-                                        console.log("{{ linkTitle | last }}");
-                                    </script>
-
-
-                                {% comment %} <summary class="header__menu-item list-menu__item link focus-inset" {%- if link.title contains '#' -%}style="color:#{{ linkTitle | last }}"{% endif %}>
-                                    
-                                    si es special prices le añadimos la clase
-
-                                {% endcomment %}
-
-                                <summary class="header__menu-item list-menu__item link focus-inset {% if link.title == 'SPECIAL PRICES' %}special_prices{% endif %}" {%- if link.title contains '#' -%}style="color:#{{ linkTitle | last }}"{% endif %}>
-
-                            
+                                <summary class="header__menu-item list-menu__item link focus-inset {% if link.title == 'SPECIAL PRICES' %}special_prices{% endif %}" {%- if link.title contains '#' -%}style="color:#{{ linkTitle | last }}"{% endif %}>                          
                                     <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ linkTitle | first | escape }}</span>
                                 </summary>
                                 <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
