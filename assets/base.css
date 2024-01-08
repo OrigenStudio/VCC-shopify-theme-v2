@@ -1,3 +1,9 @@
+/*
+  This is to hide the preview bar that appears when you're in the test theme. (VWO)
+*/
+.shopify-preview-bar { display: none }
+
+
 /* Color custom properties */
 
 :root,
@@ -3294,8 +3300,3 @@ a.rebuy-product-image {
 .swatch.swatch_size_large .swatch-element.color input:checked+label:before {
   border-color: #fff
 }
-
-/*
-  This is to hide the preview bar that appears when you're in the test theme. (VWO)
-*/
-.shopify-preview-bar { display: none }
