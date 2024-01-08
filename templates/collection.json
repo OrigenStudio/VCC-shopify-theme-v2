@@ -8,6 +8,44 @@
         "color_scheme": "background-1"
       }
     },
+    "1701771595dbed1265": {
+      "type": "apps",
+      "blocks": {
+        "347910bd-331a-4fcb-b67f-1cedeca8f955": {
+          "type": "shopify:\/\/apps\/kobu-menu-highlight\/blocks\/collection-conditional-block\/09834ec7-34c9-444c-86c6-fab2bbb63d27",
+          "settings": {
+            "menu_group": "Group 1000",
+            "collection_list": [
+
+            ],
+            "menu_shape": "rounded-lg",
+            "menu_margin_top": 0,
+            "menu_margin_bottom": 0,
+            "menu_gap": 20,
+            "menu_width": 80,
+            "menu_height": 80,
+            "menu_mode": "slider_carousel",
+            "menu_title_alignment": "center",
+            "menu_title_font_size": 11,
+            "menu_title_font_weight": 6,
+            "menu_title_font_decoration": "none",
+            "menu_title_font_style": "normal",
+            "menu_position": "flex-start",
+            "fixed_menu": "none",
+            "section_background": "",
+            "menu_display_max_width": "9999",
+            "custom_css": ".mhpMenuHighlightProBlockApp mhp-no-scrollbar{\nmargin-left:100px;\n}",
+            "custom_js": ""
+          }
+        }
+      },
+      "block_order": [
+        "347910bd-331a-4fcb-b67f-1cedeca8f955"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "disabled": true,
@@ -31,7 +69,7 @@
       "type": "apps",
       "blocks": {
         "440ae7eb-f456-4cca-b3b6-829bd912fc02": {
-          "type": "shopify:\/\/apps\/smart-search-bar-filters\/blocks\/app-block\/d8f24ada-02b1-458a-bbeb-5bf16d5c921e",
+          "type": "shopify:\/\/apps\/searchanise-search-filter\/blocks\/app-block\/d8f24ada-02b1-458a-bbeb-5bf16d5c921e",
           "settings": {
           }
         }
@@ -46,6 +84,7 @@
   },
   "order": [
     "banner",
+    "1701771595dbed1265",
     "product-grid",
     "168234674072c34e91"
   ]

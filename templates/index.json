@@ -3,6 +3,60 @@
     "e0911e38-e306-463a-9877-cdf1960a5028": {
       "type": "slideshow",
       "blocks": {
+        "e78dd58c-61c5-4122-9152-2b6a6c6f0321": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/staff_tshirts.jpg",
+            "heading": "STAFF LIMITED DROP",
+            "heading_size": "h0",
+            "subheading": "The Velodrom Staff shirt available for limited time and quantities.",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/collections\/limited-edition-staff-t-shirts",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "template--14546355290246__e0911e38-e306-463a-9877-cdf1960a5028-16686086846f083c6b-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HEADERvccclassic.jpg",
+            "heading": "VCC CLASSIC COLLECTION",
+            "heading_size": "h0",
+            "subheading": "Elegant. Modern. Striking. This is Velodrom VCC",
+            "button_label": "SHOP VELODROM VCC CLASSIC COLLECTION",
+            "link": "shopify:\/\/collections\/velodrom-vcc-classic-collection-aw23",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "97e73aef-1ac7-4d7c-babc-783ca2d37e4f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slider-raceday.webp",
+            "heading": "VELODROM \"RACEDAY\" CAPSULE COLLECTION",
+            "heading_size": "h1",
+            "subheading": "We have launched our exclusive limited capsule \"Raceday\" collection.",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/velodrom-raceday-capsule-limited-collection",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "6242f8ed-ab30-4dd2-b15b-eb2f09cee6bf": {
           "type": "slide",
           "settings": {
@@ -13,25 +67,7 @@
             "button_label": "Shop Now",
             "link": "shopify:\/\/collections\/pas-normal-studios-tko-aw23",
             "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--14546355290246__e0911e38-e306-463a-9877-cdf1960a5028-16686086846f083c6b-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/L1017612.jpg",
-            "heading": "GET READY FOR WINTER",
-            "heading_size": "h0",
-            "subheading": "More than 350 products to help you to ride in the cold season.",
-            "button_label": "SHOP WINTER CLOTHING",
-            "link": "shopify:\/\/collections\/autumn-winter-essentials",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
+            "box_align": "bottom-left",
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 10,
@@ -49,57 +85,21 @@
             "button_label": "Shop Now",
             "link": "shopify:\/\/collections\/pas-collection-aw23",
             "button_style_secondary": false,
-            "box_align": "middle-left",
+            "box_align": "bottom-left",
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 40,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "template--14546355290246__e0911e38-e306-463a-9877-cdf1960a5028-16686086846f083c6b-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/230913_PNS_MECHANISM_AW2336326.jpg",
-            "heading": "MECHANISM AW23",
-            "heading_size": "h0",
-            "subheading": "PAS NORMAL STUDIOS Mechanism Collection: Balancing performance and aesthetics for the days that matter the most.",
-            "button_label": "Shop Collection",
-            "link": "shopify:\/\/collections\/pas-normal-studios-mechanism-aw23",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 20,
-            "color_scheme": "accent-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "97e73aef-1ac7-4d7c-babc-783ca2d37e4f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/VELODROM_SUMMER_VCC_COLLECTION_03.jpg",
-            "heading": "VELODROM VCC MOSAIC JERSEY",
-            "heading_size": "h1",
-            "subheading": "Nuestra colección VCC evoluciona y se hace aún más exclusiva",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/vcc-mosaic-limited-drop-collection",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "6242f8ed-ab30-4dd2-b15b-eb2f09cee6bf",
+        "e78dd58c-61c5-4122-9152-2b6a6c6f0321",
         "template--14546355290246__e0911e38-e306-463a-9877-cdf1960a5028-16686086846f083c6b-0",
-        "0f7b703a-7798-417b-aa4a-5030c3773521",
-        "template--14546355290246__e0911e38-e306-463a-9877-cdf1960a5028-16686086846f083c6b-1",
-        "97e73aef-1ac7-4d7c-babc-783ca2d37e4f"
+        "97e73aef-1ac7-4d7c-babc-783ca2d37e4f",
+        "6242f8ed-ab30-4dd2-b15b-eb2f09cee6bf",
+        "0f7b703a-7798-417b-aa4a-5030c3773521"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -172,28 +172,28 @@
         "462acf69-b1e0-4d38-8d88-063b4121decd": {
           "type": "product",
           "settings": {
-            "product": "alba-optics-eyewear-anvma-iii-vibe-vzum™-plasma",
+            "product": "velodrom-vcc-thermal-long-sleeve-jersey-aw23-burgundy-dual-sleeves",
             "second_image": false
           }
         },
         "9b9687da-ffac-4110-b833-be5febe1ee0f": {
           "type": "product",
           "settings": {
-            "product": "yeti-rambler-18-oz-532-ml-bottle-with-chug-cap-camp-green",
+            "product": "velodrom-by-cordel-durum-mini-handlebar-bag-heavy-graphic-olive",
             "second_image": false
           }
         },
         "1aff5b4d-960c-4267-943d-98feec21f5be": {
           "type": "product",
           "settings": {
-            "product": "nnormal-tomir-trail-shoes-beige",
+            "product": "velodrom-by-cordel-saddle-bag-heavy-graphic-black",
             "second_image": false
           }
         },
         "5325ee7e-c5b3-4f08-a98d-9cc03444d44d": {
           "type": "product",
           "settings": {
-            "product": "specialized-sworks-tarmac-sl8-2023-road-frameset-satin-carbon-rtp-chameleon-snake-eye",
+            "product": "velodrom-vcc-thermal-long-sleeve-jersey-aw23-olive-green-dual-sleeves",
             "second_image": false
           }
         }
@@ -222,60 +222,60 @@
         "d5114076-50ea-4407-b011-53683a1d9e29": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/yetihomepage2.webp",
+            "image": "shopify:\/\/shop_images\/home-yeti.jpg",
             "title": "YETI",
             "description": "<p>Discover the new accesories from YETI<\/p>",
             "image_link": "shopify:\/\/collections\/yeti",
             "image_padding": false
           }
         },
-        "4eb853ee-52af-4bd2-9f38-db95856df3ac": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8485CCCA-6B10-488D-AA44-41F131BF361D.jpg",
-            "title": "NNORMAL",
-            "description": "",
-            "image_link": "shopify:\/\/collections\/nnormal",
-            "image_padding": false
-          }
-        },
-        "af463e46-c055-4df5-9a05-cd4b1c6bdf3a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3texploroapex.jpg",
-            "title": "3T EXPLORO AXS APEX",
-            "description": "",
-            "image_link": "shopify:\/\/collections\/3t-exploro-axs-apex",
-            "image_padding": false
-          }
-        },
         "60ca8f96-d519-40d3-b398-9c36b6b563ea": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/buildyourdreambike.webp",
+            "image": "shopify:\/\/shop_images\/home-build.jpg",
             "title": "BUILD YOUR DREAM BIKE",
             "description": "",
             "image_link": "https:\/\/velodrom.dreambikebuilder.com\/",
             "image_padding": false
           }
         },
+        "4eb853ee-52af-4bd2-9f38-db95856df3ac": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-velodrom-tshirt.webp",
+            "title": "VELODROM clothing",
+            "description": "",
+            "image_link": "shopify:\/\/collections\/velodrom-vcc",
+            "image_padding": false
+          }
+        },
         "f72ee634-5f22-4a2a-a337-2122f056a44b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sunglassesalbaoptics.webp",
+            "image": "shopify:\/\/shop_images\/home-gafas.jpg",
             "title": "Shop Sunglasses",
             "description": "",
             "image_link": "https:\/\/www.velodrom.cc\/collections\/eyewear",
+            "image_padding": false
+          }
+        },
+        "af463e46-c055-4df5-9a05-cd4b1c6bdf3a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-TKO.jpg",
+            "title": "TKO Transmission",
+            "description": "",
+            "image_link": "shopify:\/\/collections\/pas-normal-studios-tko-aw23",
             "image_padding": false
           }
         }
       },
       "block_order": [
         "d5114076-50ea-4407-b011-53683a1d9e29",
-        "4eb853ee-52af-4bd2-9f38-db95856df3ac",
-        "af463e46-c055-4df5-9a05-cd4b1c6bdf3a",
         "60ca8f96-d519-40d3-b398-9c36b6b563ea",
-        "f72ee634-5f22-4a2a-a337-2122f056a44b"
+        "4eb853ee-52af-4bd2-9f38-db95856df3ac",
+        "f72ee634-5f22-4a2a-a337-2122f056a44b",
+        "af463e46-c055-4df5-9a05-cd4b1c6bdf3a"
       ],
       "settings": {
         "heading": "",

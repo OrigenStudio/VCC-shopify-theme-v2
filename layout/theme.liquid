@@ -309,7 +309,8 @@ window.TriplePixelData={TripleName:"velodrom-barcelona.myshopify.com",ver:"1.9"}
     {% render 'qikify-apps' %}
   
 {% render 'gsf-conversion-pixels' %}
-{% include 'trueroas_snippet' %} <!--DOOFINDER-SHOPIFY--> {% if content_for_header contains 'doofinder-installed.js' %} {% render 'doofinder-script-tag' %} {% endif %} <!--/DOOFINDER-SHOPIFY-->{% render 'delivery_coder' %} </head>
+{% include 'trueroas_snippet' %} <!--DOOFINDER-SHOPIFY--> {% if content_for_header contains 'doofinder-installed.js' %} {% render 'doofinder-script-tag' %} {% endif %} <!--/DOOFINDER-SHOPIFY-->{% render 'delivery_coder' %} 	<script src="https://magic-menu.risingsigma.com/js/create-magic-menu.min.js" async></script>
+</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -323,6 +324,7 @@ window.TriplePixelData={TripleName:"velodrom-barcelona.myshopify.com",ver:"1.9"}
     {% section 'announcement-bar' %}
     {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+	  {% render 'magic-menu' %}
       {{ content_for_layout }}
     </main>
 

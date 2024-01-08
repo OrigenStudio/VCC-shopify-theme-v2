@@ -258,9 +258,31 @@
         "settings": {
         }
       },
+      "16231151010375598674": {
+        "type": "shopify:\/\/apps\/kobu-menu-highlight\/blocks\/app-embed\/09834ec7-34c9-444c-86c6-fab2bbb63d27",
+        "disabled": false,
+        "settings": {
+          "menu_shape": "square",
+          "menu_margin_top": 8,
+          "menu_margin_bottom": 8,
+          "menu_gap": 20,
+          "menu_width": 80,
+          "menu_height": 80,
+          "menu_title_alignment": "center",
+          "menu_title_font_size": 14,
+          "menu_title_font_weight": 4,
+          "menu_title_font_decoration": "none",
+          "menu_title_font_style": "normal",
+          "menu_mode": "slider",
+          "menu_position": "flex-start",
+          "menu_display_max_width": "9999",
+          "custom_css": "",
+          "custom_js": ""
+        }
+      },
       "8765772171712610185": {
         "type": "shopify:\/\/apps\/t-lab-ai-language-translate\/blocks\/language_switcher\/b5b83690-efd4-434d-8c6a-a5cef4019faf",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "enable_language_switcher": true,
           "enable_country_region_switcher": false,

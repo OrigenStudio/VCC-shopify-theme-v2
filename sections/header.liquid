@@ -183,7 +183,7 @@
 header-drawer {
     grid-area: left-icon;
     justify-self: start;
-    margin-left: -1.2rem;
+    margin-left: -0.5rem; /* Move hamburguer and close icon more to the right */
 }
 
 .header__heading-logo {
@@ -198,12 +198,14 @@ header-drawer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-right: 0.5rem; /* Move right icons more to the left */
 }
 
 @media screen and (min-width: 1024px) {
     header-drawer {
         display: none;
     }
+
     .header__common-account {
         display: block;
     }
