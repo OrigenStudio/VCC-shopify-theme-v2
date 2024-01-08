@@ -1,7 +1,6 @@
 /*
   This is to hide the preview bar that appears when you're in the test theme. (VWO)
 */
-/* .shopify-preview-bar { display: none } */
 #preview-bar-iframe {display: none;}
 
 
@@ -2661,7 +2660,7 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item {
-  padding: 1.2rem 1.5rem;
+  padding: 2.2rem 1.5rem;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
 }
