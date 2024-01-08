@@ -1,7 +1,8 @@
 /*
   This is to hide the preview bar that appears when you're in the test theme. (VWO)
 */
-.shopify-preview-bar { display: none }
+/* .shopify-preview-bar { display: none } */
+#preview-bar-iframe {display: none;}
 
 
 /* Color custom properties */
