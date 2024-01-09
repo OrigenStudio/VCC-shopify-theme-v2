@@ -3,10 +3,28 @@
     "e0911e38-e306-463a-9877-cdf1960a5028": {
       "type": "slideshow",
       "blocks": {
+        "6242f8ed-ab30-4dd2-b15b-eb2f09cee6bf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slider-graphicvintage1.webp",
+            "heading": "VELODROM SWEATSHIRT",
+            "heading_size": "h0",
+            "subheading": "The Velodrom Vintage Graphic sweatshirt available for limited time and quantities",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/products\/velodrom-vintage-graphic-sweatshirt-black-bright-pink-blue",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "e78dd58c-61c5-4122-9152-2b6a6c6f0321": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/staff_tshirts.jpg",
+            "image": "shopify:\/\/shop_images\/staffshirts.jpg",
             "heading": "STAFF LIMITED DROP",
             "heading_size": "h0",
             "subheading": "The Velodrom Staff shirt available for limited time and quantities.",
@@ -57,24 +75,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "6242f8ed-ab30-4dd2-b15b-eb2f09cee6bf": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Women_s-Collection-Hero.jpg",
-            "heading": "TKO Transmission",
-            "heading_size": "h0",
-            "subheading": "Limited collection: T.K.O. Autumn\/Winter 2023",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/pas-normal-studios-tko-aw23",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "0f7b703a-7798-417b-aa4a-5030c3773521": {
           "type": "slide",
           "settings": {
@@ -95,10 +95,10 @@
         }
       },
       "block_order": [
+        "6242f8ed-ab30-4dd2-b15b-eb2f09cee6bf",
         "e78dd58c-61c5-4122-9152-2b6a6c6f0321",
         "template--14546355290246__e0911e38-e306-463a-9877-cdf1960a5028-16686086846f083c6b-0",
         "97e73aef-1ac7-4d7c-babc-783ca2d37e4f",
-        "6242f8ed-ab30-4dd2-b15b-eb2f09cee6bf",
         "0f7b703a-7798-417b-aa4a-5030c3773521"
       ],
       "settings": {
