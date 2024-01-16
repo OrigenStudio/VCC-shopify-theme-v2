@@ -3,6 +3,24 @@
     "e0911e38-e306-463a-9877-cdf1960a5028": {
       "type": "slideshow",
       "blocks": {
+        "0f7b703a-7798-417b-aa4a-5030c3773521": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/527ee282-cf60-43dc-b217-5b185961c425_LPW_HP_DESKTOP.webp",
+            "heading": "MAAP LIFEPLUX X WAHOO",
+            "heading_size": "h0",
+            "subheading": "Discover the latest collab from Maap",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/maap-lifeplus-collab",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "6242f8ed-ab30-4dd2-b15b-eb2f09cee6bf": {
           "type": "slide",
           "settings": {
@@ -74,32 +92,14 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "0f7b703a-7798-417b-aa4a-5030c3773521": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/slidepas.webp",
-            "heading": "PAS COLLECTION",
-            "heading_size": "h0",
-            "subheading": "The team kit from Pas Normal Studios",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/pas-collection-aw23",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 40,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "0f7b703a-7798-417b-aa4a-5030c3773521",
         "6242f8ed-ab30-4dd2-b15b-eb2f09cee6bf",
         "e78dd58c-61c5-4122-9152-2b6a6c6f0321",
         "template--14546355290246__e0911e38-e306-463a-9877-cdf1960a5028-16686086846f083c6b-0",
-        "97e73aef-1ac7-4d7c-babc-783ca2d37e4f",
-        "0f7b703a-7798-417b-aa4a-5030c3773521"
+        "97e73aef-1ac7-4d7c-babc-783ca2d37e4f"
       ],
       "settings": {
         "layout": "full_bleed",
