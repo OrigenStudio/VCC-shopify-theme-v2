@@ -930,24 +930,6 @@
     </div>
   </div>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      function showFixedFooter() {
-        var scrollValue = window.scrollY;
-        var verticalOffset = 400;
-        var fixedFooter = document.querySelector('.product--fixed');
-
-        if (scrollValue > verticalOffset) {
-          fixedFooter.classList.add('active')
-        } else {
-          fixedFooter.classList.remove('active')
-        }
-      }
-      window.addEventListener('scroll', showFixedFooter);
-      showFixedFooter()
-    })
-  </script>
-
   {% render 'product-media-modal' variant_images: variant_images %}
 
   {% assign popups = section.blocks | where: 'type', 'popup' %}
