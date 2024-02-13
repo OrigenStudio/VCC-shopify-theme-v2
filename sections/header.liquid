@@ -364,9 +364,9 @@ summary.list-menu__item {
                                                                                     <div>{{ grandchildlink.title | split: '|' | first | escape }}</div>
                                                                                 </a>
                                                                             {%- else -%}
-                                                                                {% comment %} <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                                                                                {{ grandchildlink.title | escape }}
-                                                                                </a> {% endcomment %}
+                                                                                <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                                                                                    {{ grandchildlink.title | escape }}
+                                                                                </a>
                                                                             {%- endif -%}
                                                                         </li>
                                                                         {%- endfor -%}
