@@ -193,90 +193,6 @@
         "padding_bottom": 24
       }
     },
-    "multicolumn_d7cPBP": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_WBpMcY": {
-          "type": "column",
-          "settings": {
-            "title": "TECHNICAL SPECIFICATIONS",
-            "text": "{{ product.metafields.custom.technical_specifications.value.item_description_7 | metafield_tag }}",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_cFiCtH": {
-          "type": "column",
-          "settings": {
-            "image": "{{ product.metafields.custom.geometry.value.table.value }}",
-            "title": "GEOMETRY",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_nfQdXH": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_WBpMcY",
-        "column_cFiCtH",
-        "column_nfQdXH"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 1,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_A6fxF9": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_4M6zzj": {
-          "type": "heading",
-          "settings": {
-            "heading": "GEOMETRY",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_4M6zzj"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "{{ product.metafields.custom.geometry.value.table.value }}",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -318,8 +234,6 @@
   },
   "order": [
     "main",
-    "multicolumn_d7cPBP",
-    "image_with_text_A6fxF9",
     "product-recommendations",
     "1677840062bc3437d7"
   ]
