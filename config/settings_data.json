@@ -122,7 +122,7 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
-    "cart_drawer_collection": "new-arrivals",
+    "cart_drawer_collection": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/Screenshot_2023-04-24_at_16.09.16.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
