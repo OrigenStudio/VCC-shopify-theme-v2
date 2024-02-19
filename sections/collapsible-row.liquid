@@ -15,6 +15,7 @@
   }
 {%- endstyle -%}
 
+{%- if product.metafields.custom.technical_specifications.value != blank or product.metafields.custom.geometry.value != blank-%}
 <div class="custom-collapsible-row page-width section-{{ section.id }}-padding">
   <div class="accordion">
     <details
@@ -141,6 +142,7 @@
     </details>
   </div>
 </div>
+{%- endif -%}
 
 {% schema %}
 {
