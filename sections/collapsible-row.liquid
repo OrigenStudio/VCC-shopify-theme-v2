@@ -15,6 +15,7 @@
   }
 {%- endstyle -%}
 
+{%- if product.metafields.custom.technical_specifications.value != blank -%}
 <div class="page-width custom-collapsible-row section-{{ section.id }}-padding">
   <div class="accordion">
     <details
@@ -40,67 +41,65 @@
         role="region"
         aria-labelledby="Summary-{{ section.id }}"
       >
-        {%- if product.metafields.custom.technical_specifications.value != blank -%}
-          {% assign properties = product.metafields.custom.technical_specifications.value %}
-            <div class="technical_specifications__wrapper">
-                <div class="technical_specifications__content-item">
-                    <div class="technical_specifications__content">
-                        <h4 class="inline-richtext h3">{{ properties.item_title_1 }}</h4>
-                    </div>
-                    <div class="technical_specifications__content">{{ properties.item_description_1 | metafield_tag }}</div>
-                    <div class="technical_specifications__content">{{ properties.item_description_1_2 | metafield_tag }}</div>  
-                </div>
-                <div class="technical_specifications__content-item">
-                    <div class="technical_specifications__content">
-                        <h4 class="inline-richtext h3">{{ properties.item_title_2 }}</h4>
-                    </div>
-                    <div class="technical_specifications__content">{{ properties.item_description_2 | metafield_tag }}</div>
-                    <div class="technical_specifications__content">{{ properties.item_description_2_2 | metafield_tag }}</div>  
-                </div>
-                <div class="technical_specifications__content-item">
-                    <div class="technical_specifications__content">
-                        <h4 class="inline-richtext h3">{{ properties.item_title_3 }}</h4>
-                    </div>
-                    <div class="technical_specifications__content">{{ properties.item_description_3 | metafield_tag }}</div>
-                    <div class="technical_specifications__content">{{ properties.item_description_3_2 | metafield_tag }}</div>  
-                </div>
-                <div class="technical_specifications__content-item">
-                    <div class="technical_specifications__content">
-                        <h4 class="inline-richtext h3">{{ properties.item_title_4 }}</h4>
-                    </div>
-                    <div class="technical_specifications__content">{{ properties.item_description_4 | metafield_tag }}</div>
-                    <div class="technical_specifications__content">{{ properties.item_description_4_2 | metafield_tag }}</div>  
-                </div>
-                <div class="technical_specifications__content-item">
-                    <div class="technical_specifications__content">
-                        <h4 class="inline-richtext h3">{{ properties.item_title_5 }}</h4>
-                    </div>
-                    <div class="technical_specifications__content">{{ properties.item_description_5 | metafield_tag }}</div>
-                    <div class="technical_specifications__content">{{ properties.item_description_5_2 | metafield_tag }}</div>  
-                </div>
-                <div class="technical_specifications__content-item">
-                    <div class="technical_specifications__content">
-                        <h4 class="inline-richtext h3">{{ properties.item_title_6 }}</h4>
-                    </div>
-                    <div class="technical_specifications__content">{{ properties.item_description_6 | metafield_tag }}</div>
-                    <div class="technical_specifications__content">{{ properties.item_description_6_2 | metafield_tag }}</div>  
-                </div>
-                <div class="technical_specifications__content-item">
-                    <div class="technical_specifications__content">
-                        <h4 class="inline-richtext h3">{{ properties.item_title_7 }}</h4>
-                    </div>
-                    <div class="technical_specifications__content">{{ properties.item_description_7 | metafield_tag }}</div>
-                    <div class="technical_specifications__content">{{ properties.item_description_7_2 | metafield_tag }}</div>  
-                </div>
-            </div>
-        {%- else -%}
-          <p>There's no related technical specifications.</p>
-        {%- endif -%}
+        {% assign properties = product.metafields.custom.technical_specifications.value %}
+          <div class="technical_specifications__wrapper">
+              <div class="technical_specifications__content-item">
+                  <div class="technical_specifications__content">
+                      <h4 class="inline-richtext h3">{{ properties.item_title_1 }}</h4>
+                  </div>
+                  <div class="technical_specifications__content">{{ properties.item_description_1 | metafield_tag }}</div>
+                  <div class="technical_specifications__content">{{ properties.item_description_1_2 | metafield_tag }}</div>  
+              </div>
+              <div class="technical_specifications__content-item">
+                  <div class="technical_specifications__content">
+                      <h4 class="inline-richtext h3">{{ properties.item_title_2 }}</h4>
+                  </div>
+                  <div class="technical_specifications__content">{{ properties.item_description_2 | metafield_tag }}</div>
+                  <div class="technical_specifications__content">{{ properties.item_description_2_2 | metafield_tag }}</div>  
+              </div>
+              <div class="technical_specifications__content-item">
+                  <div class="technical_specifications__content">
+                      <h4 class="inline-richtext h3">{{ properties.item_title_3 }}</h4>
+                  </div>
+                  <div class="technical_specifications__content">{{ properties.item_description_3 | metafield_tag }}</div>
+                  <div class="technical_specifications__content">{{ properties.item_description_3_2 | metafield_tag }}</div>  
+              </div>
+              <div class="technical_specifications__content-item">
+                  <div class="technical_specifications__content">
+                      <h4 class="inline-richtext h3">{{ properties.item_title_4 }}</h4>
+                  </div>
+                  <div class="technical_specifications__content">{{ properties.item_description_4 | metafield_tag }}</div>
+                  <div class="technical_specifications__content">{{ properties.item_description_4_2 | metafield_tag }}</div>  
+              </div>
+              <div class="technical_specifications__content-item">
+                  <div class="technical_specifications__content">
+                      <h4 class="inline-richtext h3">{{ properties.item_title_5 }}</h4>
+                  </div>
+                  <div class="technical_specifications__content">{{ properties.item_description_5 | metafield_tag }}</div>
+                  <div class="technical_specifications__content">{{ properties.item_description_5_2 | metafield_tag }}</div>  
+              </div>
+              <div class="technical_specifications__content-item">
+                  <div class="technical_specifications__content">
+                      <h4 class="inline-richtext h3">{{ properties.item_title_6 }}</h4>
+                  </div>
+                  <div class="technical_specifications__content">{{ properties.item_description_6 | metafield_tag }}</div>
+                  <div class="technical_specifications__content">{{ properties.item_description_6_2 | metafield_tag }}</div>  
+              </div>
+              <div class="technical_specifications__content-item">
+                  <div class="technical_specifications__content">
+                      <h4 class="inline-richtext h3">{{ properties.item_title_7 }}</h4>
+                  </div>
+                  <div class="technical_specifications__content">{{ properties.item_description_7 | metafield_tag }}</div>
+                  <div class="technical_specifications__content">{{ properties.item_description_7_2 | metafield_tag }}</div>  
+              </div>
+          </div>
       </div>
     </details>
   </div>
 </div>
+{%- endif -%}
 
+{%- if product.metafields.custom.geometry.value != blank  -%}
 <div class="page-width custom-collapsible-row section-{{ section.id }}-padding">
   <div class="accordion">
     <details
@@ -126,18 +125,15 @@
         role="region"
         aria-labelledby="Summary-{{ section.id }}"
       >
-        {%- if product.metafields.custom.geometry.value != blank -%}
-          {% assign properties = product.metafields.custom.geometry.value %}
-            <div class="geometry__wrapper">
-              <img src="{{ properties.table | img_url: 'master' }}" alt="" width="100%" height="100%" style="object-fit: cover;">
-            </div>
-        {%- else -%}
-          <p>There's no related geometry.</p>
-        {%- endif -%}
+        {% assign properties = product.metafields.custom.geometry.value %}
+          <div class="geometry__wrapper">
+            <img src="{{ properties.table | img_url: 'master' }}" alt="" width="100%" height="100%" style="object-fit: cover;">
+          </div>
       </div>
     </details>
   </div>
 </div>
+{%- endif -%}
 
 {% schema %}
 {
