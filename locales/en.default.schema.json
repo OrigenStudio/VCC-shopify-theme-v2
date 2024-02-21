@@ -3045,6 +3045,63 @@
       "presets": {
         "name": "Collapsible content"
       }
+    },
+    "collapsible_row": {
+      "name": "Collapsible row",
+      "settings": {
+        "heading": {
+          "label": "Heading"
+        },
+        "open_collapsible_row": {
+          "label": "Maintain collapsible row open"
+        }
+      },
+      "blocks": {
+        "rich_text": {
+          "name": "Rich text",
+          "settings": {
+            "heading": {
+              "label": "Heading"
+            },
+            "text": {
+              "label": "Description"
+            },
+            "content_alignment": {
+              "options__1": {
+                "label": "Left"
+              },
+              "options__2": {
+                "label": "Center"
+              },
+              "options__3": {
+                "label": "Right"
+              },
+              "label": "Content alignment"
+            },
+            "text_alignment": {
+              "options__1": {
+                "label": "Left"
+              },
+              "options__2": {
+                "label": "Center"
+              },
+              "options__3": {
+                "label": "Right"
+              },
+              "label": "Text alignment"
+            }
+          }
+        },
+        "image_with_text": {
+          "name": "Image with text"
+        }
+      },
+      "presets": {
+        "name": "Collapsible row"
+      }
+    },
+    "collapsible_product_bike_metafields": {
+      "name": "Collapsible rows Bikes"
     }
   }
 }
