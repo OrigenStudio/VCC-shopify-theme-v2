@@ -3,6 +3,24 @@
     "e0911e38-e306-463a-9877-cdf1960a5028": {
       "type": "slideshow",
       "blocks": {
+        "slide_TdPr94": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SS24-Escapism-Unisex-Collection-hero-hd.jpg",
+            "heading": "THE GRAVEL COLLECTION",
+            "heading_size": "h0",
+            "subheading": "FROM PAS NORMAL STUDIOS",
+            "button_label": "BUY ESCAPISM",
+            "link": "shopify:\/\/collections\/pas-normal-studios-escapism-ss23",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "0f7b703a-7798-417b-aa4a-5030c3773521": {
           "type": "slide",
           "settings": {
@@ -17,24 +35,6 @@
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 40,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "6242f8ed-ab30-4dd2-b15b-eb2f09cee6bf": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/slider-graphicvintage1.webp",
-            "heading": "VELODROM SWEATSHIRT",
-            "heading_size": "h0",
-            "subheading": "The Velodrom Vintage Graphic sweatshirt available for limited time and quantities",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/products\/velodrom-vintage-graphic-sweatshirt-black-bright-pink-blue",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
@@ -95,8 +95,8 @@
         }
       },
       "block_order": [
+        "slide_TdPr94",
         "0f7b703a-7798-417b-aa4a-5030c3773521",
-        "6242f8ed-ab30-4dd2-b15b-eb2f09cee6bf",
         "e78dd58c-61c5-4122-9152-2b6a6c6f0321",
         "template--14546355290246__e0911e38-e306-463a-9877-cdf1960a5028-16686086846f083c6b-0",
         "97e73aef-1ac7-4d7c-babc-783ca2d37e4f"
