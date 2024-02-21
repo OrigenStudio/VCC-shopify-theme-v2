@@ -75,6 +75,7 @@ window.TriplePixelData={TripleName:"velodrom-barcelona.myshopify.com",ver:"1.9"}
 
     {% render 'meta-tags' %}
 
+    {% comment %} #Elevar
     <!-- Google Tag Manager -->
     <script>
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -83,7 +84,8 @@ window.TriplePixelData={TripleName:"velodrom-barcelona.myshopify.com",ver:"1.9"}
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-M28XBSQ');
     </script>
-    <!-- End Google Tag Manager -->
+    <!-- End Google Tag Manager --> 
+  {% endcomment %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
@@ -371,6 +373,7 @@ window.TriplePixelData={TripleName:"velodrom-barcelona.myshopify.com",ver:"1.9"}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
+    {% comment %} #Elevar
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
@@ -380,7 +383,8 @@ window.TriplePixelData={TripleName:"velodrom-barcelona.myshopify.com",ver:"1.9"}
         style="display:none;visibility:hidden"
       ></iframe
     ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager (noscript) --> 
+  {% endcomment %}
 
     <!-- Klarna integration -->
     <script
