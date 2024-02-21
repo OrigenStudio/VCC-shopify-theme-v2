@@ -223,7 +223,6 @@
       "block_order": [
         "technical_specifications_9Ftd3c"
       ],
-      "disabled": true,
       "settings": {
         "heading": "TECHNICAL SPECIFICATIONS",
         "open_collapsible_row": true,
@@ -243,7 +242,6 @@
       "block_order": [
         "geometry_nPwPkg"
       ],
-      "disabled": true,
       "settings": {
         "heading": "GEOMETRY",
         "open_collapsible_row": true,
