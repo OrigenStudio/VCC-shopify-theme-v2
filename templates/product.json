@@ -211,6 +211,26 @@
         "padding_bottom": 28
       }
     },
+    "collapsible_row_qiNePV": {
+      "type": "collapsible-row",
+      "blocks": {
+        "technical_specifications_9Ftd3c": {
+          "type": "technical_specifications",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "technical_specifications_9Ftd3c"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "TECHNICAL SPECIFICATIONS",
+        "open_collapsible_row": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "1677840062bc3437d7": {
       "type": "apps",
       "blocks": {
@@ -235,6 +255,7 @@
   "order": [
     "main",
     "product-recommendations",
+    "collapsible_row_qiNePV",
     "1677840062bc3437d7"
   ]
 }
