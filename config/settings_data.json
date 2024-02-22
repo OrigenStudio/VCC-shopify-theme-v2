@@ -282,6 +282,12 @@
           "custom_js": ""
         }
       },
+      "15685250022964305326": {
+        "type": "shopify:\/\/apps\/elevar-conversion-tracking\/blocks\/dataLayerEmbed\/bc30ab68-b15c-4311-811f-8ef485877ad6",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "8765772171712610185": {
         "type": "shopify:\/\/apps\/t-lab-ai-language-translate\/blocks\/language_switcher\/b5b83690-efd4-434d-8c6a-a5cef4019faf",
         "disabled": false,
@@ -301,7 +307,7 @@
           "mobile_menu_switcher_reference_element": "",
           "mobile_switcher_relative_position": "before",
           "header_switcher_border_width": 0,
-          "switcher_viewport_position": "bottom-right",
+          "switcher_viewport_position": "bottom-left",
           "custom_position_spacing_top": "55",
           "custom_position_spacing_right": "20",
           "custom_position_spacing_bottom": "20",
@@ -311,12 +317,6 @@
           "custom_switcher_text_color": "#5c5c5c",
           "custom_switcher_background_color": "#ffffff",
           "custom_switcher_border_color": "#000000"
-        }
-      },
-      "15685250022964305326": {
-        "type": "shopify:\/\/apps\/elevar-conversion-tracking\/blocks\/dataLayerEmbed\/bc30ab68-b15c-4311-811f-8ef485877ad6",
-        "disabled": false,
-        "settings": {
         }
       }
     }
