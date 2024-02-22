@@ -1,52 +1,218 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+    <meta name="it-rating" content="it-rat-c2fb848de4ce4a9d8631b1558f63157d">
 
-<meta name="it-rating" content="it-rat-c2fb848de4ce4a9d8631b1558f63157d" />
-    
-   <!-- Start VWO Async SmartCode -->
-<link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
-<script type='text/javascript' id='vwoCode'>
-window._vwo_code || (function() {
-var account_id=779293,
-version=2.0,
-settings_tolerance=2000,
-hide_element='body',
-hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important',
-/* DO NOT EDIT BELOW THIS LINE */
-f=false,w=window,d=document,v=d.querySelector('#vwoCode'),cK='_vwo_'+account_id+'_settings',cc={};try{var c=JSON.parse(localStorage.getItem('_vwo_'+account_id+'_config'));cc=c&&typeof c==='object'?c:{}}catch(e){}var stT=cc.stT==='session'?w.sessionStorage:w.localStorage;code={use_existing_jquery:function(){return typeof use_existing_jquery!=='undefined'?use_existing_jquery:undefined},library_tolerance:function(){return typeof library_tolerance!=='undefined'?library_tolerance:undefined},settings_tolerance:function(){return cc.sT||settings_tolerance},hide_element_style:function(){return'{'+(cc.hES||hide_element_style)+'}'},hide_element:function(){return typeof cc.hE==='string'?cc.hE:hide_element},getVersion:function(){return version},finish:function(){if(!f){f=true;var e=d.getElementById('_vis_opt_path_hides');if(e)e.parentNode.removeChild(e)}},finished:function(){return f},load:function(e){var t=this.getSettings(),n=d.createElement('script'),i=this;if(t){n.textContent=t;d.getElementsByTagName('head')[0].appendChild(n);if(!w.VWO||VWO.caE){stT.removeItem(cK);i.load(e)}}else{n.fetchPriority='high';n.src=e;n.type='text/javascript';n.onerror=function(){_vwo_code.finish()};d.getElementsByTagName('head')[0].appendChild(n)}},getSettings:function(){try{var e=stT.getItem(cK);if(!e){return}e=JSON.parse(e);if(Date.now()>e.e){stT.removeItem(cK);return}return e.s}catch(e){return}},init:function(){if(d.URL.indexOf('__vwo_disable__')>-1)return;var e=this.settings_tolerance();w._vwo_settings_timer=setTimeout(function(){_vwo_code.finish();stT.removeItem(cK)},e);var t=d.currentScript,n=d.createElement('style'),i=this.hide_element(),r=t&&!t.async&&i?i+this.hide_element_style():'',c=d.getElementsByTagName('head')[0];n.setAttribute('id','_vis_opt_path_hides');v&&n.setAttribute('nonce',v.nonce);n.setAttribute('type','text/css');if(n.styleSheet)n.styleSheet.cssText=r;else n.appendChild(d.createTextNode(r));c.appendChild(n);this.load('https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&vn='+version)}};w._vwo_code=code;code.init();})();
-</script>
-<!-- End VWO Async SmartCode -->
+    <!-- Start VWO Async SmartCode -->
+    <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com">
+    <script type="text/javascript" id="vwoCode">
+      window._vwo_code ||
+        (function () {
+          var account_id = 779293,
+            version = 2.0,
+            settings_tolerance = 2000,
+            hide_element = 'body',
+            hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important',
+            /* DO NOT EDIT BELOW THIS LINE */
+            f = false,
+            w = window,
+            d = document,
+            v = d.querySelector('#vwoCode'),
+            cK = '_vwo_' + account_id + '_settings',
+            cc = {};
+          try {
+            var c = JSON.parse(localStorage.getItem('_vwo_' + account_id + '_config'));
+            cc = c && typeof c === 'object' ? c : {};
+          } catch (e) {}
+          var stT = cc.stT === 'session' ? w.sessionStorage : w.localStorage;
+          code = {
+            use_existing_jquery: function () {
+              return typeof use_existing_jquery !== 'undefined' ? use_existing_jquery : undefined;
+            },
+            library_tolerance: function () {
+              return typeof library_tolerance !== 'undefined' ? library_tolerance : undefined;
+            },
+            settings_tolerance: function () {
+              return cc.sT || settings_tolerance;
+            },
+            hide_element_style: function () {
+              return '{' + (cc.hES || hide_element_style) + '}';
+            },
+            hide_element: function () {
+              return typeof cc.hE === 'string' ? cc.hE : hide_element;
+            },
+            getVersion: function () {
+              return version;
+            },
+            finish: function () {
+              if (!f) {
+                f = true;
+                var e = d.getElementById('_vis_opt_path_hides');
+                if (e) e.parentNode.removeChild(e);
+              }
+            },
+            finished: function () {
+              return f;
+            },
+            load: function (e) {
+              var t = this.getSettings(),
+                n = d.createElement('script'),
+                i = this;
+              if (t) {
+                n.textContent = t;
+                d.getElementsByTagName('head')[0].appendChild(n);
+                if (!w.VWO || VWO.caE) {
+                  stT.removeItem(cK);
+                  i.load(e);
+                }
+              } else {
+                n.fetchPriority = 'high';
+                n.src = e;
+                n.type = 'text/javascript';
+                n.onerror = function () {
+                  _vwo_code.finish();
+                };
+                d.getElementsByTagName('head')[0].appendChild(n);
+              }
+            },
+            getSettings: function () {
+              try {
+                var e = stT.getItem(cK);
+                if (!e) {
+                  return;
+                }
+                e = JSON.parse(e);
+                if (Date.now() > e.e) {
+                  stT.removeItem(cK);
+                  return;
+                }
+                return e.s;
+              } catch (e) {
+                return;
+              }
+            },
+            init: function () {
+              if (d.URL.indexOf('__vwo_disable__') > -1) return;
+              var e = this.settings_tolerance();
+              w._vwo_settings_timer = setTimeout(function () {
+                _vwo_code.finish();
+                stT.removeItem(cK);
+              }, e);
+              var t = d.currentScript,
+                n = d.createElement('style'),
+                i = this.hide_element(),
+                r = t && !t.async && i ? i + this.hide_element_style() : '',
+                c = d.getElementsByTagName('head')[0];
+              n.setAttribute('id', '_vis_opt_path_hides');
+              v && n.setAttribute('nonce', v.nonce);
+              n.setAttribute('type', 'text/css');
+              if (n.styleSheet) n.styleSheet.cssText = r;
+              else n.appendChild(d.createTextNode(r));
+              c.appendChild(n);
+              this.load(
+                'https://dev.visualwebsiteoptimizer.com/j.php?a=' +
+                  account_id +
+                  '&u=' +
+                  encodeURIComponent(d.URL) +
+                  '&vn=' +
+                  version
+              );
+            },
+          };
+          w._vwo_code = code;
+          code.init();
+        })();
+    </script>
+    <!-- End VWO Async SmartCode -->
 
-
-<link rel='preconnect dns-prefetch' href='https://api.config-security.com/' crossorigin />
-<link rel='preconnect dns-prefetch' href='https://conf.config-security.com/' crossorigin />
-<link rel='preconnect dns-prefetch' href='https://triplewhale-pixel.web.app/' crossorigin />
-<script>
-/* >> TriplePixel :: start*/
-window.TriplePixelData={TripleName:"velodrom-barcelona.myshopify.com",ver:"1.9"},function(W,H,A,L,E,_,B,N){function O(U,T,P,H,R){void 0===R&&(R=!1),H=new XMLHttpRequest,P?(H.open("POST",U,!0),H.setRequestHeader("Content-Type","application/json")):H.open("GET",U,!0),H.send(JSON.stringify(P||{})),H.onreadystatechange=function(){4===H.readyState&&200===H.status?(R=H.responseText,U.includes(".txt")?eval(R):P||(N[B]=R)):(299<H.status||H.status<200)&&T&&!R&&(R=!0,O(U,T-1))}}if(N=window,!N[H+"sn"]){N[H+"sn"]=1;try{A.setItem(H,1+(0|A.getItem(H)||0)),(E=JSON.parse(A.getItem(H+"U")||"[]")).push(location.href),A.setItem(H+"U",JSON.stringify(E))}catch(e){}var i,m,p;A.getItem('"!nC`')||(_=A,A=N,A[H]||(L=function(){return Date.now().toString(36)+"_"+Math.random().toString(36)},E=A[H]=function(t,e){return"State"==t?E.s:(W=L(),(E._q=E._q||[]).push([W,t,e]),W)},E.s="Installed",E._q=[],E.ch=W,B="configSecurityConfModel",N[B]=1,O("https://conf.config-security.com/model",5),i=L(),m=A[atob("c2NyZWVu")],_.setItem("di_pmt_wt",i),p={id:i,action:"profile",avatar:_.getItem("auth-security_rand_salt_"),time:m[atob("d2lkdGg=")]+":"+m[atob("aGVpZ2h0")],host:A.TriplePixelData.TripleName,url:window.location.href,ref:document.referrer,ver:window.TriplePixelData.ver},O("https://api.config-security.com/",5,p),O("https://triplewhale-pixel.web.app/dot1.9.txt",5)))}}("","TriplePixel",localStorage);
-/* << TriplePixel :: end*/
-</script>
-{% include 'kiwiSizing' %}
+    <link rel="preconnect dns-prefetch" href="https://api.config-security.com/" crossorigin>
+    <link rel="preconnect dns-prefetch" href="https://conf.config-security.com/" crossorigin>
+    <link rel="preconnect dns-prefetch" href="https://triplewhale-pixel.web.app/" crossorigin>
+    <script>
+      /* >> TriplePixel :: start*/
+      (window.TriplePixelData = { TripleName: 'velodrom-barcelona.myshopify.com', ver: '1.9' }),
+        (function (W, H, A, L, E, _, B, N) {
+          function O(U, T, P, H, R) {
+            void 0 === R && (R = !1),
+              (H = new XMLHttpRequest()),
+              P
+                ? (H.open('POST', U, !0), H.setRequestHeader('Content-Type', 'application/json'))
+                : H.open('GET', U, !0),
+              H.send(JSON.stringify(P || {})),
+              (H.onreadystatechange = function () {
+                4 === H.readyState && 200 === H.status
+                  ? ((R = H.responseText), U.includes('.txt') ? eval(R) : P || (N[B] = R))
+                  : (299 < H.status || H.status < 200) && T && !R && ((R = !0), O(U, T - 1));
+              });
+          }
+          if (((N = window), !N[H + 'sn'])) {
+            N[H + 'sn'] = 1;
+            try {
+              A.setItem(H, 1 + (0 | A.getItem(H) || 0)),
+                (E = JSON.parse(A.getItem(H + 'U') || '[]')).push(location.href),
+                A.setItem(H + 'U', JSON.stringify(E));
+            } catch (e) {}
+            var i, m, p;
+            A.getItem('"!nC`') ||
+              ((_ = A),
+              (A = N),
+              A[H] ||
+                ((L = function () {
+                  return Date.now().toString(36) + '_' + Math.random().toString(36);
+                }),
+                (E = A[H] =
+                  function (t, e) {
+                    return 'State' == t ? E.s : ((W = L()), (E._q = E._q || []).push([W, t, e]), W);
+                  }),
+                (E.s = 'Installed'),
+                (E._q = []),
+                (E.ch = W),
+                (B = 'configSecurityConfModel'),
+                (N[B] = 1),
+                O('https://conf.config-security.com/model', 5),
+                (i = L()),
+                (m = A[atob('c2NyZWVu')]),
+                _.setItem('di_pmt_wt', i),
+                (p = {
+                  id: i,
+                  action: 'profile',
+                  avatar: _.getItem('auth-security_rand_salt_'),
+                  time: m[atob('d2lkdGg=')] + ':' + m[atob('aGVpZ2h0')],
+                  host: A.TriplePixelData.TripleName,
+                  url: window.location.href,
+                  ref: document.referrer,
+                  ver: window.TriplePixelData.ver,
+                }),
+                O('https://api.config-security.com/', 5, p),
+                O('https://triplewhale-pixel.web.app/dot1.9.txt', 5)));
+          }
+        })('', 'TriplePixel', localStorage);
+      /* << TriplePixel :: end*/
+    </script>
+    {% include 'kiwiSizing' %}
     <!-- heatmap.com snippet -->
-<script>
-  (function() {      
-    var _heatmap_paq = window._heatmap_paq = window._heatmap_paq || [];
-    var heatUrl = window.heatUrl = 'https://dashboard.heatmap.com/';
-    function hLoadInitialScript(url) {
-      var script = document.createElement('script'); script.type = 'text/javascript'; 
-      script.src = url; script.async = false; script.defer = true; document.head.appendChild(script);
-    }
-    hLoadInitialScript(heatUrl+'preprocessor.min.js?sid=397');
-    window.addEventListener('DOMContentLoaded', function (){	 
-        if(typeof _heatmap_paq != 'object' || _heatmap_paq.length == 0) {     
-          _heatmap_paq.push(['setTrackerUrl', heatUrl+'sttracker.php']);
-          hLoadInitialScript(heatUrl+'heatmap-light.min.js?sid=397');
-        } 
-    });
-  })();
-</script>
-<!-- End heatmap.com snippet Code -->
+    <script>
+      (function () {
+        var _heatmap_paq = (window._heatmap_paq = window._heatmap_paq || []);
+        var heatUrl = (window.heatUrl = 'https://dashboard.heatmap.com/');
+        function hLoadInitialScript(url) {
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = url;
+          script.async = false;
+          script.defer = true;
+          document.head.appendChild(script);
+        }
+        hLoadInitialScript(heatUrl + 'preprocessor.min.js?sid=397');
+        window.addEventListener('DOMContentLoaded', function () {
+          if (typeof _heatmap_paq != 'object' || _heatmap_paq.length == 0) {
+            _heatmap_paq.push(['setTrackerUrl', heatUrl + 'sttracker.php']);
+            hLoadInitialScript(heatUrl + 'heatmap-light.min.js?sid=397');
+          }
+        });
+      })();
+    </script>
+    <!-- End heatmap.com snippet Code -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -75,15 +241,18 @@ window.TriplePixelData={TripleName:"velodrom-barcelona.myshopify.com",ver:"1.9"}
 
     {% render 'meta-tags' %}
 
-    <!-- Google Tag Manager -->
-    <script>
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-M28XBSQ');
-    </script>
-    <!-- End Google Tag Manager -->
+    {% comment %}
+      #Elevar
+      <!-- Google Tag Manager -->
+      <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-M28XBSQ');
+      </script>
+      <!-- End Google Tag Manager -->
+    {% endcomment %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
@@ -304,10 +473,18 @@ window.TriplePixelData={TripleName:"velodrom-barcelona.myshopify.com",ver:"1.9"}
     </script>
 
     {% render 'qikify-apps' %}
-  
-{% render 'gsf-conversion-pixels' %}
-{% include 'trueroas_snippet' %} <!--DOOFINDER-SHOPIFY--> {% if content_for_header contains 'doofinder-installed.js' %} {% render 'doofinder-script-tag' %} {% endif %} <!--/DOOFINDER-SHOPIFY-->{% render 'delivery_coder' %} 	<script src="https://magic-menu.risingsigma.com/js/create-magic-menu.min.js" async></script>
-<!--DOOFINDER-SHOPIFY--> {% if content_for_header contains 'doofinder-installed.js' %} {% render 'doofinder-script-tag' %} {% endif %} <!--/DOOFINDER-SHOPIFY--></head>
+
+    {% render 'gsf-conversion-pixels' %}
+    {% include 'trueroas_snippet' %}
+    <!-- DOOFINDER-SHOPIFY -->
+    {% if content_for_header contains 'doofinder-installed.js' %} {% render 'doofinder-script-tag' %} {% endif %}
+    <!-- /DOOFINDER-SHOPIFY -->
+    {% render 'delivery_coder' %}
+    <script src="https://magic-menu.risingsigma.com/js/create-magic-menu.min.js" async></script>
+    <!-- DOOFINDER-SHOPIFY -->
+    {% if content_for_header contains 'doofinder-installed.js' %} {% render 'doofinder-script-tag' %} {% endif %}
+    <!-- /DOOFINDER-SHOPIFY -->
+  </head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -321,7 +498,7 @@ window.TriplePixelData={TripleName:"velodrom-barcelona.myshopify.com",ver:"1.9"}
     {% section 'announcement-bar' %}
     {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-	  {% render 'magic-menu' %}
+      {% render 'magic-menu' %}
       {{ content_for_layout }}
     </main>
 
@@ -333,21 +510,19 @@ window.TriplePixelData={TripleName:"velodrom-barcelona.myshopify.com",ver:"1.9"}
     </ul>
 
     <script>
-      
-      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
         cart_change_url: '{{ routes.cart_change_url }}',
         cart_update_url: '{{ routes.cart_update_url }}',
         cart_url: '{{ routes.cart_url }}',
-        predictive_search_url: '{{ routes.predictive_search_url }}'
+        predictive_search_url: '{{ routes.predictive_search_url }}',
       };
 
       window.cartStrings = {
         error: `{{ 'sections.cart.cart_error' | t }}`,
-        quantityError: `{{ 'sections.cart.cart_quantity_error_html' | t: quantity: '[quantity]' }}`
-      }
+        quantityError: `{{ 'sections.cart.cart_quantity_error_html' | t: quantity: '[quantity]' }}`,
+      };
 
       window.variantStrings = {
         addToCart: `{{ 'products.product.add_to_cart' | t }}`,
@@ -355,32 +530,33 @@ window.TriplePixelData={TripleName:"velodrom-barcelona.myshopify.com",ver:"1.9"}
         unavailable: `{{ 'products.product.unavailable' | t }}`,
         unavailable_with_option: `{{ 'products.product.value_unavailable' | t: option_value: '[value]' }}`,
         payDeposit: `{{ 'products.product.pay_deposit' | t }}`,
-      }
+      };
 
       window.accessibilityStrings = {
         imageAvailable: `{{ 'products.product.media.image_available' | t: index: '[index]' }}`,
         shareSuccess: `{{ 'general.share.success_message' | t }}`,
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
-      }
-
-
+      };
     </script>
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-M28XBSQ"
-        height="0"
-        width="0"
-        style="display:none;visibility:hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    {% comment %}
+      #Elevar
+      <!-- Google Tag Manager (noscript) -->
+      <noscript
+        ><iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-M28XBSQ"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+        ></iframe
+      ></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    {% endcomment %}
 
     <!-- Klarna integration -->
     <script
