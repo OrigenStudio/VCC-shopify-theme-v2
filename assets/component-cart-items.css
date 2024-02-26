@@ -239,9 +239,7 @@ cart-remove-button .icon-remove {
     grid-column: 2 / 4;
   }
 
-  .cart-item__quantity {
-    grid-column: 2 / 5;
-  }
+  .cart-item__quantity {}
 
   .cart-item__quantity-wrapper {
     flex-wrap: wrap;
