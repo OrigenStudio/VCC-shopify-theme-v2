@@ -6,7 +6,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1709643617,
+  "tsPublished": 1709643638,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -321,7 +321,7 @@
       "target": "",
       "logo": "<img class=\"cc-banner-logo\" height=\"40\" width=\"40\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0270\/5165\/5302\/t\/52\/assets\/pandectes-logo.png?v=1709642600\" alt=\"Velodrom CC\" \/>"
     },
-    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
+    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-bottom-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
       "custom": "<div class=\"cc-compliance cc-highlight\">{{preferences}}{{allow}}{{deny}}<\/div>"
     },
@@ -329,7 +329,7 @@
     "layouts": {
       "basic": "{{logo}}{{messagelink}}{{compliance}}{{close}}"
     },
-    "position": "top",
+    "position": "bottom",
     "theme": "wired",
     "revokable": true,
     "animateRevokable": false,
