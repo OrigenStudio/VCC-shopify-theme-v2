@@ -119,7 +119,7 @@
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/shopify_logo_800x_v2_800x_297aa4fc-af3b-4790-b031-ea953a727d74.jpg",
     "currency_code_enabled": false,
-    "cart_type": "drawer",
+    "cart_type": "page",
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
@@ -317,6 +317,12 @@
           "custom_switcher_text_color": "#5c5c5c",
           "custom_switcher_background_color": "#ffffff",
           "custom_switcher_border_color": "#000000"
+        }
+      },
+      "10641372206048101839": {
+        "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-global-embed\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+        "disabled": true,
+        "settings": {
         }
       }
     }
