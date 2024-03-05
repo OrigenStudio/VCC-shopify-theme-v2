@@ -293,8 +293,13 @@ cart-drawer-items {
 }
 
 .cart-drawer .cart-items .cart-item__quantity {
-  padding-top: 0;
-  grid-column: 2 / 5;
+  /* padding-top: 0;
+  grid-column: 5 / 2; */
+
+  padding-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end; 
 }
 
 @media screen and (max-width: 749px) {
