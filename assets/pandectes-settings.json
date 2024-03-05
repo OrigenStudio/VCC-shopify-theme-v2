@@ -6,7 +6,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1709643638,
+  "tsPublished": 1709663316,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -14,258 +14,420 @@
     "showDateGenerated": true
   },
   "language": {
-    "languageMode": "Single",
+    "languageMode": "Multilingual",
     "fallbackLanguage": "en",
     "languageDetection": "browser",
     "languagesSupported": [
-
+      "fr",
+      "de",
+      "ca"
     ]
   },
   "texts": {
     "managed": {
       "headerText": {
-        "en": "We respect your privacy"
+        "de": "Wir respektieren deine Privatsphäre",
+        "en": "We respect your privacy",
+        "fr": "Nous respectons votre vie privée"
       },
       "consentText": {
-        "en": "This website uses cookies to ensure you get the best experience."
+        "de": "Diese Website verwendet Cookies, um Ihnen das beste Erlebnis zu bieten.",
+        "en": "This website uses cookies to ensure you get the best experience.",
+        "fr": "Ce site utilise des cookies pour vous garantir la meilleure expérience."
       },
       "dismissButtonText": {
-        "en": "Ok"
+        "de": "Okay",
+        "en": "Ok",
+        "fr": "D'accord"
       },
       "linkText": {
-        "en": "Learn more"
+        "de": "Mehr erfahren",
+        "en": "Learn more",
+        "fr": "Apprendre encore plus"
       },
       "imprintText": {
-        "en": "Imprint"
+        "de": "Impressum",
+        "en": "Imprint",
+        "fr": "Imprimer"
       },
       "preferencesButtonText": {
-        "en": "Preferences"
+        "de": "Einstellungen",
+        "en": "Preferences",
+        "fr": "Préférences"
       },
       "allowButtonText": {
-        "en": "Accept"
+        "de": "Annehmen",
+        "en": "Accept",
+        "fr": "J'accepte"
       },
       "denyButtonText": {
-        "en": "Decline"
+        "de": "Ablehnen",
+        "en": "Decline",
+        "fr": "Déclin"
       },
       "leaveSiteButtonText": {
-        "en": "Leave this site"
+        "de": "Diese Seite verlassen",
+        "en": "Leave this site",
+        "fr": "Quitter ce site"
       },
       "cookiePolicyText": {
-        "en": "Cookie policy"
+        "de": "Cookie-Richtlinie",
+        "en": "Cookie policy",
+        "fr": "Politique de cookies"
       },
       "preferencesPopupTitleText": {
-        "en": "Manage consent preferences"
+        "de": "Einwilligungseinstellungen verwalten",
+        "en": "Manage consent preferences",
+        "fr": "Gérer les préférences de consentement"
       },
       "preferencesPopupIntroText": {
-        "en": "We use cookies to optimize website functionality, analyze the performance, and provide personalized experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. In this window you can manage your preference of cookies."
+        "de": "Wir verwenden Cookies, um die Funktionalität der Website zu optimieren, die Leistung zu analysieren und Ihnen ein personalisiertes Erlebnis zu bieten. Einige Cookies sind für den ordnungsgemäßen Betrieb der Website unerlässlich. Diese Cookies können nicht deaktiviert werden. In diesem Fenster können Sie Ihre Präferenzen für Cookies verwalten.",
+        "en": "We use cookies to optimize website functionality, analyze the performance, and provide personalized experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. In this window you can manage your preference of cookies.",
+        "fr": "Nous utilisons des cookies pour optimiser les fonctionnalités du site Web, analyser les performances et vous offrir une expérience personnalisée. Certains cookies sont indispensables au bon fonctionnement et au bon fonctionnement du site. Ces cookies ne peuvent pas être désactivés. Dans cette fenêtre, vous pouvez gérer votre préférence de cookies."
       },
       "preferencesPopupCloseButtonText": {
-        "en": "Close"
+        "de": "Schließen",
+        "en": "Close",
+        "fr": "proche"
       },
       "preferencesPopupAcceptAllButtonText": {
-        "en": "Accept all"
+        "de": "Alles Akzeptieren",
+        "en": "Accept all",
+        "fr": "Accepter tout"
       },
       "preferencesPopupRejectAllButtonText": {
-        "en": "Reject all"
+        "de": "Alles ablehnen",
+        "en": "Reject all",
+        "fr": "Tout rejeter"
       },
       "preferencesPopupSaveButtonText": {
-        "en": "Save preferences"
+        "de": "Auswahl speichern",
+        "en": "Save preferences",
+        "fr": "Enregistrer les préférences"
       },
       "accessSectionTitleText": {
-        "en": "Data portability"
+        "de": "Datenübertragbarkeit",
+        "en": "Data portability",
+        "fr": "Portabilité des données"
       },
       "accessSectionParagraphText": {
-        "en": "You have the right to request access to your data at any time."
+        "de": "Sie haben das Recht, jederzeit auf Ihre Daten zuzugreifen.",
+        "en": "You have the right to request access to your data at any time.",
+        "fr": "Vous avez le droit de pouvoir accéder à vos données à tout moment."
       },
       "rectificationSectionTitleText": {
-        "en": "Data Rectification"
+        "de": "Datenberichtigung",
+        "en": "Data Rectification",
+        "fr": "Rectification des données"
       },
       "rectificationSectionParagraphText": {
-        "en": "You have the right to request your data to be updated whenever you think it is appropriate."
+        "de": "Sie haben das Recht, die Aktualisierung Ihrer Daten zu verlangen, wann immer Sie dies für angemessen halten.",
+        "en": "You have the right to request your data to be updated whenever you think it is appropriate.",
+        "fr": "Vous avez le droit de demander la mise à jour de vos données chaque fois que vous le jugez approprié."
       },
       "erasureSectionTitleText": {
-        "en": "Right to be forgotten"
+        "de": "Recht auf Vergessenwerden",
+        "en": "Right to be forgotten",
+        "fr": "Droit à l'oubli"
       },
       "erasureSectionParagraphText": {
-        "en": "You have the right to ask all your data to be erased. After that, you will no longer be able to access your account."
+        "de": "Sie haben das Recht, die Löschung aller Ihrer Daten zu verlangen. Danach können Sie nicht mehr auf Ihr Konto zugreifen.",
+        "en": "You have the right to ask all your data to be erased. After that, you will no longer be able to access your account.",
+        "fr": "Vous avez le droit de demander que toutes vos données soient effacées. Après cela, vous ne pourrez plus accéder à votre compte."
       },
       "declIntroText": {
-        "en": "We use cookies to optimize website functionality, analyze the performance, and provide personalized experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. In this window you can manage your preference of cookies."
+        "de": "Wir verwenden Cookies, um die Funktionalität der Website zu optimieren, die Leistung zu analysieren und Ihnen ein personalisiertes Erlebnis zu bieten. Einige Cookies sind für den ordnungsgemäßen Betrieb der Website unerlässlich. Diese Cookies können nicht deaktiviert werden. In diesem Fenster können Sie Ihre Präferenzen für Cookies verwalten.",
+        "en": "We use cookies to optimize website functionality, analyze the performance, and provide personalized experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. In this window you can manage your preference of cookies.",
+        "fr": "Nous utilisons des cookies pour optimiser les fonctionnalités du site Web, analyser les performances et vous offrir une expérience personnalisée. Certains cookies sont indispensables au bon fonctionnement et au bon fonctionnement du site Web. Ces cookies ne peuvent pas être désactivés. Dans cette fenêtre, vous pouvez gérer vos préférences en matière de cookies."
       }
     },
     "categories": {
       "strictlyNecessaryCookiesTitleText": {
-        "en": "Strictly necessary cookies"
+        "de": "Unbedingt erforderlich",
+        "en": "Strictly necessary cookies",
+        "fr": "Cookies strictement nécessaires"
       },
       "functionalityCookiesTitleText": {
-        "en": "Functional cookies"
+        "de": "Funktionale Cookies",
+        "en": "Functional cookies",
+        "fr": "Cookies fonctionnels"
       },
       "performanceCookiesTitleText": {
-        "en": "Performance cookies"
+        "de": "Performance-Cookies",
+        "en": "Performance cookies",
+        "fr": "Cookies de performances"
       },
       "targetingCookiesTitleText": {
-        "en": "Targeting cookies"
+        "de": "Targeting-Cookies",
+        "en": "Targeting cookies",
+        "fr": "Ciblage des cookies"
       },
       "unclassifiedCookiesTitleText": {
-        "en": "Unclassified cookies"
+        "de": "Unklassifizierte Cookies",
+        "en": "Unclassified cookies",
+        "fr": "Cookies non classés"
       },
       "strictlyNecessaryCookiesDescriptionText": {
-        "en": "These cookies are essential in order to enable you to move around the website and use its features, such as accessing secure areas of the website. The website cannot function properly without these cookies."
+        "de": "Diese Cookies sind unerlässlich, damit Sie sich auf der Website bewegen und ihre Funktionen nutzen können, z. B. den Zugriff auf sichere Bereiche der Website. Ohne diese Cookies kann die Website nicht richtig funktionieren.",
+        "en": "These cookies are essential in order to enable you to move around the website and use its features, such as accessing secure areas of the website. The website cannot function properly without these cookies.",
+        "fr": "Ces cookies sont essentiels pour vous permettre de vous déplacer sur le site Web et d'utiliser ses fonctionnalités, telles que l'accès aux zones sécurisées du site Web. Le site Web ne peut pas fonctionner correctement sans ces cookies."
       },
       "functionalityCookiesDescriptionText": {
-        "en": "These cookies enable the site to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly."
+        "de": "Diese Cookies ermöglichen es der Website, verbesserte Funktionalität und Personalisierung bereitzustellen. Sie können von uns oder von Drittanbietern gesetzt werden, deren Dienste wir auf unseren Seiten hinzugefügt haben. Wenn Sie diese Cookies nicht zulassen, funktionieren einige oder alle dieser Dienste möglicherweise nicht richtig.",
+        "en": "These cookies enable the site to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.",
+        "fr": "Ces cookies permettent au site de fournir des fonctionnalités et une personnalisation améliorées. Ils peuvent être définis par nous ou par des fournisseurs tiers dont nous avons ajouté les services à nos pages. Si vous n'autorisez pas ces cookies, certains ou tous ces services peuvent ne pas fonctionner correctement."
       },
       "performanceCookiesDescriptionText": {
-        "en": "These cookies enable us to monitor and improve the performance of our website. For example, they allow us to count visits, identify traffic sources and see which parts of the site are most popular."
+        "de": "Diese Cookies ermöglichen es uns, die Leistung unserer Website zu überwachen und zu verbessern. Sie ermöglichen es uns beispielsweise, Besuche zu zählen, Verkehrsquellen zu identifizieren und zu sehen, welche Teile der Website am beliebtesten sind.",
+        "en": "These cookies enable us to monitor and improve the performance of our website. For example, they allow us to count visits, identify traffic sources and see which parts of the site are most popular.",
+        "fr": "Ces cookies nous permettent de surveiller et d'améliorer les performances de notre site Web. Par exemple, ils nous permettent de compter les visites, d'identifier les sources de trafic et de voir quelles parties du site sont les plus populaires."
       },
       "targetingCookiesDescriptionText": {
-        "en": "These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites.    They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising."
+        "de": "Diese Cookies können von unseren Werbepartnern über unsere Website gesetzt werden. Sie können von diesen Unternehmen verwendet werden, um ein Profil Ihrer Interessen zu erstellen und Ihnen relevante Werbung auf anderen Websites anzuzeigen. Sie speichern keine direkten personenbezogenen Daten, sondern basieren auf der eindeutigen Identifizierung Ihres Browsers und Ihres Internetgeräts. Wenn Sie diese Cookies nicht zulassen, erleben Sie weniger zielgerichtete Werbung.",
+        "en": "These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites.    They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.",
+        "fr": "Ces cookies peuvent être installés via notre site par nos partenaires publicitaires. Ils peuvent être utilisés par ces sociétés pour établir un profil de vos intérêts et vous montrer des publicités pertinentes sur d'autres sites. Ils ne stockent pas directement d'informations personnelles, mais sont basés sur l'identification unique de votre navigateur et de votre appareil Internet. Si vous n'autorisez pas ces cookies, vous bénéficierez d'une publicité moins ciblée."
       },
       "unclassifiedCookiesDescriptionText": {
-        "en": "Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies."
+        "de": "Unklassifizierte Cookies sind Cookies, die wir gerade zusammen mit den Anbietern einzelner Cookies klassifizieren.",
+        "en": "Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.",
+        "fr": "Les cookies non classés sont des cookies que nous sommes en train de classer avec les fournisseurs de cookies individuels."
       }
     },
     "auto": {
       "declName": {
-        "en": "Name"
+        "de": "Name",
+        "en": "Name",
+        "fr": "Nom"
       },
       "declPath": {
-        "en": "Path"
+        "de": "Weg",
+        "en": "Path",
+        "fr": "Chemin"
       },
       "declType": {
-        "en": "Type"
+        "de": "Typ",
+        "en": "Type",
+        "fr": "Type"
       },
       "declDomain": {
-        "en": "Domain"
+        "de": "Domain",
+        "en": "Domain",
+        "fr": "Domaine"
       },
       "declPurpose": {
-        "en": "Purpose"
+        "de": "Zweck",
+        "en": "Purpose",
+        "fr": "But"
       },
       "declProvider": {
-        "en": "Provider"
+        "de": "Anbieter",
+        "en": "Provider",
+        "fr": "Fournisseur"
       },
       "declRetention": {
-        "en": "Retention"
+        "de": "Speicherdauer",
+        "en": "Retention",
+        "fr": "Rétention"
       },
       "declFirstParty": {
-        "en": "First-party"
+        "de": "Erstanbieter",
+        "en": "First-party",
+        "fr": "Première partie"
       },
       "declThirdParty": {
-        "en": "Third-party"
+        "de": "Drittanbieter",
+        "en": "Third-party",
+        "fr": "Tierce partie"
       },
       "declSeconds": {
-        "en": "seconds"
+        "de": "Sekunden",
+        "en": "seconds",
+        "fr": "secondes"
       },
       "declMinutes": {
-        "en": "minutes"
+        "de": "Minuten",
+        "en": "minutes",
+        "fr": "minutes"
       },
       "declHours": {
-        "en": "hours"
+        "de": "Std.",
+        "en": "hours",
+        "fr": "heures"
       },
       "declDays": {
-        "en": "days"
+        "de": "Tage",
+        "en": "days",
+        "fr": "jours"
       },
       "declMonths": {
-        "en": "months"
+        "de": "Monate",
+        "en": "months",
+        "fr": "mois"
       },
       "declYears": {
-        "en": "years"
+        "de": "Jahre",
+        "en": "years",
+        "fr": "années"
       },
       "declSession": {
-        "en": "Session"
+        "de": "Sitzung",
+        "en": "Session",
+        "fr": "Session"
       },
       "cookiesDetailsText": {
-        "en": "Cookies details"
+        "de": "Cookie-Details",
+        "en": "Cookies details",
+        "fr": "Détails des cookies"
       },
       "preferencesPopupAlwaysAllowedText": {
-        "en": "Always allowed"
+        "de": "Immer erlaubt",
+        "en": "Always allowed",
+        "fr": "Toujours permis"
       },
       "submitButton": {
-        "en": "Submit"
+        "de": "einreichen",
+        "en": "Submit",
+        "fr": "Soumettre"
       },
       "submittingButton": {
-        "en": "Submitting..."
+        "de": "Senden...",
+        "en": "Submitting...",
+        "fr": "Soumission..."
       },
       "cancelButton": {
-        "en": "Cancel"
+        "de": "Abbrechen",
+        "en": "Cancel",
+        "fr": "Annuler"
       },
       "guestsSupportInfoText": {
-        "en": "Please login with your customer account to further proceed."
+        "de": "Bitte loggen Sie sich mit Ihrem Kundenkonto ein, um fortzufahren.",
+        "en": "Please login with your customer account to further proceed.",
+        "fr": "Veuillez vous connecter avec votre compte client pour continuer."
       },
       "guestsSupportEmailPlaceholder": {
-        "en": "E-mail address"
+        "de": "E-Mail-Addresse",
+        "en": "E-mail address",
+        "fr": "Adresse e-mail"
       },
       "guestsSupportEmailValidationError": {
-        "en": "Email is not valid"
+        "de": "Email ist ungültig",
+        "en": "Email is not valid",
+        "fr": "L'email n'est pas valide"
       },
       "guestsSupportEmailSuccessTitle": {
-        "en": "Thank you for your request"
+        "de": "Vielen Dank für die Anfrage",
+        "en": "Thank you for your request",
+        "fr": "Merci pour votre requête"
       },
       "guestsSupportEmailFailureTitle": {
-        "en": "A problem occurred"
+        "de": "Ein Problem ist aufgetreten",
+        "en": "A problem occurred",
+        "fr": "Un problème est survenu"
       },
       "guestsSupportEmailSuccessMessage": {
-        "en": "If you are registered as a customer of this store, you will soon receive an email with instructions on how to proceed."
+        "de": "Wenn Sie als Kunde dieses Shops registriert sind, erhalten Sie in Kürze eine E-Mail mit Anweisungen zum weiteren Vorgehen.",
+        "en": "If you are registered as a customer of this store, you will soon receive an email with instructions on how to proceed.",
+        "fr": "Si vous êtes inscrit en tant que client de ce magasin, vous recevrez bientôt un e-mail avec des instructions sur la marche à suivre."
       },
       "guestsSupportEmailFailureMessage": {
-        "en": "Your request was not submitted. Please try again and if problem persists, contact store owner for assistance."
+        "de": "Ihre Anfrage wurde nicht übermittelt. Bitte versuchen Sie es erneut und wenn das Problem weiterhin besteht, wenden Sie sich an den Shop-Inhaber, um Hilfe zu erhalten.",
+        "en": "Your request was not submitted. Please try again and if problem persists, contact store owner for assistance.",
+        "fr": "Votre demande n'a pas été soumise. Veuillez réessayer et si le problème persiste, contactez le propriétaire du magasin pour obtenir de l'aide."
       },
       "confirmationSuccessTitle": {
-        "en": "Your request is verified"
+        "de": "Ihre Anfrage wurde bestätigt",
+        "en": "Your request is verified",
+        "fr": "Votre demande est vérifiée"
       },
       "confirmationFailureTitle": {
-        "en": "A problem occurred"
+        "de": "Ein Problem ist aufgetreten",
+        "en": "A problem occurred",
+        "fr": "Un problème est survenu"
       },
       "confirmationSuccessMessage": {
-        "en": "We will soon get back to you as to your request."
+        "de": "Wir werden uns in Kürze zu Ihrem Anliegen bei Ihnen melden.",
+        "en": "We will soon get back to you as to your request.",
+        "fr": "Nous reviendrons rapidement vers vous quant à votre demande."
       },
       "confirmationFailureMessage": {
-        "en": "Your request was not verified. Please try again and if problem persists, contact store owner for assistance"
+        "de": "Ihre Anfrage wurde nicht bestätigt. Bitte versuchen Sie es erneut und wenn das Problem weiterhin besteht, wenden Sie sich an den Ladenbesitzer, um Hilfe zu erhalten",
+        "en": "Your request was not verified. Please try again and if problem persists, contact store owner for assistance",
+        "fr": "Votre demande n'a pas été vérifiée. Veuillez réessayer et si le problème persiste, contactez le propriétaire du magasin pour obtenir de l'aide"
       },
       "consentSectionTitleText": {
-        "en": "Your cookie consent"
+        "de": "Ihre Cookie-Einwilligung",
+        "en": "Your cookie consent",
+        "fr": "Votre consentement aux cookies"
       },
       "consentSectionNoConsentText": {
-        "en": "You have not consented to the cookies policy of this website."
+        "de": "Sie haben der Cookie-Richtlinie dieser Website nicht zugestimmt.",
+        "en": "You have not consented to the cookies policy of this website.",
+        "fr": "Vous n'avez pas consenti à la politique de cookies de ce site Web."
       },
       "consentSectionConsentedText": {
-        "en": "You consented to the cookies policy of this website on"
+        "de": "Sie haben der Cookie-Richtlinie dieser Website zugestimmt am",
+        "en": "You consented to the cookies policy of this website on",
+        "fr": "Vous avez consenti à la politique de cookies de ce site Web sur"
       },
       "consentStatus": {
-        "en": "Consent preference"
+        "de": "Einwilligungspräferenz",
+        "en": "Consent preference",
+        "fr": "Préférence de consentement"
       },
       "consentDate": {
-        "en": "Consent date"
+        "de": "Zustimmungsdatum",
+        "en": "Consent date",
+        "fr": "Date de consentement"
       },
       "consentId": {
-        "en": "Consent ID"
+        "de": "Einwilligungs-ID",
+        "en": "Consent ID",
+        "fr": "ID de consentement"
       },
       "consentSectionChangeConsentActionText": {
-        "en": "Change consent preference"
+        "de": "Einwilligungspräferenz ändern",
+        "en": "Change consent preference",
+        "fr": "Modifier la préférence de consentement"
       },
       "accessSectionGDPRRequestsActionText": {
-        "en": "Data subject requests"
+        "de": "Anfragen betroffener Personen",
+        "en": "Data subject requests",
+        "fr": "Demandes des personnes concernées"
       },
       "accessSectionAccountInfoActionText": {
-        "en": "Personal data"
+        "de": "persönliche Daten",
+        "en": "Personal data",
+        "fr": "Données personnelles"
       },
       "accessSectionOrdersRecordsActionText": {
-        "en": "Orders"
+        "de": "Aufträge",
+        "en": "Orders",
+        "fr": "Ordres"
       },
       "accessSectionDownloadReportActionText": {
-        "en": "Request export"
+        "de": "Alles herunterladen",
+        "en": "Request export",
+        "fr": "Tout télécharger"
       },
       "rectificationCommentPlaceholder": {
-        "en": "Describe what you want to be updated"
+        "de": "Beschreiben Sie, was Sie aktualisieren möchten",
+        "en": "Describe what you want to be updated",
+        "fr": "Décrivez ce que vous souhaitez mettre à jour"
       },
       "rectificationCommentValidationError": {
-        "en": "Comment is required"
+        "de": "Kommentar ist erforderlich",
+        "en": "Comment is required",
+        "fr": "Un commentaire est requis"
       },
       "rectificationSectionEditAccountActionText": {
-        "en": "Request an update"
+        "de": "Fordern Sie ein Update an",
+        "en": "Request an update",
+        "fr": "Demander une mise à jour"
       },
       "erasureSectionRequestDeletionActionText": {
-        "en": "Request personal data deletion"
+        "de": "Löschung personenbezogener Daten anfordern",
+        "en": "Request personal data deletion",
+        "fr": "Demander la suppression des données personnelles"
       }
     }
   },
@@ -390,7 +552,9 @@
         "expires": 1,
         "unit": "declYears",
         "purpose": {
-          "en": "Used in connection with customer login."
+          "de": "Wird im Zusammenhang mit dem Kundenlogin verwendet.",
+          "en": "Used in connection with customer login.",
+          "fr": "Utilisé en relation avec la connexion client."
         }
       },
       {
@@ -403,7 +567,9 @@
         "expires": 30,
         "unit": "declMinutes",
         "purpose": {
-          "en": "Used in connection with buyer localization."
+          "de": "Wird im Zusammenhang mit der Käuferlokalisierung verwendet.",
+          "en": "Used in connection with buyer localization.",
+          "fr": "Utilisé en relation avec la localisation de l'acheteur."
         }
       },
       {
@@ -416,7 +582,9 @@
         "expires": 1,
         "unit": "declYears",
         "purpose": {
-          "en": "Shopify store localization"
+          "de": "Lokalisierung von Shopify-Shops",
+          "en": "Shopify store localization",
+          "fr": "Localisation de boutique Shopify"
         }
       },
       {
@@ -429,7 +597,9 @@
         "expires": 2,
         "unit": "declSession",
         "purpose": {
-          "en": "The cookie is necessary for the secure checkout and payment function on the website. This function is provided by shopify.com."
+          "de": "Das Cookie ist für die sichere Checkout- und Zahlungsfunktion auf der Website erforderlich. Diese Funktion wird von shopify.com bereitgestellt.",
+          "en": "The cookie is necessary for the secure checkout and payment function on the website. This function is provided by shopify.com.",
+          "fr": "Le cookie est nécessaire pour la fonction de paiement et de paiement sécurisé sur le site Web. Cette fonction est fournie par shopify.com."
         }
       },
       {
@@ -442,7 +612,9 @@
         "expires": 1,
         "unit": "declHours",
         "purpose": {
-          "en": "The cookie is necessary for the secure checkout and payment function on the website. This function is provided by shopify.com."
+          "de": "Das Cookie ist für die sichere Checkout- und Zahlungsfunktion auf der Website erforderlich. Diese Funktion wird von shopify.com bereitgestellt.",
+          "en": "The cookie is necessary for the secure checkout and payment function on the website. This function is provided by shopify.com.",
+          "fr": "Le cookie est nécessaire pour la fonction de paiement et de paiement sécurisé sur le site Web. Cette fonction est fournie par shopify.com."
         }
       },
       {
@@ -455,7 +627,9 @@
         "expires": 1,
         "unit": "declDays",
         "purpose": {
-          "en": "Used for managing customer privacy settings."
+          "de": "Wird zum Verwalten der Datenschutzeinstellungen des Kunden verwendet.",
+          "en": "Used for managing customer privacy settings.",
+          "fr": "Utilisé pour gérer les paramètres de confidentialité des clients."
         }
       },
       {
@@ -468,7 +642,9 @@
         "expires": 1,
         "unit": "declYears",
         "purpose": {
-          "en": "Tracking preferences."
+          "de": "Tracking-Einstellungen.",
+          "en": "Tracking preferences.",
+          "fr": "Préférences de suivi."
         }
       },
       {
@@ -507,7 +683,9 @@
         "expires": 1,
         "unit": "declHours",
         "purpose": {
-          "en": "Used in connection with customer authentication."
+          "de": "Wird im Zusammenhang mit der Kundenauthentifizierung verwendet.",
+          "en": "Used in connection with customer authentication.",
+          "fr": "Utilisé en relation avec l&#39;authentification du client."
         }
       },
       {
@@ -535,7 +713,9 @@
         "expires": 1,
         "unit": "declYears",
         "purpose": {
-          "en": "Used by the Kiwi Size Chart Shopify plugin\t"
+          "de": "Wird vom Shopify-Plug-in Kiwi Size Chart verwendet",
+          "en": "Used by the Kiwi Size Chart Shopify plugin\t",
+          "fr": "Utilisé par le plug-in Kiwi Size Chart Shopify"
         }
       },
       {
@@ -548,7 +728,9 @@
         "expires": 1,
         "unit": "declDays",
         "purpose": {
-          "en": "Used by the Kiwi Size Chart Shopify plugin\t"
+          "de": "Wird vom Shopify-Plug-in Kiwi Size Chart verwendet",
+          "en": "Used by the Kiwi Size Chart Shopify plugin\t",
+          "fr": "Utilisé par le plug-in Kiwi Size Chart Shopify"
         }
       },
       {
@@ -561,7 +743,9 @@
         "expires": 1,
         "unit": "declSeconds",
         "purpose": {
-          "en": "Used to test the storage of parameters about products added to the cart or payment currency"
+          "de": "Wird verwendet, um die Speicherung von Parametern zu Produkten, die dem Warenkorb hinzugefügt wurden, oder zur Zahlungswährung zu testen",
+          "en": "Used to test the storage of parameters about products added to the cart or payment currency",
+          "fr": "Utilisé pour tester le stockage des paramètres sur les produits ajoutés au panier ou la devise de paiement"
         }
       },
       {
@@ -574,7 +758,9 @@
         "expires": 1,
         "unit": "declSeconds",
         "purpose": {
-          "en": "Used to test the storage of parameters about products added to the cart or payment currency"
+          "de": "Wird verwendet, um die Speicherung von Parametern zu Produkten, die dem Warenkorb hinzugefügt wurden, oder zur Zahlungswährung zu testen",
+          "en": "Used to test the storage of parameters about products added to the cart or payment currency",
+          "fr": "Utilisé pour tester le stockage des paramètres sur les produits ajoutés au panier ou la devise de paiement"
         }
       },
       {
@@ -587,7 +773,9 @@
         "expires": 1,
         "unit": "declSeconds",
         "purpose": {
-          "en": "Used to test the storage of parameters about products added to the cart or payment currency"
+          "de": "Wird verwendet, um die Speicherung von Parametern zu Produkten, die dem Warenkorb hinzugefügt wurden, oder zur Zahlungswährung zu testen",
+          "en": "Used to test the storage of parameters about products added to the cart or payment currency",
+          "fr": "Utilisé pour tester le stockage des paramètres sur les produits ajoutés au panier ou la devise de paiement"
         }
       }
     ],
@@ -602,7 +790,9 @@
         "expires": 2,
         "unit": "declSession",
         "purpose": {
-          "en": "Tracks landing pages."
+          "de": "Verfolgt Zielseiten.",
+          "en": "Tracks landing pages.",
+          "fr": "Suit les pages de destination."
         }
       },
       {
@@ -615,7 +805,9 @@
         "expires": 2,
         "unit": "declSession",
         "purpose": {
-          "en": "Tracks landing pages."
+          "de": "Verfolgt Zielseiten.",
+          "en": "Tracks landing pages.",
+          "fr": "Suit les pages de destination."
         }
       },
       {
@@ -628,7 +820,9 @@
         "expires": 30,
         "unit": "declMinutes",
         "purpose": {
-          "en": "Shopify analytics."
+          "de": "Shopify-Analysen.",
+          "en": "Shopify analytics.",
+          "fr": "Analyses Shopify."
         }
       },
       {
@@ -641,7 +835,9 @@
         "expires": 30,
         "unit": "declMinutes",
         "purpose": {
-          "en": "Shopify analytics relating to marketing & referrals."
+          "de": "Shopify-Analysen in Bezug auf Marketing und Empfehlungen.",
+          "en": "Shopify analytics relating to marketing & referrals.",
+          "fr": "Analyses Shopify relatives au marketing et aux références."
         }
       },
       {
@@ -654,7 +850,9 @@
         "expires": 30,
         "unit": "declMinutes",
         "purpose": {
-          "en": "Shopify analytics."
+          "de": "Shopify-Analysen.",
+          "en": "Shopify analytics.",
+          "fr": "Analyses Shopify."
         }
       },
       {
@@ -667,7 +865,9 @@
         "expires": 1,
         "unit": "declYears",
         "purpose": {
-          "en": "Shopify analytics."
+          "de": "Shopify-Analysen.",
+          "en": "Shopify analytics.",
+          "fr": "Analyses Shopify."
         }
       },
       {
@@ -680,7 +880,9 @@
         "expires": 30,
         "unit": "declMinutes",
         "purpose": {
-          "en": "Shopify analytics relating to marketing & referrals."
+          "de": "Shopify-Analysen in Bezug auf Marketing und Empfehlungen.",
+          "en": "Shopify analytics relating to marketing & referrals.",
+          "fr": "Analyses Shopify relatives au marketing et aux références."
         }
       },
       {
@@ -693,7 +895,9 @@
         "expires": -54,
         "unit": "declYears",
         "purpose": {
-          "en": "Used to track a user's interaction with the store products, so that the website can show you relevant products."
+          "de": "Wird verwendet, um die Interaktion eines Benutzers mit den Shop-Produkten zu verfolgen, damit die Website Ihnen relevante Produkte anzeigen kann.",
+          "en": "Used to track a user's interaction with the store products, so that the website can show you relevant products.",
+          "fr": "Utilisé pour suivre l&#39;interaction d&#39;un utilisateur avec les produits du magasin, afin que le site Web puisse vous montrer des produits pertinents."
         }
       },
       {
@@ -706,7 +910,9 @@
         "expires": 1,
         "unit": "declSeconds",
         "purpose": {
-          "en": "Shopify analytics."
+          "de": "Shopify-Analysen.",
+          "en": "Shopify analytics.",
+          "fr": "Analyses Shopify."
         }
       },
       {
@@ -719,7 +925,9 @@
         "expires": 30,
         "unit": "declMinutes",
         "purpose": {
-          "en": "Shopify analytics relating to marketing & referrals."
+          "de": "Shopify-Analysen in Bezug auf Marketing und Empfehlungen.",
+          "en": "Shopify analytics relating to marketing & referrals.",
+          "fr": "Analyses Shopify relatives au marketing et aux références."
         }
       },
       {
@@ -732,7 +940,9 @@
         "expires": 30,
         "unit": "declMinutes",
         "purpose": {
-          "en": "Shopify analytics relating to marketing & referrals."
+          "de": "Shopify-Analysen in Bezug auf Marketing und Empfehlungen.",
+          "en": "Shopify analytics relating to marketing & referrals.",
+          "fr": "Analyses Shopify relatives au marketing et aux références."
         }
       },
       {
@@ -745,7 +955,9 @@
         "expires": 1,
         "unit": "declYears",
         "purpose": {
-          "en": "Used to monitor and optimize the performance of Shopify stores."
+          "de": "Wird zur Überwachung und Optimierung der Leistung von Shopify-Shops verwendet.",
+          "en": "Used to monitor and optimize the performance of Shopify stores.",
+          "fr": "Utilisé pour surveiller et optimiser les performances des magasins Shopify."
         }
       }
     ],
@@ -760,7 +972,9 @@
         "expires": 1,
         "unit": "declYears",
         "purpose": {
-          "en": "Used by Optimizely service."
+          "de": "Wird vom Optimizely-Dienst verwendet.",
+          "en": "Used by Optimizely service.",
+          "fr": "Utilisé par le service Optimizely."
         }
       },
       {
@@ -773,7 +987,9 @@
         "expires": 1,
         "unit": "declYears",
         "purpose": {
-          "en": "Tracks when someone clicks through a Klaviyo email to your website."
+          "de": "Verfolgt, wenn jemand durch eine Klaviyo-E-Mail auf Ihre Website klickt",
+          "en": "Tracks when someone clicks through a Klaviyo email to your website.",
+          "fr": "Suit quand quelqu'un clique sur un e-mail Klaviyo vers votre site Web."
         }
       }
     ],
@@ -788,7 +1004,9 @@
         "expires": 1,
         "unit": "declYears",
         "purpose": {
-          "en": "Necessary for the shopping cart functionality on the website."
+          "de": "Notwendig für die Warenkorbfunktion auf der Website.",
+          "en": "Necessary for the shopping cart functionality on the website.",
+          "fr": "Nécessaire pour la fonctionnalité de panier d'achat sur le site Web."
         }
       },
       {
