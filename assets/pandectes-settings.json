@@ -6,7 +6,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1709642737,
+  "tsPublished": 1709643349,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -323,9 +323,9 @@
     },
     "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
-      "opt-both": "<div class=\"cc-compliance cc-highlight\">{{deny}}{{allow}}<\/div>"
+      "custom": "<div class=\"cc-compliance cc-highlight\">{{preferences}}{{allow}}<\/div>"
     },
-    "type": "opt-both",
+    "type": "custom",
     "layouts": {
       "basic": "{{logo}}{{messagelink}}{{compliance}}{{close}}"
     },
@@ -371,7 +371,7 @@
     "implicitSavePreferences": false,
     "cookieIcon": false,
     "blockBots": false,
-    "showCookiesDetails": false,
+    "showCookiesDetails": true,
     "hasTransition": true,
     "blockingPage": false,
     "showOnlyLandingPage": false,
