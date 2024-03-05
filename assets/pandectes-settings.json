@@ -1,12 +1,12 @@
 {
   "store": {
     "id": 27051655302,
-    "plan": "basic",
+    "plan": null,
     "theme": "VCC-shopify-theme-v2\/main",
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1709642603,
+  "tsPublished": 1709642619,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
