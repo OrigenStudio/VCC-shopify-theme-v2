@@ -21,24 +21,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "0f7b703a-7798-417b-aa4a-5030c3773521": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/527ee282-cf60-43dc-b217-5b185961c425_LPW_HP_DESKTOP.webp",
-            "heading": "LIFEPLUS-WAHOO CAPSULE",
-            "heading_size": "h0",
-            "subheading": "DISCOVER THE STYLISH COLLAB",
-            "button_label": "BUY LPW-WAHOO COLLAB NOW",
-            "link": "shopify:\/\/collections\/maap-lifeplus-collab",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 40,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "e78dd58c-61c5-4122-9152-2b6a6c6f0321": {
           "type": "slide",
           "settings": {
@@ -55,24 +37,6 @@
             "image_overlay_opacity": 10,
             "color_scheme": "background-1",
             "text_alignment_mobile": "left"
-          }
-        },
-        "template--14546355290246__e0911e38-e306-463a-9877-cdf1960a5028-16686086846f083c6b-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HEADERvccclassic.jpg",
-            "heading": "VCC CLASSIC COLLECTION",
-            "heading_size": "h0",
-            "subheading": "Elegant. Modern. Striking. This is Velodrom VCC",
-            "button_label": "SHOP VELODROM VCC CLASSIC COLLECTION",
-            "link": "shopify:\/\/collections\/velodrom-vcc-classic-collection-aw23",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
           }
         },
         "97e73aef-1ac7-4d7c-babc-783ca2d37e4f": {
@@ -92,14 +56,31 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_ejjnRm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/65dff37b9c42d04f7d969abe_maap_road_HP_BILL_D.webp",
+            "heading": "A NEW SEASON DAWNS",
+            "heading_size": "h1",
+            "subheading": "The latest Maap launches have arrived.",
+            "button_label": "BUY MAAP",
+            "link": "shopify:\/\/collections\/maap-new-arrivals",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_TdPr94",
-        "0f7b703a-7798-417b-aa4a-5030c3773521",
         "e78dd58c-61c5-4122-9152-2b6a6c6f0321",
-        "template--14546355290246__e0911e38-e306-463a-9877-cdf1960a5028-16686086846f083c6b-0",
-        "97e73aef-1ac7-4d7c-babc-783ca2d37e4f"
+        "97e73aef-1ac7-4d7c-babc-783ca2d37e4f",
+        "slide_ejjnRm"
       ],
       "settings": {
         "layout": "full_bleed",
