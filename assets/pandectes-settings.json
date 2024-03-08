@@ -6,7 +6,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1709886788,
+  "tsPublished": 1709886826,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -493,7 +493,7 @@
     },
     "position": "bottom-right",
     "theme": "block",
-    "revokable": true,
+    "revokable": false,
     "animateRevokable": true,
     "revokableReset": false,
     "revokableLogoUrl": "",
