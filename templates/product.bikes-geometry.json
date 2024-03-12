@@ -87,7 +87,7 @@
             "heading": "SPECIFICATIONS",
             "icon": "none",
             "content": "",
-            "liquid": "Saddle: {{ product.metafields.custom.saddle.displayName }}",
+            "liquid": "Saddle: {{ product.metafields.custom.saddle.value}}",
             "page": ""
           }
         },
