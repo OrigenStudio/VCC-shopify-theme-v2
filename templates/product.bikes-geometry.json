@@ -84,10 +84,10 @@
           "type": "collapsible_tab",
           "settings": {
             "open": false,
-            "heading": "SPECIAL DISCOUNTS",
+            "heading": "SPECIFICATIONS",
             "icon": "none",
             "content": "",
-            "liquid": "<div id=\"mbcBundleItemsWidget\"><\/div>",
+            "liquid": "Saddle: {{ product.metafields.custom.saddle }}",
             "page": ""
           }
         },
