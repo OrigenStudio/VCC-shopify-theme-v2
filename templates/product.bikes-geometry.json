@@ -83,11 +83,11 @@
         "dd0559f3-80fa-4b4e-b353-559dcb32aaaf": {
           "type": "collapsible_tab",
           "settings": {
-            "open": false,
+            "open": true,
             "heading": "SPECIFICATIONS",
             "icon": "none",
             "content": "",
-            "liquid": "Saddle: {{ product.metafields.custom.saddle.handle}}",
+            "liquid": "Saddle: {{ product.metafields.custom.saddle.values}}",
             "page": ""
           }
         },
