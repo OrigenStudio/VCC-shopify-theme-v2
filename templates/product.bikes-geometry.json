@@ -1,0 +1,282 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "627f1748-12cf-4f88-806a-fb965b548569": {
+          "type": "short_description",
+          "settings": {
+          }
+        },
+        "8e6f5573-f833-4396-8ff6-b51ad5577669": {
+          "type": "price-and-inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 3,
+            "show_inventory_quantity": true
+          }
+        },
+        "368899bd-d2da-4493-adf0-e55a2be77906": {
+          "type": "color-picker",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1baf60dc-4380-44ae-abcc-3f75e9306fe8": {
+          "type": "shipping-time",
+          "settings": {
+          }
+        },
+        "f41fc082-2e8f-4f05-9bb6-4ded1482267e": {
+          "type": "shopify:\/\/apps\/alert-me-restock-alerts\/blocks\/product-form\/88d8595d-225a-4087-b3c0-661d0d859357",
+          "settings": {
+            "form_bg_color": "#fefefe",
+            "border_color": "#eeeeee",
+            "border_width": 1,
+            "form_padding": 15,
+            "text_color": "#000000",
+            "text_size": 14,
+            "text_alignment": "center",
+            "intro_text": "Sign up for restock notifications",
+            "placeholder_text": "Enter your email for restock notifications",
+            "button_text": "Notify Me",
+            "success_text": "Thanks for signing up for restock notifications!",
+            "error_text": "There was an error signing up for restock notifications. Please try again.",
+            "input_border_color": "#000000",
+            "input_padding": 10,
+            "button_bg_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_text_size": 14,
+            "button_text_alignment": "center",
+            "button_padding": 10,
+            "marketing_optin_text_size": 10,
+            "marketing_optin_text_color": "#333333",
+            "alert_msg_bg_success": "#edf7ed",
+            "alert_msg_text_color_success": "#254c27",
+            "alert_msg_bg_error": "#fdeded",
+            "alert_msg_text_color_error": "#8e5d5c"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "5867240e-6103-4cb1-94cc-15bff73ae412": {
+          "type": "description",
+          "settings": {
+            "heading": "DESCRIPTION",
+            "icon": "none"
+          }
+        },
+        "dd0559f3-80fa-4b4e-b353-559dcb32aaaf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open": false,
+            "heading": "SPECIAL DISCOUNTS",
+            "icon": "none",
+            "content": "",
+            "liquid": "<div id=\"mbcBundleItemsWidget\"><\/div>",
+            "page": ""
+          }
+        },
+        "702dfa33-3e03-414d-92e9-df28379ef93d": {
+          "type": "kiwi-sizing",
+          "settings": {
+            "heading": "SIZING",
+            "icon": "none"
+          }
+        },
+        "61663cae-fef9-4fe5-8a51-10b611701560": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open": true,
+            "heading": "COMPLETE YOUR LOOK",
+            "icon": "none",
+            "content": "",
+            "liquid": "<div data-rebuy-id=\"78188\" data-rebuy-shopify-product-ids=\"{{ product.id }}\"><\/div>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open": false,
+            "heading": "SHIPPING AND RETURNS",
+            "icon": "none",
+            "content": "<p><strong>EASY RETURNS WITH OUR RETURNS PORTAL: <\/strong><\/p><p><strong>SPAIN AND EU:<br\/><\/strong><a href=\"https:\/\/returns-eu.velodrom.cc\" target=\"_blank\" title=\"https:\/\/returns-eu.velodrom.cc\"><strong>https:\/\/returns-eu.velodrom.cc<br\/><\/strong><\/a><strong><br\/>OUTSIDE EU: <\/strong><a href=\"https:\/\/returns.velodrom.cc\/\" target=\"_blank\" title=\"https:\/\/returns.velodrom.cc\/\">https:\/\/returns.velodrom.cc\/<br\/><\/a><strong><br\/>FAST SHIPPING TO: <br\/>SPAIN - Cost calculated at checkout<\/strong><br\/><strong>EU - Cost calculated at checkou<br\/>WORLDWIDE: Cost calculated at checkout<\/strong><br\/> <br\/>FAST SHIPPING OUTSIDE EU:<strong><br\/><\/strong>The shipping might be subject to customs fees. Unfortunately we are not able to cover this costs at the moment.<br\/><br\/><strong>Return for size exchange: <\/strong>See table in our <a href=\"\/pages\/refund-policy\" target=\"_blank\" title=\"Refund, return and exchanges policies\">returns page<\/a>.<br\/><br\/><strong>Return for Refund: <\/strong> See table in our <a href=\"\/pages\/refund-policy\" target=\"_blank\" title=\"Refund, return and exchanges policies\">returns page<\/a>.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open": false,
+            "heading": "FINANCING",
+            "icon": "none",
+            "content": "<p>We offer financing vía Cetelem for bikes and Klarna for accesories<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "9d5dbc74-6089-4876-8a3a-efb84a6edc0d": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "return",
+            "heading_1": "30 DAYS  RETURN\/EXCHANGES",
+            "icon_2": "plane",
+            "heading_2": "FAST SHIPPING WORLDWIDE",
+            "icon_3": "stopwatch",
+            "heading_3": "INSTALLMENT PLAN: BUY NOW. PAY LATER"
+          }
+        },
+        "c4ab42d0-a4e9-49c0-832f-7ba9eb03db2d": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "disabled": true,
+          "settings": {
+            "enabled": true,
+            "id": "78188",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        },
+        "f57b8618-0949-4b1a-8c3e-e6b02651a179": {
+          "type": "shopify:\/\/apps\/mbc-product-bundle-discounts\/blocks\/mbc-bundles-shortcode-widget-for-product-page\/57c94b78-e464-47f4-9403-7ffcfcddb33f",
+          "disabled": true,
+          "settings": {
+            "widget_type": "default"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "627f1748-12cf-4f88-806a-fb965b548569",
+        "8e6f5573-f833-4396-8ff6-b51ad5577669",
+        "368899bd-d2da-4493-adf0-e55a2be77906",
+        "variant_picker",
+        "1baf60dc-4380-44ae-abcc-3f75e9306fe8",
+        "f41fc082-2e8f-4f05-9bb6-4ded1482267e",
+        "buy_buttons",
+        "5867240e-6103-4cb1-94cc-15bff73ae412",
+        "dd0559f3-80fa-4b4e-b353-559dcb32aaaf",
+        "702dfa33-3e03-414d-92e9-df28379ef93d",
+        "61663cae-fef9-4fe5-8a51-10b611701560",
+        "collapsible-row-1",
+        "collapsible-row-0",
+        "9d5dbc74-6089-4876-8a3a-efb84a6edc0d",
+        "c4ab42d0-a4e9-49c0-832f-7ba9eb03db2d",
+        "f57b8618-0949-4b1a-8c3e-e6b02651a179"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "gallery_layout": "stacked",
+        "media_size": "medium",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "YOU MIGHT ALSO LIKE",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 44,
+        "padding_bottom": 28
+      }
+    },
+    "collapsible_row_qiNePV": {
+      "type": "collapsible-row",
+      "blocks": {
+        "technical_specifications_9Ftd3c": {
+          "type": "technical_specifications",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "technical_specifications_9Ftd3c"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "TECHNICAL SPECIFICATIONS",
+        "open_collapsible_row": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_row_X4nGpR": {
+      "type": "collapsible-row",
+      "blocks": {
+        "geometry_nPwPkg": {
+          "type": "geometry",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "geometry_nPwPkg"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "GEOMETRY",
+        "open_collapsible_row": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1677840062bc3437d7": {
+      "type": "apps",
+      "blocks": {
+        "6047e1a2-9da5-40fb-94b5-4f85d9af2c17": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "59289",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "6047e1a2-9da5-40fb-94b5-4f85d9af2c17"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "collapsible_row_qiNePV",
+    "collapsible_row_X4nGpR",
+    "1677840062bc3437d7"
+  ]
+}
