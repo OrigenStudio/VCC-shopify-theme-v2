@@ -3,6 +3,24 @@
     "e0911e38-e306-463a-9877-cdf1960a5028": {
       "type": "slideshow",
       "blocks": {
+        "slide_WDTFHg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MTB-3796_SW_Epic_LC_03.webp",
+            "heading": "SPECIALIZED EPIC 8",
+            "heading_size": "h1",
+            "subheading": "The best mountain bike ever created",
+            "button_label": "ORDER YOUR EPIC 8 NOW",
+            "link": "shopify:\/\/collections\/specialized-epic-8",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "left"
+          }
+        },
         "slide_ejjnRm": {
           "type": "slide",
           "settings": {
@@ -77,6 +95,7 @@
         }
       },
       "block_order": [
+        "slide_WDTFHg",
         "slide_ejjnRm",
         "slide_TdPr94",
         "e78dd58c-61c5-4122-9152-2b6a6c6f0321",
