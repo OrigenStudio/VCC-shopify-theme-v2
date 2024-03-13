@@ -87,7 +87,7 @@
             "heading": "SPECIFICATIONS",
             "icon": "none",
             "content": "",
-            "liquid": "Saddle: {{ product.metafields.custom.saddle}}",
+            "liquid": "Suspension: {{ product.metafields.custom.suspension.value.label}}\n<br>\n<br>\nFork: {{ product.metafields.custom.fork.value.label}}",
             "page": ""
           }
         },
