@@ -125,6 +125,48 @@
         "featured_collection_DHXCUD": {
           "type": "featured_collection",
           "settings": {
+            "collection": "rapha"
+          }
+        },
+        "featured_collection_HYYRcB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "velodrom-vcc"
+          }
+        },
+        "featured_collection_wNQ68m": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_jMmMF7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_BrjBDQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_cEjpar": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_et8WyP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_UU8hCg": {
+          "type": "featured_collection",
+          "settings": {
             "collection": ""
           }
         }
@@ -132,7 +174,14 @@
       "block_order": [
         "featured_collection_RYGj66",
         "featured_collection_Qy3DMd",
-        "featured_collection_DHXCUD"
+        "featured_collection_DHXCUD",
+        "featured_collection_HYYRcB",
+        "featured_collection_wNQ68m",
+        "featured_collection_jMmMF7",
+        "featured_collection_BrjBDQ",
+        "featured_collection_cEjpar",
+        "featured_collection_et8WyP",
+        "featured_collection_UU8hCg"
       ],
       "settings": {
         "title": "¿QUÉ NOS HACE ÚNICOS?",
