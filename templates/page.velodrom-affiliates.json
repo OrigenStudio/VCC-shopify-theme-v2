@@ -66,6 +66,7 @@
         "column_PYNG7y": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/list.png",
             "title": "2. Evaluaremos tu candidatura",
             "text": "<p>Una vez recibida tu propuesta, realizaremos una<br\/>valoración de tu candidatura para ver si tu perfil<br\/>encaja con el ADN de Velodrom CC.<\/p>",
             "link_label": "",
@@ -90,7 +91,7 @@
       "settings": {
         "title": "¿CÓMO EMPEZAR A FORMAR PARTEDE NUESTRA GRUPETA?",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
