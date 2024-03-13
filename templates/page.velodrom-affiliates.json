@@ -106,11 +106,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collection_list_TnbCQR": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_RYGj66": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_Qy3DMd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "maap"
+          }
+        },
+        "featured_collection_DHXCUD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_RYGj66",
+        "featured_collection_Qy3DMd",
+        "featured_collection_DHXCUD"
+      ],
+      "settings": {
+        "title": "¿QUÉ NOS HACE ÚNICOS?",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_hw7UBL",
-    "multicolumn_7ewbRd"
+    "multicolumn_7ewbRd",
+    "collection_list_TnbCQR"
   ]
 }
