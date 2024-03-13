@@ -68,7 +68,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/list.png",
-            "title": "2. Evaluaremos tu candidatura",
+            "title": "2. EVALUAREMOS TU CANDIDATURA",
             "text": "<p>Una vez recibida tu propuesta, realizaremos una<br\/>valoración de tu candidatura para ver si tu perfil<br\/>encaja con el ADN de Velodrom CC.<\/p>",
             "link_label": "",
             "link": ""
@@ -78,7 +78,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/sending.png",
-            "title": "3. Entra en nuestro programa de Affiliate",
+            "title": "3. ENTRA EN NUESTRO PROGRAMA DE AFFILIATE",
             "text": "<p>¡Genial!<br\/><br\/>Una vez dentro, nos pondremos en contacto<br\/>contigo para darte toda la información sobre<br\/>nuestro programa y sus condiciones.<br\/>¡Bienvenido\/a a la grupeta!<\/p>",
             "link_label": "",
             "link": ""
