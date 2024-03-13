@@ -77,6 +77,7 @@
         "column_GzHcRc": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/sending.png",
             "title": "3. Entra en nuestro programa de Affiliate",
             "text": "<p>¡Genial!<br\/><br\/>Una vez dentro, nos pondremos en contacto<br\/>contigo para darte toda la información sobre<br\/>nuestro programa y sus condiciones.<br\/>¡Bienvenido\/a a la grupeta!<\/p>",
             "link_label": "",
