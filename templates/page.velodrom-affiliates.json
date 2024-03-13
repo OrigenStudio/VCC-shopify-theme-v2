@@ -59,7 +59,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/edit.png",
             "title": "1. RELLENA EL FORMULARIO",
-            "text": "<p>El primer paso es rellenar nuestro formulario.<br\/>Explícanos qué es lo que nos puedes aportar<br\/>y qué es lo que te motiva.<br\/><br\/>¡Cuanto más te conozcamos, mejor!<\/p>",
+            "text": "<p>El primer paso es rellenar nuestro formulario.<br\/>Explícanos qué es lo que nos puedes aportar<br\/>y qué es lo que te motiva. ¡Cuanto más te conozcamos, mejor!<\/p>",
             "link_label": "IR AL FORMULARIO",
             "link": "shopify:\/\/pages\/velodrom-affiliates"
           }
@@ -79,7 +79,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/sending.png",
             "title": "3. ENTRA EN NUESTRO PROGRAMA DE AFFILIATE",
-            "text": "<p>¡Genial!<br\/><br\/>Una vez dentro, nos pondremos en contacto<br\/>contigo para darte toda la información sobre<br\/>nuestro programa y sus condiciones.<br\/>¡Bienvenido\/a a la grupeta!<\/p>",
+            "text": "<p>¡Genial! Una vez dentro, nos pondremos en contacto<br\/>contigo para darte toda la información sobre<br\/>nuestro programa y sus condiciones.<br\/>¡Bienvenido\/a a la grupeta!<\/p>",
             "link_label": "",
             "link": ""
           }
