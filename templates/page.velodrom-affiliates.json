@@ -57,6 +57,7 @@
         "column_VU38Ei": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/edit.png",
             "title": "1. Rellena el formulario",
             "text": "<p>El primer paso es rellenar nuestro formulario.<br\/>Explícanos qué es lo que nos puedes aportar<br\/>y qué es lo que te motiva.<br\/><br\/>¡Cuanto más te conozcamos, mejor!<\/p>",
             "link_label": "IR AL FORMULARIO",
