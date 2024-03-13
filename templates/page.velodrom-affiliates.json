@@ -13,21 +13,21 @@
         "heading_Afrd9g": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "BIENVENIDOS\/AS A NUESTRO PROGRAMADE AFILIADOS VELODROM CC",
             "heading_size": "h1"
           }
         },
         "text_XpG9xJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Si eres un amante del ciclismo, del lifestyle y las<br\/>últimas tendencias que no se conforma con lo<br\/>convencional y que disfruta inspirando a otros, ¡Te<br\/>estamos buscando, tienes ADN Velodrom CC!<\/p><p>Atrévete a desafiar lo ordinario y romper los<br\/>esquemas con nosotros. Mejoremos juntos el día a<br\/>día de los amantes del ciclismo. Únete ya a nuestra<br\/>grupeta de affiliates y empieza a disfrutar de nuestro<br\/>exclusivo programa de afiliación.<\/p><p>¿A qué esperas? ¡Empezamos la ruta!<br\/><\/p>",
             "text_style": "body"
           }
         },
         "button_xjP7dK": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "JOIN NOW",
             "button_link": ""
           }
         }
