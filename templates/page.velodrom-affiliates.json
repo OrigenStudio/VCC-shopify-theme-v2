@@ -51,6 +51,54 @@
         "padding_bottom": 0
       }
     },
+    "image_banner_EPUrhJ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_rtALta": {
+          "type": "heading",
+          "settings": {
+            "heading": "BIENVENIDOS\/AS A NUESTRO PROGRAMADE AFILIADOS VELODROM CC",
+            "heading_size": "h1"
+          }
+        },
+        "text_bc6JRX": {
+          "type": "text",
+          "settings": {
+            "text": "Si eres un amante del ciclismo, del lifestyle y lasúltimas tendencias que no se conforma con loconvencional y que disfruta inspirando a otros, ¡Teestamos buscando, tienes ADN Velodrom CC!        Atrévete a desafiar lo ordinario y romper losesquemas con nosotros. Mejoremos juntos el día adía de los amantes del ciclismo. Únete ya a nuestragrupeta de affiliates y empieza a disfrutar de nuestroexclusivo programa de afiliación.¿A qué esperas? ¡Empezamos la ruta!",
+            "text_style": "body"
+          }
+        },
+        "buttons_wcyeWA": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rtALta",
+        "text_bc6JRX",
+        "buttons_wcyeWA"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/eb700633-5466-4c06-b413-3bd64c417426_58c6d6de-d6b7-405c-b199-63a74af2ac97_204-BCN_CDQ_22.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "multicolumn_7ewbRd": {
       "type": "multicolumn",
       "blocks": {
@@ -230,6 +278,7 @@
   "order": [
     "main",
     "image_with_text_hw7UBL",
+    "image_banner_EPUrhJ",
     "multicolumn_7ewbRd",
     "rich_text_xfWCF8",
     "collection_list_TnbCQR"
