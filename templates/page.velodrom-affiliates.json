@@ -38,16 +38,17 @@
         "button_xjP7dK"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/eb700633-5466-4c06-b413-3bd64c417426_58c6d6de-d6b7-405c-b199-63a74af2ac97_204-BCN_CDQ_22.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
