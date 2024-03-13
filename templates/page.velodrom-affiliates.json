@@ -107,6 +107,36 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_xfWCF8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RNBdNm": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>¿QUÉ NOS HACE ÚNICOS?\t\t\t\t\t\t\t\t\t<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "text_8Qkpnk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En Velodrom CC contamos con una exclusiva gama de productos premium cuidadosamente<br\/>seleccionados.<\/p><p>Nuestro programa de afiliados te permitirá tener acceso privilegiado a contenido editorial y promociones exclusivas de una selección de 50 marcas premium como Velodrom, BrandBlack, Alba<br\/>Optics, Laser Barcelona, Pas<br\/>Normal Studios, Maap, Yeti, Rapha, Café du Cycliste, NNormal entre muchas otras.<br\/><br\/><br\/><\/p><p>¡Empieza a marcar la diferencia<br\/>con nosotros!<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RNBdNm",
+        "text_8Qkpnk"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "collection_list_TnbCQR": {
       "type": "collection-list",
       "blocks": {
@@ -184,7 +214,7 @@
         "featured_collection_UU8hCg"
       ],
       "settings": {
-        "title": "¿QUÉ NOS HACE ÚNICOS?",
+        "title": "",
         "heading_size": "h2",
         "image_ratio": "adapt",
         "columns_desktop": 5,
@@ -192,7 +222,7 @@
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     }
@@ -201,6 +231,7 @@
     "main",
     "image_with_text_hw7UBL",
     "multicolumn_7ewbRd",
+    "rich_text_xfWCF8",
     "collection_list_TnbCQR"
   ]
 }
