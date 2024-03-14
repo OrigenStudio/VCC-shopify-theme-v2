@@ -164,7 +164,7 @@
         "heading_RNBdNm": {
           "type": "heading",
           "settings": {
-            "heading": "<p>¿QUÉ NOS HACE ÚNICOS?\t\t\t\t\t\t\t\t\t<\/p>",
+            "heading": "<p>¿QUÉ NOS HACE ÚNICOS?\t\t\t\t\t<\/p>",
             "heading_size": "h2"
           }
         },
@@ -179,6 +179,7 @@
         "heading_RNBdNm",
         "text_8Qkpnk"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -267,6 +268,7 @@
         "featured_collection_et8WyP",
         "featured_collection_UU8hCg"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -286,21 +288,21 @@
         "heading_PXYjWP": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "¿QUÉ NOS HACE ÚNICOS?",
             "heading_size": "h1"
           }
         },
         "text_zWhHaK": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>En Velodrom CC contamos con una exclusiva gama de productos premium cuidadosamente seleccionados.<\/p><p>Nuestro programa de afiliados te permitirá tener acceso privilegiado a contenido editorial y promociones exclusivas de una selección de 50 marcas premium como Velodrom, BrandBlack, Alba Optics, Laser Barcelona, Pas Normal Studios, Maap, Yeti, Rapha, Café du Cycliste, NNormal entre muchas otras.<\/p><p>¡Empieza a marcar la diferencia con nosotros!<br\/><\/p>",
             "text_style": "body"
           }
         },
         "button_8qzYwN": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         }
