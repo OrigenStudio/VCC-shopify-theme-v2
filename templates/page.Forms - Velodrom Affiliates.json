@@ -76,12 +76,40 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "rich_text_e8w4b3": {
+      "type": "rich-text",
+      "blocks": {
+        "button_fKd8yz": {
+          "type": "button",
+          "settings": {
+            "button_label": "GO BACK",
+            "button_link": "shopify:\/\/pages\/velodrom-affiliates-1",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_fKd8yz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "26fd7491-838a-41b4-8237-6a2b79b3231b",
     "rich_text_fk8tcn",
     "contact_form_dVYij3",
-    "forms"
+    "forms",
+    "rich_text_e8w4b3"
   ]
 }
