@@ -141,7 +141,6 @@
         "column_PYNG7y",
         "column_GzHcRc"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -217,6 +216,78 @@
       ],
       "custom_css": [
         ".media > img {object-fit: contain;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/edit.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_eKYxFE": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hjUrN8": {
+          "type": "heading",
+          "settings": {
+            "heading": "2. Evaluaremos tu candidatura",
+            "heading_size": "h2"
+          }
+        },
+        "text_mbakQz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>El primer paso es rellenar nuestro formulario. Explícanos qué es lo que nos puedes aportar y qué es lo que te motiva. <\/p><p>¡Cuanto más te conozcamos, mejor!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hjUrN8",
+        "text_mbakQz"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/edit.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_QPWKTE": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fPXiEt": {
+          "type": "heading",
+          "settings": {
+            "heading": "3. Entra en nuestro programa de Affiliate",
+            "heading_size": "h2"
+          }
+        },
+        "text_tzjy8r": {
+          "type": "text",
+          "settings": {
+            "text": "<p>El primer paso es rellenar nuestro formulario. Explícanos qué es lo que nos puedes aportar y qué es lo que te motiva. <\/p><p>¡Cuanto más te conozcamos, mejor!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fPXiEt",
+        "text_tzjy8r"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/edit.png",
@@ -487,6 +558,8 @@
     "multicolumn_7ewbRd",
     "rich_text_GPbyMb",
     "image_with_text_CaPYBQ",
+    "image_with_text_eKYxFE",
+    "image_with_text_QPWKTE",
     "rich_text_xfWCF8",
     "collection_list_TnbCQR",
     "image_with_text_9TgEtG",
