@@ -300,7 +300,7 @@
           "type": "column",
           "settings": {
             "title": "+5000",
-            "text": "<p>productos de stock<\/p>",
+            "text": "<p>productos en stock<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -346,8 +346,8 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "START NOW",
+        "button_link": "shopify:\/\/pages\/velodrom-affiliates",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
