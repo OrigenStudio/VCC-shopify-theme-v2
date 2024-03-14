@@ -111,7 +111,7 @@
             "image": "shopify:\/\/shop_images\/edit.png",
             "title": "1. RELLENA EL FORMULARIO",
             "text": "<p>El primer paso es rellenar nuestro formulario. Explícanos qué es lo que nos puedes aportar y qué es lo que te motiva. <\/p><p>¡Cuanto más te conozcamos, mejor!<\/p>",
-            "link_label": "IR AL FORMULARIO",
+            "link_label": "",
             "link": "shopify:\/\/pages\/velodrom-affiliates"
           }
         },
@@ -152,8 +152,8 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "IR AL FORMULARIO",
+        "button_link": "shopify:\/\/pages\/velodrom-affiliates",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
