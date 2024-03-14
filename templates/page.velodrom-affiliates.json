@@ -175,6 +175,7 @@
       "block_order": [
         "heading_jxDr4x"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -214,6 +215,7 @@
         "text_b9L7zW",
         "button_T33aLC"
       ],
+      "disabled": true,
       "custom_css": [
         ".media > img {object-fit: contain; width: 50%; height: 50%;}"
       ],
@@ -253,6 +255,7 @@
         "heading_hjUrN8",
         "text_mbakQz"
       ],
+      "disabled": true,
       "custom_css": [
         ".media > img {object-fit: contain;}"
       ],
@@ -292,6 +295,7 @@
         "heading_fPXiEt",
         "text_tzjy8r"
       ],
+      "disabled": true,
       "custom_css": [
         ".media > img {object-fit: contain;}"
       ],
@@ -330,6 +334,7 @@
         "heading_RNBdNm",
         "text_8Qkpnk"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -418,6 +423,7 @@
         "featured_collection_et8WyP",
         "featured_collection_UU8hCg"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -545,7 +551,7 @@
         "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "center",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "START NOW",
         "button_link": "shopify:\/\/pages\/velodrom-affiliates",
         "color_scheme": "background-1",
