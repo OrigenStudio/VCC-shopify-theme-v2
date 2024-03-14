@@ -191,6 +191,9 @@
         "text_b9L7zW",
         "button_T33aLC"
       ],
+      "custom_css": [
+        ".media > img {object-fit: contain;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/edit.png",
         "height": "small",
