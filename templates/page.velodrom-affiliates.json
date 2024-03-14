@@ -274,6 +274,84 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_GBKUTx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wcwMgm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/edit.png",
+            "title": "",
+            "text": "<p>Llévate hasta un 10% de comisión\t\t\t\t\t\t\t\t\t\t<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/pages\/velodrom-affiliates"
+          }
+        },
+        "column_Mn4mXx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/list.png",
+            "title": "",
+            "text": "<p>El ticket medio por cliente es de 250€<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wmLyBi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sending.png",
+            "title": "",
+            "text": "<p>Un stock de más de 5.000 productos<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rnYeF6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sending.png",
+            "title": "",
+            "text": "<p>Las marcas más exclusivas, para ti<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JHPTrL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sending.png",
+            "title": "",
+            "text": "<p>Hacemos envíos a nivel mundial<br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wcwMgm",
+        "column_Mn4mXx",
+        "column_wmLyBi",
+        "column_rnYeF6",
+        "column_JHPTrL"
+      ],
+      "settings": {
+        "title": "¿QUÉ VENTAJAS OFRECEMOS?",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -282,6 +360,7 @@
     "image_banner_EPUrhJ",
     "multicolumn_7ewbRd",
     "rich_text_xfWCF8",
-    "collection_list_TnbCQR"
+    "collection_list_TnbCQR",
+    "multicolumn_GBKUTx"
   ]
 }
