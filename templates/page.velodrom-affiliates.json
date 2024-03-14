@@ -281,9 +281,8 @@
         "column_wcwMgm": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/edit.png",
-            "title": "",
-            "text": "<p>Llévate hasta un 10% de comisión\t\t\t\t\t\t\t\t\t\t<\/p>",
+            "title": "10%",
+            "text": "<p>de comisión\t\t\t\t\t\t\t\t\t\t<\/p>",
             "link_label": "",
             "link": "shopify:\/\/pages\/velodrom-affiliates"
           }
@@ -291,9 +290,8 @@
         "column_Mn4mXx": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/list.png",
-            "title": "",
-            "text": "<p>El ticket medio por cliente es de 250€<\/p>",
+            "title": "250€",
+            "text": "<p>de ticket medio por cliente<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -301,15 +299,15 @@
         "column_wmLyBi": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sending.png",
-            "title": "",
-            "text": "<p>Un stock de más de 5.000 productos<\/p>",
+            "title": "+5000",
+            "text": "<p>productos de stock<\/p>",
             "link_label": "",
             "link": ""
           }
         },
         "column_rnYeF6": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/sending.png",
             "title": "",
@@ -320,6 +318,7 @@
         },
         "column_JHPTrL": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/sending.png",
             "title": "",
@@ -341,9 +340,9 @@
         "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "square",
-        "columns_desktop": 5,
+        "columns_desktop": 3,
         "column_alignment": "center",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
