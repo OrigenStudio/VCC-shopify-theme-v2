@@ -91,7 +91,7 @@
         "image": "shopify:\/\/shop_images\/eb700633-5466-4c06-b413-3bd64c417426_58c6d6de-d6b7-405c-b199-63a74af2ac97_204-BCN_CDQ_22.jpg",
         "image_2": "shopify:\/\/shop_images\/plain-black-background.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-right",
         "show_text_box": false,
