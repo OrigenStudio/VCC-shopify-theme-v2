@@ -216,7 +216,7 @@
         "button_T33aLC"
       ],
       "custom_css": [
-        ".media > img {object-fit: contain;}"
+        ".media > img {object-fit: contain; width: 50%; height: 50%;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/edit.png",
