@@ -395,7 +395,8 @@
         "column_JHPTrL"
       ],
       "custom_css": [
-        "h3 {font-size: 60px;}"
+        "h3 {font-size: 60px;}",
+        "p{font-size: 18px;}"
       ],
       "settings": {
         "title": "¿QUÉ VENTAJAS OFRECEMOS?",
