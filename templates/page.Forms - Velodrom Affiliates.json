@@ -95,6 +95,7 @@
     },
     "contact_form_dVYij3": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
