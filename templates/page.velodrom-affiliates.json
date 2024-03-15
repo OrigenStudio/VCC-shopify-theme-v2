@@ -307,7 +307,7 @@
         "button_8qzYwN": {
           "type": "button",
           "settings": {
-            "button_label": "VIEW ALL CURATED BRANDS",
+            "button_label": "VIEW ALL BRANDS",
             "button_link": "shopify:\/\/collections\/curated-brands"
           }
         }
