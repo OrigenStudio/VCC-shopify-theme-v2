@@ -93,7 +93,7 @@
         "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-right",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "accent-1",
         "mobile_content_alignment": "left",
