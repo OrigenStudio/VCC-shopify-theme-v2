@@ -334,6 +334,7 @@
         "heading_RNBdNm",
         "text_8Qkpnk"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -422,6 +423,7 @@
         "featured_collection_et8WyP",
         "featured_collection_UU8hCg"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
