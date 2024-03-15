@@ -457,8 +457,8 @@
         "button_8qzYwN": {
           "type": "button",
           "settings": {
-            "button_label": "",
-            "button_link": ""
+            "button_label": "VIEW OUR CURATED BRANDS",
+            "button_link": "shopify:\/\/collections\/curated-brands"
           }
         }
       },
