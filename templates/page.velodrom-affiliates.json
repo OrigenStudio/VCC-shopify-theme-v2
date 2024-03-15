@@ -471,13 +471,13 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Apparel_Brands_2_d3d24183-c5b9-4782-bbf9-be0b18a32297.png",
+        "image": "shopify:\/\/shop_images\/Apparel_Brands_copy.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "overlap",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
