@@ -72,7 +72,7 @@
         "button_fKd8yz": {
           "type": "button",
           "settings": {
-            "button_label": "GO BACK",
+            "button_label": "BACK",
             "button_link": "shopify:\/\/pages\/velodrom-affiliates-1",
             "button_style_secondary": true,
             "button_label_2": "",
