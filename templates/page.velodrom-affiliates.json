@@ -111,9 +111,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/edit.png",
-            "title": "1. RELLENA EL FORMULARIO",
-            "text": "<p>El primer paso es rellenar nuestro formulario. Explícanos qué es lo que nos puedes aportar y qué es lo que te motiva. ¡Cuanto más te conozcamos, mejor!<\/p>",
-            "link_label": "IR AL FORMULARIO",
+            "title": "1. FILL OUT THE FORM",
+            "text": "<p>The first step is to fill out our form.<\/p><p>Explain what you can bring to us and what motivates you. <\/p><p>The more we know about you, the better!<br\/><\/p>",
+            "link_label": "GO TO FORM",
             "link": "shopify:\/\/pages\/velodrom-affiliates"
           }
         },
