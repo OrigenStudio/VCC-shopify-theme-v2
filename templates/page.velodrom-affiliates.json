@@ -132,7 +132,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/sending.png",
             "title": "3. JOIN OUR AFFILIATE PROGRAM",
-            "text": "<p>Great! Once you are in, we’ll contact you to enter our affiliate program and give you all the information about the program and conditions. Welcome to the group!<br\/><\/p>",
+            "text": "<p>Great! Once you are in, we’ll contact you to enter our affiliate program and give you all the information and conditions. <\/p><p>Welcome to the group!<br\/><\/p>",
             "link_label": "",
             "link": ""
           }
