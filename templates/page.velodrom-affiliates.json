@@ -341,7 +341,7 @@
           "type": "column",
           "settings": {
             "title": "10%",
-            "text": "<p>de comisión\t\t\t\t\t\t\t\t\t\t<\/p>",
+            "text": "<p><strong>COMISSION<\/strong><\/p>",
             "link_label": "",
             "link": "shopify:\/\/pages\/velodrom-affiliates"
           }
@@ -350,7 +350,7 @@
           "type": "column",
           "settings": {
             "title": "250€",
-            "text": "<p>de ticket medio por cliente<\/p>",
+            "text": "<p>FOR AVERAGE TICKET PER CUSTOMER<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -359,7 +359,7 @@
           "type": "column",
           "settings": {
             "title": "+5000",
-            "text": "<p>productos en stock<\/p>",
+            "text": "<p>PRODUCTS IN STOCK<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -399,7 +399,7 @@
         "p {font-size: 18px;}"
       ],
       "settings": {
-        "title": "¿QUÉ VENTAJAS OFRECEMOS?",
+        "title": "WHAT ADVANTAGES DO WE OFFER?",
         "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "square",
