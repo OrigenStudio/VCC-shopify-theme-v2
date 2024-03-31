@@ -578,7 +578,11 @@
         "gift_card_subscriptions_notice": "Les targetes de regal només s'aplicaran al primer pagament",
         "free_shipping_discount_label": "Envío Grauito",
         "order_total_label": "Total de la comanda",
-        "total_savings": "Estalvis totals"
+        "total_savings": "Estalvis totals",
+        "total_outstanding_label": "Quantitat a pagar",
+        "cost_table_title": "Resum del cost",
+        "description_label": "Descripció",
+        "quantity_label": "Quantitat"
       },
       "shipping": {
         "title": "Lliurament",
