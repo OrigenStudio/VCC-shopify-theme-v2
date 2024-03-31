@@ -583,7 +583,117 @@
         "card_issue_number_placeholder": "Número d'incidència",
         "card_change_label": "Canviar",
         "card_update_label": "Actualitzar la targeta",
-        "ends_with_label": "acabant amb %{last_digits}"
+        "ends_with_label": "acabant amb %{last_digits}",
+        "payment_method_saved": "Forma de pagament desada",
+        "card_vaulted_company_location": "Targeta desada per a aquesta ubicació",
+        "expiry_long": "(Caduca %{month}\/%{year})",
+        "saved_by_payment_method": "Desat per %{payment_method}",
+        "pay_with_payment_method": "Paga amb %{payment_method}",
+        "different_credit_card_label": "Utilitzeu una targeta de crèdit diferent",
+        "same_billing_address_label": "Igual que l'adreça d'enviament",
+        "different_billing_address_label": "Utilitzeu una adreça de facturació diferent",
+        "billing_address_associated_with_mandate": "Utilitzeu l'adreça associada a la forma de pagament",
+        "billing_address_associated_with_mandate_info": "Si voleu canviar la vostra adreça de facturació, traieu i torneu a introduir les dades de la vostra targeta de crèdit",
+        "free_order_notice_html": "La teva comanda és <strong>gratuïta<\/strong> . No es requereix cap pagament.",
+        "express_checkout_free_order": "No se us cobrarà per una comanda gratuïta",
+        "order_covered_by_gift_cards_notice": {
+          "one": "La teva comanda està coberta per la teva targeta regal.",
+          "other": "La teva comanda està coberta per les teves targetes de regal."
+        },
+        "offsite_gateway_redirect_hint": "Després de fer clic a \"%{button_label}\", se us redirigirà a %{gateway_label} per completar la vostra compra de manera segura.",
+        "receiver_payment_experience_hint": "Després de fer la comanda, rebreu les dades de pagament. Feu el pagament a Multibanco o en línia en %{due_days} dies.",
+        "billing_address_title": "Adreça de facturació",
+        "billing_address_description": "Seleccioneu l'adreça que coincideixi amb la vostra targeta o mètode de pagament.",
+        "billing_address_description_no_shipping_address": "Introduïu l'adreça que coincideixi amb la vostra targeta o mètode de pagament.",
+        "no_js_credit_card_fields_redirect_hint": "Se us redirigirà per afegir la vostra informació de pagament.",
+        "card_fields_container_prefix": "Contenidor de camp per a:",
+        "card_fields_unavailable_html": {
+          "one": "Els pagaments amb targeta de crèdit i dèbit no estan disponibles en aquest moment.<br> <a href=\"%{current_url}\">Actualitza aquesta pàgina<\/a> o torna-ho a provar més tard.",
+          "other": "Els pagaments amb targeta de crèdit i dèbit no estan disponibles en aquest moment.<br> <a href=\"%{current_url}\">Actualitza aquesta pàgina<\/a> o prova una altra forma de pagament."
+        },
+        "card_fields_processing_error": "S'ha produït un problema en processar el pagament. Proveu d'actualitzar aquesta pàgina o comproveu la vostra connexió a Internet.",
+        "technical_error": "Els pagaments no es poden processar ara mateix a causa d'un problema tècnic. Torna-ho a provar d'aquí a uns minuts.",
+        "no_method_error": "Aquesta botiga no pot acceptar pagaments en aquest moment.",
+        "not_configured_error": "Aquesta botiga no pot acceptar pagaments en aquest moment.",
+        "missing_credit_card_error": "Introduïu les dades de la vostra targeta per completar el pagament",
+        "billing_address_not_supported_for_payment_method_error": "Aquesta forma de pagament no està disponible per a la vostra adreça de facturació i moneda. Proveu una altra forma de pagament.",
+        "generic_incorrect_card_info": "No s'han pogut verificar les vostres dades de pagament. Comprova els detalls de la teva targeta i torna-ho a provar.",
+        "sofort_label": "Transferència bancària Sofort",
+        "shop_pay_installments_label": "Pagament a terminis de la botiga",
+        "paypal_modal": {
+          "order_contains_subscriptions": "Subscripció",
+          "order_contains_fixed_selling_plans": "El total pot no incloure impostos, enviament, càrrecs ajornats i alguns descomptes. Continueu pagant l'import a pagar avui."
+        },
+        "klarna_pay_later_label": "Paga més tard amb Klarna",
+        "klarna_pay_now_label": "Paga ara amb Klarna",
+        "klarna_slice_it_label": "Finances amb Klarna",
+        "ideal_label": "IDEAL",
+        "bank_picker_label": "Banc",
+        "afterpay_label": "Pagament posterior",
+        "cashapppay_label": "Aplicació de pagament en efectiu",
+        "purchase_options_card_update_agreement_label_html": "En actualitzar el vostre mètode de pagament, autoritzeu els pagaments per a qualsevol compra recurrent o ajornada d'acord amb <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">la política de cancel·lació<\/a> d'aquesta botiga .",
+        "subscription_card_update_agreement_label": "Si canvieu la forma de pagament, s'actualitzarà la vostra subscripció i els futurs pagaments recurrents.",
+        "subscription_agreement_label": "Un o més articles del vostre carretó és una compra ajornada o per subscripció. Si continueu amb el vostre pagament, accepteu que el vostre mètode de pagament es carregarà automàticament al preu i la freqüència indicats en aquesta pàgina fins que finalitzi o cancel·leu. Totes les cancel·lacions estan subjectes al %{cancelled}.",
+        "subscription_agreement_cancelled": "política de cancel · lació",
+        "subscription_heading": "Acord de subscripció",
+        "subscription_agreement_label_html": "Entenc que estic d'acord amb una subscripció. Es renovarà al preu i freqüència indicats fins que finalitzi o sigui \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">cancel·lat<\/a> .\n",
+        "purchase_options_agreement_label": "Un o més articles del vostre carretó és una compra ajornada o recurrent. Si continueu amb el vostre pagament, accepteu que el vostre mètode de pagament es carregarà automàticament al preu i la freqüència indicats en aquesta pàgina fins que finalitzi o cancel·leu. Totes les cancel·lacions estan subjectes a %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "Entenc que un o més articles del meu carretó són una compra ajornada o recurrent. En continuar, accepto el\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">política de cancel · lació<\/a>\n i l'autoritzo a cobrar la meva forma de pagament als preus, freqüència i dates que figuren en aquesta pàgina fins al meu\n la comanda s'ha complert o cancel·lo, si està permès.\n",
+        "purchase_options_agreement_label_wallets": "En continuar amb el pagament, accepteu els càrrecs futurs que s'indiquen en aquesta pàgina i la política de cancel·lació.",
+        "change_currency_section_description": "Seleccioneu una opció de moneda",
+        "no_real_orders_dev_store": "Aquesta botiga no pot acceptar comandes reals ni pagaments reals.",
+        "waiting_on_payment_methods": "S'estan obtenint les formes de pagament disponibles...",
+        "apple_pay_payment_error": "El vostre pagament no s'ha pogut completar. Torna-ho a provar o utilitza una altra forma de pagament.",
+        "taxes_not_included": "Impostos no inclosos",
+        "no_taxes_banner_content": "No es cobraran impostos en aquesta comanda. Un cop hàgiu cobrat el pagament, ja no es podran afegir impostos.",
+        "paypal": {
+          "connect": "Feu clic per connectar el vostre compte de PayPal"
+        },
+        "apple": {
+          "connect": "Feu clic per connectar el vostre compte d'Apple Pay",
+          "not_available": "Apple Pay no està disponible en aquest navegador. Per connectar el vostre compte d'Apple Pay, haureu d'utilitzar Safari en un dispositiu Apple."
+        },
+        "google": {
+          "connect": "Feu clic per connectar-vos amb el vostre compte de Google Pay",
+          "error_authorizing": "S'ha produït un error en autoritzar el pagament"
+        },
+        "account_connected": "Compte connectat.",
+        "mor_disclaimer_html": "En fer clic a continuació i completar la comanda, accepteu comprar els vostres articles a Global-e com a comerciant de registre\n per a aquesta transacció, segons <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">els Termes i Condicions<\/a> de Global-e\n i <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Política de privadesa<\/a> . Global-e és internacional\n proveïdor de serveis de compliment a %{shop_name}\n",
+        "pending_payment": {
+          "due_notice": "El vostre pagament de %{amount_due} s'ha de pagar el %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Fes el teu pagament a Multibanco o en línia utilitzant les dades següents. Per a preguntes o per actualitzar els detalls de pagament, %{contact_us}.",
+            "entity": "Entitat",
+            "reference": "Referència",
+            "amount": "Import",
+            "find_nearest_atm": "Trobeu el caixer automàtic més proper"
+          }
+        },
+        "update_payment_method": "Actualitza la forma de pagament",
+        "order_covered_by_store_credit_notice": "La teva comanda està coberta pel crèdit de la teva botiga.",
+        "order_covered_by_redeemables_notice": "La teva comanda està coberta.",
+        "store_credit": {
+          "label": "Crèdit de la botiga",
+          "apply_label": "Aplicar crèdit a la botiga",
+          "add_label": "Afegeix crèdit a la botiga",
+          "manage_label": "Gestionar el crèdit de la botiga",
+          "buying_gift_card": "No podeu utilitzar el crèdit de la botiga per comprar una targeta regal",
+          "no_fixed_selling_plans": "No podeu utilitzar el crèdit de la botiga amb opcions de compra diferits"
+        },
+        "clear": "Clar",
+        "billing_must_match_shipping_notice": "L'adreça de facturació del vostre mètode de pagament ha de coincidir amb l'adreça d'enviament.",
+        "same_billing_address_checkbox_label": "Utilitzeu l'adreça d'enviament com a adreça de facturació",
+        "location_billing_address_label": "Adreça de facturació de la ubicació",
+        "fact_billing_address_label": "Adreça de facturació",
+        "location_shipping_address_label": "Adreça d'enviament de la ubicació",
+        "use_order_billing_address_label": "Utilitzeu l'adreça de facturació de la comanda",
+        "use_location_billing_address_label": "Utilitzeu l'adreça de facturació de la ubicació",
+        "use_location_shipping_address_label": "Utilitzeu l'adreça d'enviament de la ubicació",
+        "no_working_method_error": "Aquesta botiga no pot acceptar pagaments en aquest moment. Actualitza aquesta pàgina o torna més tard.",
+        "brand_not_available": "Aquesta botiga no accepta {{brand}} . Si us plau, utilitzeu una altra targeta per pagar.",
+        "shipping_rate_updated": "S'han actualitzat els mètodes d'enviament disponibles. Confirmeu la vostra elecció abans de sortir.",
+        "billing_address_invalid_phone": "Actualitzeu el número de telèfon de la vostra adreça de facturació perquè {{label}} {{last_digits}} continuï.",
+        "billing_address_invalid_phone_no_card": "Actualitzeu el número de telèfon a la vostra adreça de facturació per continuar."
       },
       "billing": {
         "billing_address_title": "Factura a",
@@ -1295,6 +1405,109 @@
         "selection_cancel_button": "Cancel · lar",
         "selection_confirmation_button": "Trieu la ubicació",
         "title": "Per a quina ubicació esteu comprant?"
+      }
+    },
+    "payment_methods": {
+      "payment_delete": {
+        "payment_method_selector_placeholder": "Seleccioneu una forma de pagament de substitució (opcional)",
+        "payment_method_selector_no_alternative_payment": "Cap mètode de substitució",
+        "replace_method_with_new_method_description": "El vostre {{currentPaymentMethodName}} se suprimirà i se substituirà pel vostre {{newPaymentMethodName}} .",
+        "error_when_deleting": "Demanem disculpes, però hi ha hagut un error i no hem pogut suprimir aquesta forma de pagament. Torneu-ho a provar més tard o actualitzeu la pàgina.",
+        "delete_and_replace_button": "Suprimeix i substitueix",
+        "delete_and_replace_button_accessibility_label": "Suprimiu {{currentPaymentMethodName}} i substituïu-lo per {{newPaymentMethodName}} .",
+        "deleted_successfully": "La forma de pagament s'ha suprimit correctament.",
+        "loading_available_payment_methods_accessibility_label": "S'estan carregant les formes de pagament disponibles"
+      },
+      "add_payment_method": {
+        "title": "Afegeix una forma de pagament",
+        "payment_method_added_confirmation": "S'ha afegit la forma de pagament",
+        "billing_address": {
+          "title": "Adreça de facturació",
+          "add_billing_address_button": "Afegir nou",
+          "add_billing_address_button_accessibility_label": "Afegeix una adreça de facturació nova",
+          "choose_billing_address_from_list_button": "Trieu de la llista",
+          "choose_billing_address_from_list_button_accessibility_label": "Trieu una adreça de facturació de la llista",
+          "missing_billing_address_error_message": "Especifiqueu una adreça de facturació",
+          "default_checkbox": "Estableix com a mètode de pagament predeterminat"
+        }
+      }
+    },
+    "payment_method_brands": {
+      "discover": "Descobreix",
+      "maestro": "Mestre",
+      "laser": "Làser"
+    },
+    "shop_policies": {
+      "legal_notice": "Avís legal",
+      "privacy_policy": "Política de privacitat",
+      "refund_policy": "Política de reemborsament",
+      "shipping_policy": "Política d'enviament",
+      "subscription_policy": "Política de subscripció",
+      "terms_of_sale": "Condicions de venda",
+      "terms_of_service": "Termes del servei"
+    },
+    "ui_components": {
+      "closeNotification": "Tanca",
+      "expandNotification": "Veure més",
+      "closeModal": "Tanca",
+      "submit": "Presentar",
+      "processing": "S'està processant...",
+      "increase": "Augmenta {{type}}",
+      "decrease": "Disminueix {{type}}",
+      "minimumReached": "S'ha assolit el mínim de {{value}}",
+      "maximumReached": "S'ha assolit el màxim de {{value}}",
+      "january": "gener",
+      "february": "febrer",
+      "march": "març",
+      "april": "Abril",
+      "may": "maig",
+      "june": "juny",
+      "july": "juliol",
+      "august": "Agost",
+      "september": "setembre",
+      "october": "Octubre",
+      "november": "de novembre",
+      "december": "desembre",
+      "monday": "dilluns",
+      "tuesday": "dimarts",
+      "wednesday": "dimecres",
+      "thursday": "dijous",
+      "friday": "divendres",
+      "saturday": "dissabte",
+      "sunday": "diumenge",
+      "wednesdayAbbreviation": "Nosaltres",
+      "showNextMonth": "Mostra el mes que ve, {{month}} {{year}}",
+      "showPreviousMonth": "Mostra el mes anterior, {{month}} {{year}}",
+      "rangeStart": "Inici del rang",
+      "inRange": "En rang",
+      "rangeEnd": "Final del rang",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} article disponible",
+        "other": "{{count}} articles disponibles"
+      },
+      "removeItem": "Suprimeix {{label}}",
+      "removeTag": "Elimina l'etiqueta",
+      "month": {
+        "one": "mes",
+        "other": "mesos"
+      }
+    },
+    "profile_preview_bar": {
+      "customize_button": "Personalitza",
+      "hide_bar": "Oculta la barra",
+      "navigate_to_admin": "Navegueu a admin",
+      "close_preview": "Tanca la vista prèvia",
+      "previewing": "Esteu previsualitzant:",
+      "saved_at": "Desat {{date}} a les {{time}}",
+      "viewing": "Estàs veient:",
+      "not_available": "Les dades del perfil no estan disponibles",
+      "actions_button": "Accions"
+    },
+    "settings": {
+      "title": "Configuració",
+      "loading_accessibility_message": "S'està carregant la pàgina de configuració",
+      "log_out_everywhere": {
+        "title": "Tanqueu la sessió a tot arreu"
       }
     }
   },
