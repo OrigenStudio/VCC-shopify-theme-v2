@@ -348,8 +348,66 @@
           "prepaid_initial_order_discounted_with_per_delivery_price": "Primer cost d'enviament %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
           "prepaid_initial_order_discounted_with_renewal": "Primer cost d'enviament %{discounted_shipping_price} %{prepaid_delivery_frequency}, després %{shipping_price} %{billing_cycle}",
           "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Primer cost d'enviament %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), després %{shipping_price} %{billing_cycle}",
-          "shipping_price_included": "Inclòs"
-        }
+          "shipping_price_included": "Inclòs",
+          "recurring_order_shipping_price": "seguit de %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Primera comanda inclosa, seguida de %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} per lliurament), seguit de %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Primera comanda gratuïta",
+            "other": "Els primers %{count} comandes gratuïtes"
+          },
+          "free_for_first_n_order": {
+            "one": "Per primera comanda",
+            "other": "Per als primers %{count} comandes"
+          }
+        },
+        "one_time_purchase_shipping": "Enviament únic",
+        "address2_add_label": "Afegeix un apartament, una suite, etc.",
+        "duties_and_taxes_title": "Taxes i impostos",
+        "shipping_information_required_notice": "La informació d'enviament és necessària. {{link}} .",
+        "shipping_information_redirect_link": "Introdueix la teva informació aquí",
+        "loading_progressive_rates": "S'estan cercant més tarifes...",
+        "no_other_methods_available": "No hi ha altres mètodes disponibles",
+        "duties_and_taxes_options": {
+          "ddu_title": "Pagar al lliurament",
+          "ddu_caption": "Es poden aplicar tarifes addicionals",
+          "ddp_title": "Paga ara",
+          "ddp_caption": "Sense despeses addicionals per lliurament"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} i %{current}"
+        },
+        "shipping_used_as_billing_notice": "També s'utilitzarà com a adreça de facturació d'aquesta comanda.",
+        "address_update": "Actualitzar l'adreça",
+        "enter_address_manually_label": "Introduïu l'adreça manualment",
+        "shipping_address_title": "Enviament a",
+        "add_address": "Utilitzeu una adreça diferent",
+        "add_delivery_instructions": "Afegeix instruccions de lliurament",
+        "edit": "Edita",
+        "delete": "Suprimeix",
+        "address_more": "Més accions per a aquesta adreça",
+        "address_edit": "Edita l'adreça",
+        "address_delete": "Esborra l'adreça",
+        "address_confirm": "Esteu segur que voleu suprimir aquesta adreça del vostre compte?",
+        "address_default": "Establir com a defecte",
+        "address_form": {
+          "add_address": "Afegeix una adreça",
+          "save": "Desa",
+          "cancel": "Cancel · lar",
+          "generic_error": "S'ha produït un problema en desar la teva adreça. Siusplau torna-ho a provar.",
+          "one_time_address_subtitle": "Utilitzeu una adreça única per a aquesta comanda"
+        },
+        "different_shipping_method_summary": "Introduïu una adreça d'enviament diferent per veure els mètodes d'enviament disponibles",
+        "invalid_shipping_method_summary": "Introduïu una adreça d'enviament vàlida per veure els mètodes d'enviament disponibles",
+        "method_summary": {
+          "incomplete_address_entered": "Introduïu una adreça d'enviament completa per veure els mètodes d'enviament disponibles",
+          "incomplete_address_selected": "Seleccioneu una adreça d'enviament completa per veure els mètodes d'enviament disponibles"
+        },
+        "local_pickup": {
+          "search_address": "Cerca l'adreça",
+          "rollup_title": "Lloc de recollida"
+        },
+        "missing_shipping_address": "Falta l'adreça d'enviament"
       },
       "payment": {
         "preview_not_available": {
@@ -474,7 +532,58 @@
         "payment_method": "Mètode de pagament",
         "expired_payment_method": "El mètode de pagament seleccionat ha caducat",
         "proposed_gateway_unavailable": "La passarel·la de pagament proposada no està disponible",
-        "pay_in_installments_split_pay_short": "4 pagaments de %{amount}"
+        "pay_in_installments_split_pay_short": "4 pagaments de %{amount}",
+        "amazon_payments_login_hint": "Se us demanarà que inicieu sessió amb Amazon.",
+        "amazon_payments_logout": "Tanqueu la sessió d'Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "No s'ha pogut utilitzar la forma de pagament seleccionada. Seleccioneu un mètode diferent o poseu-vos en contacte amb el vostre banc o emissor de la targeta.",
+        "amazon_payments_abandoned_mfa_challenge": "El vostre pagament no s'ha pogut completar. Proveu un mètode de pagament diferent o poseu-vos en contacte amb el vostre banc o l'emissor de la targeta.",
+        "amazon_payments_could_not_enqueue_authorize": "S'ha produït un problema en processar el vostre pagament. Torna-ho a provar o utilitza una altra forma de pagament.",
+        "title": "Pagament",
+        "amount_left_to_pay_label": "Pagament pendent:",
+        "discount_button_action_label": "Aplica el codi de descompte",
+        "gift_card_code_label": "Codi de la targeta regal",
+        "apply_gift_card_button_label": "Aplicar",
+        "gift_card_balance_label": "Balanç:",
+        "supported_card_brands_more_label": "i més…",
+        "detected_card_brand": "Marca de la targeta detectada: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "Guarda la teva targeta de crèdit",
+        "credit_card_vaulting_sign_in_banner_info": "Inicieu sessió o creeu un compte per desar la vostra targeta de crèdit per a futures compres.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Iniciar Sessió",
+        "ftd_vault_credit_card_label": "Desa aquesta targeta de crèdit al meu compte per a un pagament més ràpid",
+        "card_number_label": "Número de targeta",
+        "card_number_placeholder": "Número de targeta",
+        "card_pay_with": "Paga amb:",
+        "card_security_notice": "Totes les transaccions són segures i xifrades.",
+        "card_security_vault_notice": "Necessitem les vostres dades per a futurs pagaments. Totes les transaccions són segures i xifrades.",
+        "card_information_notice": "Totes les transaccions són segures i xifrades. La informació de la targeta de crèdit mai s'emmagatzema.",
+        "name_on_card_label": "Nom a la targeta",
+        "name_on_card_placeholder": "Nom a la targeta",
+        "card_nickname_label": "Pseudònim (opcional)",
+        "card_expired": "Caducat",
+        "card_expiry_label": "Data de caducitat (MM\/AA)",
+        "card_expiry_placeholder": "Data de caducitat (MM\/AA)",
+        "credit_card_start_month": "Mes d'inici",
+        "credit_card_start_year": "Comença l'any",
+        "delete_customer_mandate_modal_title": "Vols suprimir aquesta targeta de pagament?",
+        "delete_customer_mandate_modal_body": "Si suprimeixes aquesta targeta, hauràs de tornar-la a afegir abans d'utilitzar-la per als pagaments.",
+        "delete_customer_mandate_modal_confirm": "Elimina la targeta",
+        "delete_customer_mandate_modal_cancel": "Cancel · lar",
+        "card_verification_value_label": "Codi de seguretat",
+        "card_verification_value_placeholder": "Codi de seguretat",
+        "card_verification_confirm": "Per a la verificació, introduïu el codi de seguretat de la targeta.",
+        "card_expiry_date_explanation": "Data de caducitat de la targeta en format: mes, mes, any, any",
+        "card_expiration_month_label": "Mes de caducitat",
+        "card_expiration_year_label": "Any de caducitat",
+        "card_verification_value_explanation": "El codi de seguretat de 3 dígits es troba habitualment a la part posterior de la targeta. Les targetes American Express tenen un codi de 4 dígits situat al davant.",
+        "card_verification_value_explanation_amex": "Codi de seguretat de 4 dígits al davant de la targeta",
+        "card_verification_value_explanation_other": "Codi de seguretat de 3 dígits a la part posterior de la targeta",
+        "card_start_label": "Data d'emissió (MM\/AA)",
+        "card_start_placeholder": "Data d'emissió (MM\/AA)",
+        "card_issue_number_label": "Número d'incidència",
+        "card_issue_number_placeholder": "Número d'incidència",
+        "card_change_label": "Canviar",
+        "card_update_label": "Actualitzar la targeta",
+        "ends_with_label": "acabant amb %{last_digits}"
       },
       "billing": {
         "billing_address_title": "Factura a",
@@ -646,6 +755,11 @@
           "disclaimer": {
             "privacy_policy": "Política de privacitat"
           }
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Informació adicional"
         }
       }
     },
