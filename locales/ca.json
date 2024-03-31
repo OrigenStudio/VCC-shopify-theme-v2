@@ -123,12 +123,12 @@
         "remove_tag": "Elimina l'etiqueta",
         "dates": {
           "weekdays": {
-            "monday": "dilluns",
-            "tuesday": "dimarts",
-            "wednesday": "dimecres",
-            "thursday": "dijous",
-            "friday": "divendres",
-            "saturday": "dissabte",
+            "monday": "Dilluns",
+            "tuesday": "Dimarts",
+            "wednesday": "Dimecres",
+            "thursday": "Dijous",
+            "friday": "Divendres",
+            "saturday": "Dissabte",
             "sunday": "diumenge"
           },
           "weekdays_abbreviation": {
