@@ -129,7 +129,7 @@
             "thursday": "Dijous",
             "friday": "Divendres",
             "saturday": "Dissabte",
-            "sunday": "diumenge"
+            "sunday": "Diumenge"
           },
           "weekdays_abbreviation": {
             "wednesday": "Nosaltres"
@@ -166,7 +166,7 @@
       },
       "contact": {
         "title": "Informació",
-        "address_title": "adreça",
+        "address_title": "Adreça",
         "shipping_used_as_billing_notice": "També s'utilitzarà com a adreça de facturació per a aquesta comanda.",
         "delivery_option_title": "Mètode d'entrega",
         "contact_method_title": "Contacte",
