@@ -161,7 +161,8 @@
             "one": "Conjunt de marcadors {{number}}",
             "other": "Conjunt de {{number}} marcadors"
           }
-        }
+        },
+        "pay_now_button_label": "Paga ara"
       },
       "contact": {
         "title": "Informació",
@@ -610,7 +611,8 @@
         "same_billing_address_checkbox_label": "Utilitza l'adreça d'enviament com a adreça de facturació",
         "billing_address_title": "Adreça de facturació",
         "billing_address_associated_with_mandate_info": "Si desitja canviar la seva adreça de facturació, si us plau, eliminis i torni a introduir els detalls de la seva targeta de crèdit.",
-        "different_credit_card_label": "Utilitza una altra targeta de crèdit"
+        "different_credit_card_label": "Utilitza una altra targeta de crèdit",
+        "klarna_pay_now_label": "Paga ara amb Klarna"
       },
       "billing": {
         "billing_address_title": "Factura a",
@@ -1410,6 +1412,9 @@
       },
       "payment_gateway": {
         "credit_card_label": "Targeta de crèdit"
+      },
+      "order_payment_collection": {
+        "pay_now": "Paga ara"
       }
     },
     "errors": {
