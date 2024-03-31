@@ -1788,7 +1788,10 @@
       "title": "Configuració",
       "loading_accessibility_message": "S'està carregant la pàgina de configuració",
       "log_out_everywhere": {
-        "title": "Tanqueu la sessió a tot arreu"
+        "title": "Tanqueu la sessió a tot arreu",
+        "description": "Si heu perdut un dispositiu o teniu problemes de seguretat, tanqueu la sessió a tot arreu per garantir la seguretat del vostre compte.",
+        "button": "Tanqueu la sessió a tot arreu",
+        "warning_message": "També es tancarà la sessió en aquest dispositiu."
       }
     },
     "account_information": {
@@ -1820,7 +1823,11 @@
     "total_reviews": "crítiques totals",
     "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrelles",
     "collapsible_content_title": "Contingut plegable",
-    "complementary_products": "Productes complementaris"
+    "complementary_products": "Productes complementaris",
+    "skip_to_text": "Saltar al contingut",
+    "skip_to_product_info": "Passeu a la informació del producte",
+    "close": "Tanca",
+    "vendor": "Proveïdor:"
   },
   "blogs": {
     "article": {
@@ -1890,5 +1897,138 @@
     "issued": {
       "print_gift_card": "Imprimir"
     }
+  },
+  "sections": {
+    "header": {
+      "announcement": "Anunci",
+      "menu": "Menú",
+      "cart_count": {
+        "one": "{{ count }} element",
+        "other": "{{ count }} elements"
+      }
+    },
+    "cart": {
+      "title": "El teu carretó",
+      "caption": "Articles del carretó",
+      "remove_title": "Elimina {{ title }}",
+      "new_subtotal": "Nou subtotal",
+      "note": "Demaneu instruccions especials",
+      "checkout": "Fes una ullada",
+      "empty": "El teu carro està buit",
+      "cart_error": "S'ha produït un error en actualitzar el carretó. Siusplau torna-ho a provar.",
+      "cart_quantity_error_html": "Només podeu afegir {{ quantity }} d'aquest article al vostre carretó.",
+      "taxes_and_shipping_policy_at_checkout_html": "Impostos i <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">enviament<\/a> calculats a la compra",
+      "taxes_included_but_shipping_at_checkout": "Impostos inclosos i enviament calculat a la compra",
+      "taxes_included_and_shipping_policy_html": "Impostos inclosos. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">L'enviament<\/a> es calcula a la compra.",
+      "taxes_and_shipping_at_checkout": "Impostos i enviament calculats a la compra",
+      "headings": {
+        "product": "Producte",
+        "products": "Productes",
+        "price": "Preu",
+        "quantity": "Quantitat",
+        "image": "Imatge del producte"
+      },
+      "update": "Actualització",
+      "login": {
+        "title": "Tens un compte?",
+        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link underlined-link\">Inicieu sessió<\/a> per comprovar-ho més ràpidament."
+      }
+    },
+    "footer": {
+      "payment": "Mètodes de Pagament"
+    },
+    "featured_blog": {
+      "view_all": "Veure tot",
+      "onboarding_title": "Entrada al blog",
+      "onboarding_content": "Doneu als vostres clients un resum de la publicació del vostre bloc"
+    },
+    "featured_collection": {
+      "view_all": "Veure tot",
+      "view_all_label": "Consulta tots els productes de la col·lecció {{ collection_name }}"
+    },
+    "collection_list": {
+      "view_all": "Veure tot"
+    },
+    "collection_template": {
+      "empty": "No s'han trobat productes",
+      "title": "Col · lecció",
+      "use_fewer_filters_html": "Utilitza menys filtres o <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">elimina-ho tots<\/a>"
+    },
+    "video": {
+      "load_video": "Carrega el vídeo: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Carregueu la diapositiva",
+      "previous_slideshow": "Diapositiva anterior",
+      "next_slideshow": "Diapositiva següent",
+      "pause_slideshow": "Posa en pausa la presentació de diapositives",
+      "play_slideshow": "Reprodueix la presentació de diapositives",
+      "carousel": "Carrusel",
+      "slide": "Diapositiva"
+    },
+    "page": {
+      "title": "Títol de la pàgina"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "Entra a la botiga amb la contrasenya:",
+      "login_password_button": "Entra amb contrasenya",
+      "login_form_password_label": "Contrasenya",
+      "login_form_password_placeholder": "La teva contrasenya",
+      "login_form_error": "Contrasenya incorrecta!",
+      "login_form_submit": "Entra",
+      "admin_link_html": "Ets el propietari de la botiga? <a href=\"\/admin\" class=\"link underlined-link\">Inicieu sessió aquí<\/a>",
+      "powered_by_shopify_html": "Aquesta botiga serà impulsada per {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Comparteix a Facebook",
+        "share_on_twitter": "Tuitea a Twitter",
+        "share_on_pinterest": "Pin a Pinterest"
+      },
+      "links": {
+        "tiktok": "Tik Tok"
+      }
+    },
+    "continue_shopping": "Continuar amb la compra",
+    "pagination": {
+      "label": "Paginació",
+      "page": "{{ number }}",
+      "next": "Pàgina següent",
+      "previous": "Pàgina anterior"
+    },
+    "search": {
+      "search": "Cerca"
+    },
+    "cart": {
+      "view": "Veure el meu carretó ( {{ count }} )",
+      "item_added": "Article afegit al vostre carretó"
+    },
+    "share": {
+      "close": "Tanca compartir",
+      "copy_to_clipboard": "Copia l'enllaç",
+      "share_url": "Enllaç",
+      "success_message": "S'ha copiat l'enllaç al porta-retalls"
+    },
+    "slider": {
+      "of": "de",
+      "next_slide": "Feu lliscar cap a la dreta",
+      "previous_slide": "Feu lliscar cap a l'esquerra",
+      "name": "Control lliscant"
+    },
+    "common_header": {
+      "ecommerce": "Botiga",
+      "locations": "Ubicacions",
+      "stories": "Històries",
+      "tours": "Viatjar",
+      "bike_builder": "Constructor de bicicletes",
+      "contact": "Contacte"
+    }
+  },
+  "newsletter": {
+    "label": "Introdueix la teva adreça de correu electrònic",
+    "success": "Gràcies per subscriure't",
+    "button_label": "Subscriu-te"
   }
 }
