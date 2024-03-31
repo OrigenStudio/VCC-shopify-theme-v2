@@ -162,7 +162,64 @@
             "other": "Conjunt de {{number}} marcadors"
           }
         },
-        "pay_now_button_label": "Paga ara"
+        "pay_now_button_label": "Paga ara",
+        "errors": {
+          "session_identifier_not_unique_error": "S'ha produït un error amb la vostra comanda, si us plau, torneu a provar-ho.",
+          "merchandise": {
+            "bundle_products_not_supported_for_b2b": "Els articles agrupats no es poden afegir a les comandes B2B d'aquesta ubicació.",
+            "gift_card_with_attributes_not_supported": "Les targetes de regal amb atributs personalitzats no s'admeten en aquesta compra.",
+            "gift_card_with_components_not_supported": "Les targetes de regal amb components no s'admeten en aquesta compra.",
+            "price_mismatch": "El preu proposat anteriorment per a aquesta mercaderia no era vàlid i s'ha actualitzat.",
+            "duplicated_stable_id": "Aquesta línia de mercaderies té el mateix identificador estable que una altra línia.",
+            "minimum_quantity_not_met": "La quantitat d'alguns articles no compleix el mínim exigit."
+          },
+          "buyer_identity": {
+            "contact_info_does_not_match_customer_account": "La informació del client especificada ha de coincidir amb el compte de client iniciat.",
+            "phone_number_does_not_match_expected_pattern": "El número de telèfon especificat no coincideix amb el patró esperat.",
+            "email_required": "Cal un correu electrònic quan es compra la mercaderia mitjançant una subscripció.",
+            "customer_profile_access_restricted": "Checkout no té permís per accedir al perfil del client."
+          },
+          "delivery": {
+            "wrong_number_of_delivery_lines": "Cal especificar una línia de lliurament per a cada grup de mercaderies.",
+            "options_instructions_invalid": "Les instruccions especificades no coincideixen amb el patró esperat.",
+            "local_pickup_delivery_line_detail_changed": "Per continuar, s'ha de canviar l'estratègia de lliurament de recollida local actual.",
+            "origin_location_id_required": "Cal un identificador de la ubicació d'origen quan es sol·licita el mètode de lliurament RETAIL.",
+            "origin_location_id_not_allowed": "Els mètodes de lliurament sol·licitats no admeten un identificador d'ubicació d'origen.",
+            "auto_fulfill_not_allowed": "Aquesta sessió no està autoritzada per anul·lar el comportament de compliment.",
+            "auto_fulfill_required": "El compliment automàtic és necessari quan es sol·licita el mètode d'enviament RETAIL."
+          },
+          "discount": {
+            "unsupported_expectation": "La línia de descompte subministrada contenia una expectativa que la política no podia interpretar.",
+            "allocations_mismatch": "L'assignació de descompte esperada no coincideix amb l'assignació de descompte real."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Per continuar, s'ha d'acceptar una nova línia fiscal a la proposta del venedor.",
+            "unresolvable_tax_terms": "Els termes proposats són irresolubles donat el context de negociació actual.",
+            "tax_inclusivity_mismatch": "Renegocia amb el valor concret totalTaxAndDutyAmount o totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "Les exempcions fiscals no s'admeten per a la sessió de negociació actual.",
+            "delivery_tax_exemption_not_supported": "Actualment no s'admeten les exempcions fiscals per a les línies de lliurament."
+          },
+          "payment": {
+            "invalid_address_type": "El tipus d'adreça proporcionat no és vàlid per a aquesta forma de pagament.",
+            "missing_retail_attributions": "Les atribucions al detall són necessàries per als pagaments amb targeta de crèdit introduïts manualment.",
+            "unexpected_retail_attributions": "Atribucions minoristes proporcionades de manera inesperada per al pagament amb targeta de crèdit.",
+            "invalid_card_source": "Aquesta sessió no té permís per utilitzar aquesta font de targeta.",
+            "store_credit_mismatched_currency": "La moneda del compte de crèdit de la botiga no coincideix amb la moneda de pagament."
+          },
+          "sale_attribution": {
+            "unresolvable_target_merchandise_lines": "Les atribucions de venda proposades són irresolubles donat el context de negociació actual."
+          },
+          "inventory": {
+            "changing_behavior_not_allowed": "Aquest client no té permís per canviar el comportament de l'inventari.",
+            "only_one_inventory_behavior_allowed": "Actualment només es permet un comportament d'inventari per compra."
+          },
+          "captcha": {
+            "metadata_mismatch": "El proveïdor i el tipus de captcha proporcionats no coincideixen amb els valors esperats.",
+            "job_already_queued": "La validació de captcha ja s'ha posat a la cua per a aquest testimoni captcha.",
+            "token_expired": "El testimoni captcha proporcionat ha caducat. Completa un nou captcha per continuar la compra.",
+            "token_invalid": "El testimoni captcha proporcionat no era vàlid. Completa un nou captcha per continuar la compra."
+          }
+        }
       },
       "contact": {
         "title": "Informació",
@@ -273,7 +330,13 @@
         "discount_not_found": "No es pot trobar un descompte vàlid que coincideixi amb el codi introduït",
         "discount_placeholder": "Codi de descompte",
         "shipping_label": "Enviament",
-        "vat_label_html": "Inclòs %{amount} en impostos"
+        "vat_label_html": "Inclòs %{amount} en impostos",
+        "discount_already_applied": "S'ha aplicat un descompte a aquesta comanda. No podeu afegir un altre descompte.",
+        "no_pickup_location": "La recollida no està disponible per a aquesta comanda. Trieu un altre mètode de lliurament.",
+        "estimated_taxes_finalization_tooltip_content": "L'impost final i el total es confirmaran per correu electrònic o missatge de text després de fer la comanda.",
+        "duties_included_label": "El total inclou impostos i impostos. Sense càrrecs addicionals en el lliurament.",
+        "discount_and_gift_card_savings_notice": "Després de %{discount_amount} en descomptes i %{gift_card_amount} en targetes regal",
+        "recurring_total_tooltip": "No inclou enviaments, impostos, drets ni cap descompte aplicable."
       },
       "shipping": {
         "title": "Lliurament",
@@ -612,7 +675,15 @@
         "billing_address_title": "Adreça de facturació",
         "billing_address_associated_with_mandate_info": "Si desitja canviar la seva adreça de facturació, si us plau, eliminis i torni a introduir els detalls de la seva targeta de crèdit.",
         "different_credit_card_label": "Utilitza una altra targeta de crèdit",
-        "klarna_pay_now_label": "Paga ara amb Klarna"
+        "klarna_pay_now_label": "Paga ara amb Klarna",
+        "generic_incorrect_card_info": "No s'han pogut verificar les vostres dades de pagament. Comprova els detalls de la teva targeta i torna-ho a provar.",
+        "subscription_card_update_agreement_label": "Si canvieu la forma de pagament, s'actualitzarà la vostra subscripció i els futurs pagaments recurrents.",
+        "apple_pay_payment_error": "El vostre pagament no s'ha pogut completar. Torna-ho a provar o utilitza una altra forma de pagament.",
+        "billing_must_match_shipping_notice": "L'adreça de facturació del vostre mètode de pagament ha de coincidir amb l'adreça d'enviament.",
+        "no_working_method_error": "Aquesta botiga no pot acceptar pagaments en aquest moment. Actualitza aquesta pàgina o torna més tard.",
+        "brand_not_available": "Aquesta botiga no accepta {{brand}} . Si us plau, utilitzeu una altra targeta per pagar.",
+        "shipping_rate_updated": "S'han actualitzat els mètodes d'enviament disponibles. Confirmeu la vostra elecció abans de sortir.",
+        "billing_address_invalid_phone": "Actualitzeu el número de telèfon de la vostra adreça de facturació perquè {{label}} {{last_digits}} continuï."
       },
       "billing": {
         "billing_address_title": "Factura a",
@@ -839,7 +910,33 @@
         "non_shippable_title": "La teva comanda està completa",
         "let_us_know": "Fes-nos-ho saber",
         "login_title": "Inicieu sessió per veure tots els detalls de la comanda",
-        "login_description": "Pots trobar el teu número de comanda al rebut que has rebut per correu electrònic."
+        "login_description": "Pots trobar el teu número de comanda al rebut que has rebut per correu electrònic.",
+        "shipping_address_map_title": "Mapa de Google que mostra el punt de referència de l'adreça d'enviament: %{address}",
+        "thank_you_confirmed_order_with_email": "En breu rebràs un correu electrònic de confirmació amb el teu número de comanda.",
+        "thank_you_confirmed_order_with_phone": "En breu rebràs un text de confirmació amb el teu número de comanda.",
+        "thank_you_confirmed_order_with_email_and_phone": "En breu rebràs un correu electrònic de confirmació amb el teu número de comanda.",
+        "thank_you_confirmed_order_with_missing": "Poseu-vos en contacte amb nosaltres per correu electrònic o per telèfon per rebre una confirmació de la comanda.",
+        "thank_you_confirmed_order_with_missing_payment": "Poseu-vos en contacte amb nosaltres per correu electrònic o per telèfon per rebre una confirmació de la comanda.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Poseu-vos en contacte amb nosaltres per correu electrònic o per telèfon per rebre una confirmació de la comanda.",
+        "thank_you_confirmed_order_with_draft": "T'informarem si necessitem més informació o quan es confirmi la teva comanda.",
+        "thank_you_confirmed_order_with_draft_payment": "T'informarem si necessitem més informació o quan es confirmi la teva comanda.",
+        "thank_you_confirmed_order_with_draft_pick_up": "T'informarem si necessitem més informació o quan es confirmi la teva comanda.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Poseu-vos en contacte amb nosaltres per correu electrònic o per telèfon per rebre una confirmació de la comanda.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Poseu-vos en contacte amb nosaltres per correu electrònic o per telèfon per rebre una confirmació de la comanda.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Poseu-vos en contacte amb nosaltres per correu electrònic o per telèfon per rebre una confirmació de la comanda.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "En breu rebràs un correu electrònic de confirmació amb el teu número de comanda.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "En breu rebràs un correu electrònic de confirmació amb el teu número de comanda.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "En breu rebràs un correu electrònic de confirmació amb el teu número de comanda.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "En breu rebràs un correu electrònic de confirmació amb el teu número de comanda.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "En breu rebràs un correu electrònic de confirmació amb el teu número de comanda.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "En breu rebràs un correu electrònic de confirmació amb el teu número de comanda.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "En breu rebràs un text de confirmació amb el teu número de comanda.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "En breu rebràs un text de confirmació amb el teu número de comanda.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "En breu rebràs un text de confirmació amb el teu número de comanda.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Poseu-vos en contacte amb nosaltres per correu electrònic o per telèfon per rebre una confirmació de la comanda.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Poseu-vos en contacte amb nosaltres per correu electrònic o per telèfon per rebre una confirmació de la comanda.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Poseu-vos en contacte amb nosaltres per correu electrònic o per telèfon per rebre una confirmació de la comanda.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Després de completar el pagament, rebràs un correu electrònic de confirmació amb el teu número de comanda."
       },
       "vaulted": {
         "change_button": "Canviar"
@@ -1058,7 +1155,11 @@
           },
           "unsupported": {
             "address": "El comerciant no pot lliurar a aquesta adreça"
-          }
+          },
+          "outdated": {
+            "shipping_method": "Les opcions d'enviament han canviat per a la vostra comanda. Revisa la teva selecció."
+          },
+          "select_different_shipping_address_to_resolve_errors": "La vostra adreça d'enviament no és vàlida. Seleccioneu una adreça diferent o utilitzeu-ne una de nova."
         }
       },
       "delivery_options": {
@@ -1406,15 +1507,56 @@
         "wait": {
           "short": "La teva comanda s'està processant.",
           "medium": {
-            "one": "La teva comanda s'està processant. El temps d'espera estimat és de %{count} minut."
+            "one": "La teva comanda s'està processant. El temps d'espera estimat és de %{count} minut.",
+            "other": "La teva comanda s'està processant. El temps d'espera estimat és de %{count} minuts."
           }
         }
       },
       "payment_gateway": {
-        "credit_card_label": "Targeta de crèdit"
+        "credit_card_label": "Targeta de crèdit",
+        "generic_payment_terms": "Estàs en termes de {{translatedName}} . El vostre pagament s'haurà de pagar el dia {{dueDate}} .",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} a un compte amb accés a aquesta ubicació per afegir o utilitzar mètodes de pagament desats."
+          }
+        },
+        "direct_payment_terms": "Estàs en termes de {{translatedName}} . La vostra targeta es carregarà el dia {{dueDate}} .",
+        "draft_order_payment_due_later_terms": "Estaràs als termes de {{translatedName}} un cop confirmada la teva comanda.",
+        "draft_order_payment_due_on_fulfillment": "El vostre pagament s'haurà de fer un cop confirmada i complerta la vostra comanda."
       },
       "order_payment_collection": {
-        "pay_now": "Paga ara"
+        "pay_now": "Paga ara",
+        "order_review_and_pay": "La teva comanda s'ha actualitzat. Revisa i paga per confirmar la teva comanda."
+      },
+      "failed_payment": {
+        "payment_not_processed_text": "No t'han cobrat. Torna al teu carretó per completar la compra."
+      },
+      "change_currency": {
+        "card_provider_fx_charges_warning": "El proveïdor de la vostra targeta pot cobrar comissions en %{currency_code} transaccions.",
+        "currency_not_supported_by_shop": "La moneda que heu seleccionat ja no està disponible. Tots els preus estan ara en %{currency_code}."
+      },
+      "change_country": {
+        "cart_and_currency_updated_based_on_country": "El vostre carretó i la vostra moneda s'han actualitzat en funció del vostre país d'enviament."
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "El vostre país\/regió s'ha actualitzat. Introduïu la vostra adreça d'enviament per continuar la compra."
+      },
+      "subscriptions": {
+        "recurring_totals_with_initial_order_shipping_discount": "Primer pagament %{total_price_with_discount}, després %{recurring_total}"
+      },
+      "throttle": {
+        "inventory": {
+          "partial_inventory_banner": "Part del vostre carretó s'ha esgotat i no estarà disponible per comprar en el moment de pagar.",
+          "sold_out": {
+            "no_storefront_body": "Malauradament, l'article que voleu comprar ja no està disponible."
+          }
+        },
+        "footer": {
+          "body": "Els articles del vostre carretó no es reserven fins que finalitzeu la compra."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "S'ha produït un problema en processar la vostra sol·licitud; poseu-vos en contacte amb el propietari de la botiga."
       }
     },
     "errors": {
@@ -2177,6 +2319,18 @@
         "selection_cancel_button": "Cancel · lar",
         "selection_confirmation_button": "Trieu la ubicació",
         "title": "Per a quina ubicació esteu comprant?"
+      },
+      "draft_order_details": {
+        "payment_status": {
+          "pending": {
+            "description_authorized": "El vostre mètode de pagament es carregarà en la data de venciment, o podeu pagar ara."
+          }
+        }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Aquesta forma de pagament ja no estarà disponible per a futures compres des d'aquesta ubicació."
+        }
       }
     },
     "payment_methods": {
@@ -2448,6 +2602,12 @@
       "load_extension_error": {
         "description": "Actualitza aquesta pàgina o torna-ho a provar d'aquí a uns minuts.",
         "refresh_button": "Actualitza la pàgina"
+      },
+      "address_deletion_error": {
+        "description": "S'ha produït un problema en suprimir aquesta adreça. Torna-ho a provar o actualitza la pàgina."
+      },
+      "addresses_loading_issue": {
+        "description": "Error de connexió. Comprova la teva connexió a Internet i torna-ho a provar."
       }
     },
     "enable_javascript": "Per veure el vostre compte, activeu JavaScript a la configuració del vostre navegador o inicieu sessió amb un altre navegador.",
