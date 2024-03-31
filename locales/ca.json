@@ -430,6 +430,154 @@
         "gift_card_current_balance_notice": "Saldo actual %{amount}",
         "credit_card_expires_on_notice": "Caduca el %{month}\/%{year}",
         "express_payment_gateway_label": "Expressar"
+      },
+      "thank_you": {
+        "login_description_phone": "Pots trobar el teu número de comanda al rebut que has rebut per missatge de text.",
+        "login_not_customer_html": "No %{name}? Podeu %{link}",
+        "login_reorder_link_text": {
+          "one": "comprar també aquest producte",
+          "other": "comprar aquests productes també"
+        },
+        "customer_information_hidden_fields_message": "Inicieu sessió per veure tota la informació del client.",
+        "cancelled_title": "La teva comanda s'ha cancel·lat",
+        "cancelled_description": "La teva comanda es va cancel·lar el %{date}. Poseu-vos en contacte amb nosaltres si teniu cap pregunta.",
+        "order_number_label": "Número d'ordre",
+        "customer_validation_error": "Introduïu un correu electrònic o un número de comanda vàlid.",
+        "customer_validation_error_phone": "Introduïu un telèfon o un número de comanda vàlid.",
+        "login": "Iniciar Sessió",
+        "unfulfilled_items_title": "Preparant l'enviament",
+        "unfulfilled_items_description": "Actualment estem preparant aquests articles per enviar-los.",
+        "marker": {
+          "current": "Ubicació actual d'enviament",
+          "shipping": "Adreça d'enviament"
+        },
+        "pick_up_in_store_marker": {
+          "current": "Ubicació actual d'enviament",
+          "shipping": "Lloc de recollida"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Articles d'aquest enviament",
+          "unfulfilled_table_title": "Articles en preparació per a l'enviament",
+          "product_image_label": "Imatge del producte",
+          "description_label": "Descripció",
+          "quantity_label": "Quantitat"
+        },
+        "order_updates_description_missing": "No rebeu actualitzacions d'enviament.",
+        "order_updates_subscribe_to_email_notifications": "Rep actualitzacions d'enviament per correu electrònic",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Rep actualitzacions d'enviament per correu electrònic o missatge de text",
+        "order_updates_subscribe_to_phone_notifications": "Rep actualitzacions d'enviament per missatge de text",
+        "order_updates_submit_subscription": "Presentar",
+        "track_shipment": "Seguiment de l'enviament",
+        "other_options": "Altres opcions",
+        "delivery_information_label": "Informació de lliurament:",
+        "gift_card_sent_confirmation": "Targetes regal enviades",
+        "qr_code": {
+          "send_link_to_phone": "O envia un enllaç al teu telèfon",
+          "title": "Feu un seguiment al vostre telèfon"
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Escaneja amb el teu telèfon"
+          },
+          "sms": {
+            "title": "O envia un enllaç al teu telèfon"
+          }
+        },
+        "view_business_customer_account": "Veure el compte",
+        "breadcrumbs_submitted": "Presentat",
+        "breadcrumbs_in_review": "En revisió",
+        "breadcrumbs_confirmed": "Confirmat",
+        "missing_shipping_address_banner": {
+          "title": "La comanda no té una adreça d'enviament",
+          "text_html": "%{contact_us} per afegir la vostra adreça",
+          "contact_us": "Contacta amb nosaltres"
+        },
+        "first_payment_complete": "Primer pagament completat",
+        "in_store_purchase": "Compra a la botiga",
+        "location_title": "Ubicació",
+        "thank_you_ready_for_picked_up": "La teva comanda es va recollir a %{address}.",
+        "ready_for_delivery": "A punt per al lliurament",
+        "order_updates_subscribe_to_email_notifications_failed": "No podem emmagatzemar aquest correu electrònic per a actualitzacions. Torneu-ho a provar o utilitzeu un altre correu electrònic.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "El correu electrònic que heu introduït ja existeix.",
+        "subscriptions_management": {
+          "title": "Subscripció",
+          "description": "Aneu al vostre compte per veure i gestionar les vostres subscripcions.",
+          "button_label": "Gestiona la teva subscripció"
+        },
+        "manage_order_label": "Gestiona la teva comanda",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "En pocs minuts rebràs un missatge de text amb la teva targeta regal.",
+          "other": "En pocs minuts rebràs un missatge de text amb les teves targetes regal."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "En pocs minuts rebràs un correu electrònic amb la teva targeta regal.",
+          "other": "En pocs minuts rebràs un correu electrònic amb les teves targetes regal."
+        },
+        "gift_card_email_title": {
+          "one": "La targeta regal s'ha enviat per correu electrònic",
+          "other": "Les targetes regal es van enviar per correu electrònic"
+        },
+        "gift_card_text_title": {
+          "one": "La targeta regal s'ha enviat per missatge de text",
+          "other": "Les targetes de regal es van enviar per missatge de text"
+        },
+        "resend_gift_cards_by_email": "Reenvia l'email",
+        "resend_gift_cards_by_text": "Torna a enviar el missatge de text",
+        "gift_card_resent_confirmation": {
+          "one": "S'ha reenviat la targeta regal.",
+          "other": "Les targetes de regal es van tornar a enviar."
+        },
+        "gift_card_resend_failure": {
+          "one": "S'ha produït un problema en tornar a enviar la targeta de regal. Torna-ho a provar o contacta amb nosaltres.",
+          "other": "S'ha produït un problema en tornar a enviar les vostres targetes de regal. Torna-ho a provar o contacta amb nosaltres."
+        }
+      },
+      "vaulted": {
+        "change_button": "Canviar"
+      },
+      "review": {
+        "title": "Revisió",
+        "review_title": "Revisar i pagar",
+        "checkout_as_guest": "Paga com a convidat",
+        "checkout_a_different_way": "Fes la compra d'una manera diferent",
+        "blocks": {
+          "contact_method_title": "Contacte",
+          "billing_address_title": "Facturació",
+          "shipping_address_title": "Envia a",
+          "shipping_method_title": "Mètode d'enviament",
+          "payment_method_title": "Mètode de pagament",
+          "change_link_label": "Canviar",
+          "change_contact_method_link_label": "Canvia la informació de contacte",
+          "change_billing_address_link_label": "Canvia l'adreça de facturació",
+          "change_shipping_address_link_label": "Canvia l'adreça d'enviament",
+          "change_shipping_method_link_label": "Canvia el mètode d'enviament",
+          "change_payment_method_link_label": "Canvia la forma de pagament",
+          "pick_up_in_store_shipping_method_html": "Recollir a la botiga · %{location_name}",
+          "purchase_order_number_title": "Número de comanda",
+          "change_purchase_order_number_label": "Canvia el número de comanda",
+          "change_delivery_method_link_label": "Canvia el mètode de lliurament",
+          "no_address": "(Sense adreça)",
+          "no_purchase_order_number": "(Sense número de comanda)",
+          "due_after_order_reviewed_html": "Vençut després de revisar la comanda",
+          "review_title_free_order": "Revisa i completa la teva comanda",
+          "payment_method_saved_company_location": "Desa la targeta per a aquesta ubicació"
+        },
+        "block_title": "Revisa la teva informació"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Envieu-me un correu electrònic amb notícies i ofertes",
+        "post_accept_marketing_checkbox_label": "Esteu subscrit per rebre notícies i ofertes per correu electrònic",
+        "pending_accept_marketing_checkbox_label": "Comproveu el vostre correu electrònic per confirmar la vostra subscripció a notícies i ofertes",
+        "accept_sms_checkbox_label": "Envia'm un missatge de text amb notícies i ofertes",
+        "disclaimer": {
+          "privacy_policy": "Política de privacitat",
+          "terms_of_service": "Termes del servei"
+        },
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Política de privacitat"
+          }
+        }
       }
     }
   }
