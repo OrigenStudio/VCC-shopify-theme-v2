@@ -186,7 +186,13 @@
             "selling_plan_not_supported": "No s'admeten les subscripcions.",
             "title_too_long": "El títol de la mercaderia és massa llarg.",
             "title_empty": "El títol de la mercaderia està buit.",
-            "merchandise_not_found": "No s'ha trobat el producte."
+            "merchandise_not_found": "No s'ha trobat el producte.",
+            "only_value_constraint": "Només es permeten valors exactes a l'entrada de mercaderies.",
+            "gift_card_not_supported": "Les targetes de regal no s'admeten en aquest pagament.",
+            "selling_plan_not_supported_b2b": "Les subscripcions no són compatibles amb el pagament B2B.",
+            "maximum_quantity_exceeded": "La quantitat d'alguns articles supera el màxim permès.",
+            "quantity_increment_not_met": "La quantitat d'alguns articles no compleix els límits de la comanda.",
+            "quantity_rules_not_met": "La quantitat d'alguns articles no compleix els límits de la comanda."
           },
           "buyer_identity": {
             "contact_info_does_not_match_customer_account": "La informació del client especificada ha de coincidir amb el compte de client iniciat.",
@@ -198,7 +204,8 @@
             "invalid_customer_profile": "S'ha proporcionat un perfil de client no vàlid.",
             "checkout_completion_target_is_invalid_proc": "L'objectiu de finalització de la compra no és vàlid.",
             "customer_account_required": "El client ha d'iniciar sessió per continuar.",
-            "missing_contact_method": "Falta un mètode de contacte vàlid."
+            "missing_contact_method": "Falta un mètode de contacte vàlid.",
+            "business_customer_does_not_match_company": "El contacte de l'empresa no té accés a l'empresa."
           },
           "delivery": {
             "wrong_number_of_delivery_lines": "Cal especificar una línia de lliurament per a cada grup de mercaderies.",
@@ -215,13 +222,20 @@
             "must_fulfill_from_same_location_constraint_not_satisfied": "Les restriccions de compliment no es compleixen perquè els articles no es poden complir des de la mateixa ubicació.",
             "delivery_strategy_conditions_not_satisfied": "Hi ha estratègies de lliurament disponibles per a aquesta ubicació, però les seves condicions no es compleixen.",
             "out_of_stock_at_origin_location": "No hi ha estoc a la ubicació d'origen.",
-            "invalid_signature": "Signatura de descompte no vàlida."
+            "invalid_signature": "Signatura de descompte no vàlida.",
+            "destination_address_required": "Cal una adreça de destinació per continuar.",
+            "local_pickup_no_delivery_strategy_available": "No s'ha trobat cap estratègia de lliurament de recollida local disponible.",
+            "invalid_origin_location_id": "No s'ha pogut trobar una ubicació que coincideixi amb l'identificador de la ubicació d'origen.",
+            "prefetch_shipping_rates_used": "Les tarifes d'enviament obtingudes prèviament no haurien de tornar mai les tarifes.",
+            "fulfillment_constraints_not_satisfied": "No s'han complert una o més restriccions de compliment."
           },
           "discount": {
             "unsupported_expectation": "La línia de descompte subministrada contenia una expectativa que la política no podia interpretar.",
             "allocations_mismatch": "L'assignació de descompte esperada no coincideix amb l'assignació de descompte real.",
             "discounts_not_allowed_for_b2b": "No es permeten descomptes a les botigues B2B.",
-            "discount_code_not_honoured": "Codi de descompte no aplicat"
+            "discount_code_not_honoured": "Codi de descompte no aplicat",
+            "custom_discount_not_honoured": "El descompte personalitzat proporcionat no es va respectar.",
+            "additional_requested_discount_code_discarded": "S'ha descartat el descompte de codi addicional sol·licitat."
           },
           "tax": {
             "new_tax_must_be_accepted": "Per continuar, s'ha d'acceptar una nova línia fiscal a la proposta del venedor.",
@@ -267,28 +281,68 @@
             "wallet_content_missing": "Falta el contingut de Wallet.",
             "payment_instrument_not_found": "No s'ha pogut trobar la forma de pagament",
             "store_credit_account_not_found": "No s'ha trobat el compte de crèdit de la botiga.",
-            "method_required": "S'ha de proposar una forma de pagament."
+            "method_required": "S'ha de proposar una forma de pagament.",
+            "manual_payments_not_allowed_for_b2b": "Els pagaments manuals no es permeten a les botigues B2B.",
+            "total_amount_mismatch": "El total a pagar no coincideix amb la suma de l'import dels pagaments.",
+            "gateway_not_supported": "La passarel·la de pagament no admet l'emmagatzematge del mètode de pagament.",
+            "installments_gift_card_not_allowed": "Els terminis no permeten l'ús de targetes regal.",
+            "installments_unsupported_shipping": "Les quotes no admeten l'enviament a aquesta adreça.",
+            "installments_unsupported_billing": "Les quotes no admet aquesta adreça de facturació.",
+            "installments_ineligible_line_item": "Els terminis estan desactivats per a una línia de comanda d'aquesta compra.",
+            "shop_cash_gift_card_not_allowed": "Shop Cash no permet la compra de targetes regal.",
+            "shop_cash_unsupported_shipping": "Shop Cash no admet mercaderies sense enviament.",
+            "unauthorized_capture_method": "No es permet la configuració del mètode de captura de pagament.",
+            "saved_payment_methods_not_enabled": "Les formes de pagament desades no estan activades per a aquesta botiga.",
+            "store_credit_account_mismatch": "El compte de crèdit de la botiga no coincideix amb la identitat del comprador.",
+            "store_credit_insufficient_funds": "No hi ha fons suficients al compte de crèdit de la botiga.",
+            "store_credit_buying_gift_card": "No podeu utilitzar el crèdit de la botiga per comprar una targeta regal.",
+            "market_manager_blocks_wallet_payments": "El gestor del mercat no admet el mètode de pagament."
           },
           "sale_attribution": {
             "unresolvable_target_merchandise_lines": "Les atribucions de venda proposades són irresolubles donat el context de negociació actual.",
-            "staff_member_not_exist": "Aquest personal no existeix a la botiga actual."
+            "staff_member_not_exist": "Aquest personal no existeix a la botiga actual.",
+            "draft_order_not_exist": "Aquest esborrany de comanda no existeix a la botiga actual.",
+            "location_not_exist": "Aquesta ubicació no existeix a la botiga actual.",
+            "point_of_sale_device_not_exist": "Aquest dispositiu de punt de venda no existeix a la botiga actual."
           },
           "inventory": {
             "changing_behavior_not_allowed": "Aquest client no té permís per canviar el comportament de l'inventari.",
-            "only_one_inventory_behavior_allowed": "Actualment només es permet un comportament d'inventari per compra."
+            "only_one_inventory_behavior_allowed": "Actualment només es permet un comportament d'inventari per compra.",
+            "missing_quantity_value": "Falta el camp de quantitat a les línies d'inventari del comprador."
           },
           "captcha": {
             "metadata_mismatch": "El proveïdor i el tipus de captcha proporcionats no coincideixen amb els valors esperats.",
             "job_already_queued": "La validació de captcha ja s'ha posat a la cua per a aquest testimoni captcha.",
             "token_expired": "El testimoni captcha proporcionat ha caducat. Completa un nou captcha per continuar la compra.",
-            "token_invalid": "El testimoni captcha proporcionat no era vàlid. Completa un nou captcha per continuar la compra."
+            "token_invalid": "El testimoni captcha proporcionat no era vàlid. Completa un nou captcha per continuar la compra.",
+            "metadata_missing": "Cal completar un captcha per a aquesta compra.",
+            "token_missing": "S'ha de proporcionar un testimoni captcha per completar aquesta compra.",
+            "job_enqueue_failed": "La tasca de validació captcha no s'ha pogut posar a la cua.",
+            "token_not_valid_for_session": "El captcha proporcionat no es pot utilitzar amb aquest pagament."
           },
           "only_empty_terms_accepted": "Aquesta política només accepta termes buits.",
           "tip": {
             "only_one_tip_line_allowed": "No s'admeten diverses línies de consells.",
             "tips_not_allowed_for_b2b": "No es permeten propines a les botigues B2B.",
             "currency_change_reset": "La propina s'ha restablert a causa del canvi de moneda.",
-            "not_accepted_by_shop": "La botiga no accepta propines."
+            "not_accepted_by_shop": "La botiga no accepta propines.",
+            "tips_not_allowed_for_deferred_purchase_options": "Els consells encara no s'admeten per a les opcions de compra diferides."
+          },
+          "line_item_limit_reached": "S'ha arribat al nombre màxim de línies de comanda.",
+          "session_is_already_finished": "Aquesta sessió de pagament ja s'ha finalitzat.",
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "La proposta del vostre comprador ha de contenir termes_non negociables.",
+            "invalid_signature": "La signatura de {{target_terms}} no és vàlida."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "No es permet rebutjar els deures per a aquest pagament."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "No es permet l'atribució al detall per a aquesta compra.",
+            "retail_attribution_required": "L'atribució al detall és necessària per a aquesta compra."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "L'import rebut ha d'estar en la moneda de la botiga."
           }
         },
         "forwarding_indicator": {
@@ -328,7 +382,8 @@
         "cart": "Carro",
         "close_modal_label": "Tanca",
         "close_notice_label": "Tanca",
-        "back_button_label": "Tornar"
+        "back_button_label": "Tornar",
+        "submit_for_review_notice_label": "El pagament no s'haurà de pagar fins que no es revisi la vostra comanda"
       },
       "contact": {
         "title": "Informació",
@@ -453,7 +508,9 @@
         "deferred_payment_info": {
           "title": "El pagament de %{amount_due} s'ha de pagar el %{due_at}",
           "due_on_receipt_title": "El pagament de %{amount_due} s'ha de pagar en rebre'l",
-          "paid_today": "Total pagat avui"
+          "paid_today": "Total pagat avui",
+          "description_html": "Per a preguntes sobre la vostra comanda, %{contact_us}.",
+          "due_on_fulfillment_title": "El pagament de %{amount_due} s'ha de pagar en el moment del compliment"
         },
         "cart_does_not_meet_discount_requirements_notice": "El codi de descompte <strong style=\"text-transform:uppercase\">%{code}<\/strong> no és vàlid per als articles del vostre carretó",
         "discount_requires_customer_notice": "Introduïu la vostra informació d'enviament per aplicar el codi de descompte <strong style=\"text-transform:uppercase\">%{code}<\/strong>",
@@ -516,7 +573,8 @@
         "product_change_label": "Canviar",
         "expand_order_summary_short": "Espectacle",
         "collapse_order_summary_short": "Amaga",
-        "total_already_paid_label": "Pagat"
+        "total_already_paid_label": "Pagat",
+        "gift_card_subscriptions_notice": "Les targetes de regal només s'aplicaran al primer pagament"
       },
       "shipping": {
         "title": "Lliurament",
@@ -889,7 +947,8 @@
           "buying_gift_card": "No podeu utilitzar el crèdit de la botiga per comprar una targeta regal",
           "manage_label": "Gestionar el crèdit de la botiga",
           "apply_label": "Aplicar crèdit a la botiga",
-          "add_label": "Afegeix crèdit a la botiga"
+          "add_label": "Afegeix crèdit a la botiga",
+          "no_fixed_selling_plans": "No podeu utilitzar el crèdit de la botiga amb opcions de compra diferits"
         },
         "offsite_gateway_redirect_hint": "Després de fer clic a \"%{button_label}\", se us redirigirà a %{gateway_label} per completar la vostra compra de manera segura.",
         "receiver_payment_experience_hint": "Després de fer la comanda, rebreu les dades de pagament. Feu el pagament a Multibanco o en línia en %{due_days} dies.",
@@ -917,7 +976,8 @@
             "find_nearest_atm": "Trobeu el caixer automàtic més proper",
             "entity": "Entitat",
             "amount": "Import"
-          }
+          },
+          "due_notice": "El vostre pagament de %{amount_due} s'ha de pagar el %{due_date}."
         },
         "payment_method_saved": "Forma de pagament desada",
         "same_billing_address_label": "Igual que l'adreça d'enviament",
@@ -946,7 +1006,14 @@
         "fact_billing_address_label": "Adreça de facturació",
         "ideal_label": "IDEAL",
         "bank_picker_label": "Banc",
-        "clear": "Clar"
+        "clear": "Clar",
+        "free_order_notice_html": "La teva comanda és <strong>gratuïta<\/strong> . No es requereix cap pagament.",
+        "billing_address_description": "Seleccioneu l'adreça que coincideixi amb la vostra targeta o mètode de pagament.",
+        "billing_address_description_no_shipping_address": "Introduïu l'adreça que coincideixi amb la vostra targeta o mètode de pagament.",
+        "no_js_credit_card_fields_redirect_hint": "Se us redirigirà per afegir la vostra informació de pagament.",
+        "missing_credit_card_error": "Introduïu les dades de la vostra targeta per completar el pagament",
+        "no_real_orders_dev_store": "Aquesta botiga no pot acceptar comandes reals ni pagaments reals.",
+        "billing_address_invalid_phone_no_card": "Actualitzeu el número de telèfon a la vostra adreça de facturació per continuar."
       },
       "billing": {
         "billing_address_title": "Factura a",
@@ -1233,7 +1300,13 @@
         "payment_method_title": "Mètode de pagament",
         "shipping_method_title": "Mètode d'enviament",
         "tracking_number": "Número de seguiment:",
-        "resend_gift_cards": "Torna a enviar targetes regal"
+        "resend_gift_cards": "Torna a enviar targetes regal",
+        "confirmation_email_sent_text": "S'ha enviat un correu electrònic de confirmació a %{email}",
+        "gift_card_confirmation_by_text": "Si no l'has rebut, torna a enviar el text o posa't en contacte amb nosaltres.",
+        "gift_card_confirmation_by_email": "Si no l'has rebut, torna a enviar el correu electrònic o posa't en contacte amb nosaltres.",
+        "thank_you_confirmed_order_with_email_pick_up": "Rebràs un correu electrònic quan la teva comanda estigui llesta per a la recollida.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Rebràs un missatge de text quan la teva comanda estigui llesta per a la recollida.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Rebràs un correu electrònic quan la teva comanda estigui llesta per a la recollida."
       },
       "vaulted": {
         "change_button": "Canviar"
@@ -1287,8 +1360,10 @@
           "get_offers_by_text": "Obteniu ofertes per text"
         },
         "unsubscribe": {
-          "title": "T'has cancel·lat la subscripció"
-        }
+          "title": "T'has cancel·lat la subscripció",
+          "description": "No rebràs més recordatoris de carretó de la nostra part."
+        },
+        "accept_shop_pay_marketing_checkbox_label": "Registreu-me per rebre notícies i ofertes d'aquesta botiga"
       },
       "localized_fields": {
         "additional_information": {
@@ -1299,7 +1374,8 @@
         "message": "Poseu-vos en contacte amb nosaltres per afegir una adreça per a aquesta ubicació per completar la compra.",
         "email_us_button_label": "Envieu-nos un correu electrònic",
         "title": "Ubicació sense adreça",
-        "alt_header": "Falta l'adreça d'enviament"
+        "alt_header": "Falta l'adreça d'enviament",
+        "header": "No teniu cap adreça d'enviament per a aquesta ubicació"
       },
       "order_errors": {
         "creation_failure": "Hi ha hagut un problema en crear la teva comanda. Torna-ho a provar o contacta amb nosaltres per obtenir més detalls.",
@@ -1845,7 +1921,8 @@
             "other": "La teva comanda s'està processant. El temps d'espera estimat és de %{count} minuts."
           },
           "long": "Rebràs un correu electrònic tan bon punt s'hagi processat la teva comanda. Actualment hi ha un gran volum de comandes.",
-          "refresh_this_page": "actualitza aquesta pàgina"
+          "refresh_this_page": "actualitza aquesta pàgina",
+          "no_auto_refresh_html": "Si no se't redirigeix ​​automàticament, %{link}."
         },
         "action_required": "Acció requerida"
       },
@@ -1864,7 +1941,11 @@
         "fixed_payment_label": "El vostre pagament s'haurà de pagar el dia {{dueDate}} .",
         "fixed_direct_payment_terms": "La vostra targeta es carregarà el dia {{dueDate}} .",
         "cash_on_delivery_label": "Contra reemborsament (COD)",
-        "deferred_payment_label": "Trieu la forma de pagament més tard"
+        "deferred_payment_label": "Trieu la forma de pagament més tard",
+        "order_due_on_fulfillment_choose_later": "El vostre pagament s'haurà de fer un cop realitzada la vostra comanda.",
+        "order_due_on_fulfillment_payment": "La teva targeta es carregarà un cop realitzada la teva comanda.",
+        "draft_order_payment_due_later_no_terms": "El vostre pagament s'haurà de pagar un cop confirmada la vostra comanda.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "La teva targeta es carregarà un cop confirmada la teva comanda."
       },
       "order_payment_collection": {
         "pay_now": "Paga ara",
@@ -1898,7 +1979,8 @@
         "change_currency_link": "Canvia a %{currency_name}"
       },
       "change_country": {
-        "cart_and_currency_updated_based_on_country": "El vostre carretó i la vostra moneda s'han actualitzat en funció del vostre país d'enviament."
+        "cart_and_currency_updated_based_on_country": "El vostre carretó i la vostra moneda s'han actualitzat en funció del vostre país d'enviament.",
+        "cart_updated_based_on_country": "El vostre carretó s'ha actualitzat en funció del vostre país d'enviament."
       },
       "change_cart_localization": {
         "verify_shipping_address": "El vostre país\/regió s'ha actualitzat. Introduïu la vostra adreça d'enviament per continuar la compra."
@@ -1914,7 +1996,8 @@
         },
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
-            "one": ", després %{count} pagament a %{total_price}"
+            "one": ", després %{count} pagament a %{total_price}",
+            "other": ", després %{count} pagaments a %{total_price} cadascun"
           }
         },
         "recurring_totals": "%{total_price} cada %{interval}",
@@ -1946,7 +2029,8 @@
           }
         },
         "footer": {
-          "body": "Els articles del vostre carretó no es reserven fins que finalitzeu la compra."
+          "body": "Els articles del vostre carretó no es reserven fins que finalitzeu la compra.",
+          "heading": "No actualitzeu aquesta pàgina, s'actualitzarà automàticament."
         },
         "estimated_wait_time": {
           "less_than_one": "Temps d'espera estimat: menys d'un minut",
@@ -1972,7 +2056,8 @@
       },
       "customer_payment_methods": {
         "delete_customer_mandate": {
-          "generic_error": "S'ha produït un problema en processar la vostra sol·licitud."
+          "generic_error": "S'ha produït un problema en processar la vostra sol·licitud.",
+          "success_message": "La vostra forma de pagament s'ha suprimit correctament"
         },
         "page_title": "Mètodes de Pagament",
         "title": "Mètodes de Pagament"
@@ -1980,7 +2065,8 @@
       "one": {
         "errors": {
           "merchandise": {
-            "gift_card_price_must_be_greater_than_zero": "El preu de la targeta regal ha de ser superior a 0."
+            "gift_card_price_must_be_greater_than_zero": "El preu de la targeta regal ha de ser superior a 0.",
+            "subtotal_limit_reached": "S'ha assolit el valor màxim de les línies de comanda."
           }
         }
       },
@@ -1998,12 +2084,24 @@
         "message": "Gràcies, ho agraïm.",
         "title": "Afegeix consell",
         "add_tip": "Afegeix consell",
-        "no_tip_label": "Cap"
+        "no_tip_label": "Cap",
+        "description": "Mostra el teu suport a l'equip a %{shop_name}"
       },
       "open_graph_meta_tag": {
         "title_with_products": {
-          "zero": "Compra %{product_name}"
+          "zero": "Compra %{product_name}",
+          "one": "Compra %{product_name} i %{count} article més",
+          "other": "Compra %{product_name} i %{count} articles més"
         }
+      },
+      "address_management": {
+        "confirm_address_deletion": "Esteu segur que voleu suprimir l'adreça {{address}} ?"
+      },
+      "markets": {
+        "invalid_market_manager_error": "Reviseu la vostra informació de contacte abans de completar el pagament"
+      },
+      "note": {
+        "length_exceeds_maximum": "Redueix la mida de la nota a 5.000 caràcters o menys."
       }
     },
     "errors": {
@@ -2082,7 +2180,11 @@
       "blank": "no pot estar en blanc",
       "empty": "no pot estar buit",
       "gift_card_code_invalid": "El codi no és vàlid",
-      "not_supported": "no és compatible"
+      "not_supported": "no és compatible",
+      "discount_not_found": "No es pot trobar un descompte vàlid que coincideixi amb el codi introduït",
+      "gift_card_already_applied": "El codi ja s'ha aplicat a la vostra compra",
+      "too_short": "és massa curt (el mínim és %{count} caràcters)",
+      "invalid_start_date_or_issue_number_for_debit": "cal una data d'inici o un número d'emissió vàlids"
     },
     "notices": {
       "customer": {
@@ -2315,7 +2417,8 @@
       "region": "Regió",
       "state": "Estat",
       "county": "comtat",
-      "emirate": "Emirat"
+      "emirate": "Emirat",
+      "confirm": "Esteu segur que voleu suprimir aquesta adreça?"
     },
     "sentence": {
       "two_words_connector": " i ",
@@ -2856,7 +2959,11 @@
             "title_due_on_receipt": "El pagament encara no s'ha de pagar",
             "description_overdue": "El vostre pagament és tard.",
             "banner_due_today": "El vostre pagament s'ha de pagar avui",
-            "title_due_on_fulfillment": "Pagament pendent en el compliment"
+            "title_due_on_fulfillment": "Pagament pendent en el compliment",
+            "description_partially_paid": "Aquesta comanda es va pagar parcialment. Teniu un saldo restant.",
+            "description_waiting_for_manual_payment": "La comanda es marcarà com a pagada quan es rebi el pagament.",
+            "description_due_on_receipt": "Rebràs una factura quan s'hagi vençut el pagament.",
+            "description_due_on_fulfillment": "El pagament s'ha de pagar un cop s'hagin complert tots els articles d'aquesta comanda."
           },
           "draft": {
             "submitted": {
@@ -2865,13 +2972,16 @@
             },
             "title": "Pagament encara no pendent",
             "in_review": {
-              "title": "Pagament encara no pendent"
-            }
+              "title": "Pagament encara no pendent",
+              "description": "Les dades de pagament es decideixen quan es confirma la comanda."
+            },
+            "description": "Les dades de pagament es decideixen quan es confirma la comanda."
           },
           "refund": {
             "description_full_refund": "Heu rebut un reemborsament complet per aquesta comanda.",
             "description_multiple_refunds": "Heu rebut reembossaments parcials per a aquesta comanda.",
-            "title_with_date": "Reemborsat el {{date}}"
+            "title_with_date": "Reemborsat el {{date}}",
+            "description_single_refund": "Heu rebut un reembossament parcial per aquesta comanda."
           },
           "canceled": {
             "description": "No t'han cobrat.",
@@ -2892,7 +3002,8 @@
         },
         "loading_finished_accessibility_message": "S'han carregat els detalls de la comanda",
         "subtitle": "Enviat {{date}}",
-        "title": "Comanda {{name}}"
+        "title": "Comanda {{name}}",
+        "draft_order_subtitle": "Confirmat {{date}} de la comanda {{draftOrderName}}"
       },
       "payment_methods": {
         "payment_delete": {
@@ -2948,7 +3059,8 @@
         "title": "PO # {{poNumber}}",
         "cancel": "Cancel · lar",
         "discard": "Descartar",
-        "save": "Desa"
+        "save": "Desa",
+        "modal_po_number_input_max_length_error": "Els números de comanda tenen un màxim de {{maxLength}} caràcters."
       }
     },
     "payment_methods": {
@@ -3241,6 +3353,9 @@
         "title": "No es poden carregar les comandes",
         "description": "Torna-ho a provar o torna més tard.",
         "retry_button": "Torna-ho a provar"
+      },
+      "load_paypal_error": {
+        "description": "Hi ha un problema en carregar PayPal. Siusplau torna-ho a provar."
       }
     },
     "enable_javascript": "Per veure el vostre compte, activeu JavaScript a la configuració del vostre navegador o inicieu sessió amb un altre navegador.",
