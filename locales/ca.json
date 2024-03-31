@@ -321,7 +321,14 @@
         "autocomplete_single_item": "1 article disponible",
         "autocomplete_close": "Tanca els suggeriments",
         "tooltip_accessibility_label": "Més informació",
-        "submit_for_review_button_label": "Envia a revisió"
+        "submit_for_review_button_label": "Envia a revisió",
+        "continue_button_label": "Continua",
+        "edit_link_label": "Edita",
+        "print_policies_link_label": "Imprimir",
+        "cart": "Carro",
+        "close_modal_label": "Tanca",
+        "close_notice_label": "Tanca",
+        "back_button_label": "Tornar"
       },
       "contact": {
         "title": "Informació",
@@ -497,7 +504,19 @@
         "multiple_shipping_lines_label": "Enviament total",
         "recurring_subtotal_label": "Subtotal recurrent",
         "recurring_total_label": "Total recurrent",
-        "due_on_fulfillment": "Degut al compliment"
+        "due_on_fulfillment": "Degut al compliment",
+        "applied_free_shipping_discount_label": "Aplicat",
+        "apply_discount_button_label": "Aplicar",
+        "pickup_label": "Recollida",
+        "tip_label": "Consell",
+        "taxes_label": "Impostos",
+        "free_total_label": "Gratuït",
+        "paid_label": "Pagat",
+        "price_label": "Preu",
+        "product_change_label": "Canviar",
+        "expand_order_summary_short": "Espectacle",
+        "collapse_order_summary_short": "Amaga",
+        "total_already_paid_label": "Pagat"
       },
       "shipping": {
         "title": "Lliurament",
@@ -895,7 +914,9 @@
         "pending_payment": {
           "multibanco": {
             "instruction_html": "Fes el teu pagament a Multibanco o en línia utilitzant les dades següents. Per a preguntes o per actualitzar els detalls de pagament, %{contact_us}.",
-            "find_nearest_atm": "Trobeu el caixer automàtic més proper"
+            "find_nearest_atm": "Trobeu el caixer automàtic més proper",
+            "entity": "Entitat",
+            "amount": "Import"
           }
         },
         "payment_method_saved": "Forma de pagament desada",
@@ -922,7 +943,10 @@
         "use_location_shipping_address_label": "Utilitzeu l'adreça d'enviament de la ubicació",
         "taxes_not_included": "Impostos no inclosos",
         "account_connected": "Compte connectat.",
-        "fact_billing_address_label": "Adreça de facturació"
+        "fact_billing_address_label": "Adreça de facturació",
+        "ideal_label": "IDEAL",
+        "bank_picker_label": "Banc",
+        "clear": "Clar"
       },
       "billing": {
         "billing_address_title": "Factura a",
@@ -1830,7 +1854,8 @@
         "generic_payment_terms": "Estàs en termes de {{translatedName}} . El vostre pagament s'haurà de pagar el dia {{dueDate}} .",
         "login_prompt": {
           "no_access": {
-            "message": "{{logIn}} a un compte amb accés a aquesta ubicació per afegir o utilitzar mètodes de pagament desats."
+            "message": "{{logIn}} a un compte amb accés a aquesta ubicació per afegir o utilitzar mètodes de pagament desats.",
+            "link": "Iniciar Sessió"
           }
         },
         "direct_payment_terms": "Estàs en termes de {{translatedName}} . La vostra targeta es carregarà el dia {{dueDate}} .",
@@ -1851,10 +1876,12 @@
         "changes_summary": {
           "return_line_item_removed": "%{count} eliminat de la devolució",
           "added": {
-            "other": "%{count} afegit"
+            "other": "%{count} afegit",
+            "one": "Afegit"
           },
           "subtracted": "%{count} eliminat",
-          "returned": "%{count} retornat"
+          "returned": "%{count} retornat",
+          "removed": "Eliminat"
         }
       },
       "failed_payment": {
@@ -1893,13 +1920,19 @@
         "recurring_totals": "%{total_price} cada %{interval}",
         "recurring_total_intervals": {
           "week": {
-            "other": "%{count} setmanes"
+            "other": "%{count} setmanes",
+            "one": "setmana"
           },
           "month": {
-            "other": "%{count} mesos"
+            "other": "%{count} mesos",
+            "one": "mes"
           },
           "year": {
-            "other": "%{count} anys"
+            "other": "%{count} anys",
+            "one": "curs"
+          },
+          "day": {
+            "one": "dia"
           }
         }
       },
@@ -1927,7 +1960,8 @@
           "message": "Massa intents"
         },
         "line_to_check_out": "Esteu fent cua per comprovar-ho",
-        "time_to_checkout_title": "Hora de sortir - {{shopName}}"
+        "time_to_checkout_title": "Hora de sortir - {{shopName}}",
+        "title": "Cua"
       },
       "cart_checkout_validation": {
         "runtime_error": "S'ha produït un problema en processar la vostra sol·licitud; poseu-vos en contacte amb el propietari de la botiga."
@@ -1961,7 +1995,10 @@
       },
       "tips": {
         "presets_description": "Seleccioneu un percentatge de propina",
-        "message": "Gràcies, ho agraïm."
+        "message": "Gràcies, ho agraïm.",
+        "title": "Afegeix consell",
+        "add_tip": "Afegeix consell",
+        "no_tip_label": "Cap"
       },
       "open_graph_meta_tag": {
         "title_with_products": {
@@ -2264,13 +2301,31 @@
       }
     },
     "attributes": {
-      "password_confirmation": "La confirmació de la contrasenya"
+      "password_confirmation": "La confirmació de la contrasenya",
+      "email": "correu electrònic",
+      "body": "cos",
+      "signature": "adreça"
     },
     "links": {
       "powered_by_shopify": "Desenvolupat per Shopify"
     },
     "addresses": {
-      "state_and_territory": "Estat\/territori"
+      "state_and_territory": "Estat\/territori",
+      "pincode": "Codi PIN",
+      "region": "Regió",
+      "state": "Estat",
+      "county": "comtat",
+      "emirate": "Emirat"
+    },
+    "sentence": {
+      "two_words_connector": " i ",
+      "last_word_connector": ", i "
+    },
+    "pagination": {
+      "next": "Pròxim"
+    },
+    "feed": {
+      "more": "Més"
     }
   },
   "customer_accounts": {
@@ -2823,10 +2878,12 @@
             "title": "Pagament cancel·lat"
           },
           "paid": {
-            "description": "La teva comanda està totalment pagada."
+            "description": "La teva comanda està totalment pagada.",
+            "title": "Pagat"
           },
           "pay_now_accessibility_label": "Paga ara per la comanda {{orderName}}",
-          "title": "Estat de pagament"
+          "title": "Estat de pagament",
+          "pay_now": "Paga ara"
         },
         "loading": "S'estan carregant els detalls de la comanda",
         "order_timeline": {
@@ -2863,9 +2920,11 @@
           "hide_all_accessibility_label": "Amaga totes les comandes en revisió",
           "show_all_accessibility_label": "Mostra totes les comandes en revisió",
           "show_all_orders_in_review": "Mostra totes les comandes en revisió",
-          "show_less_orders_in_review": "Mostra menys comandes en revisió"
+          "show_less_orders_in_review": "Mostra menys comandes en revisió",
+          "title": "Pendents"
         },
-        "removed_company_contact_tooltip": "Eliminat de l'empresa"
+        "removed_company_contact_tooltip": "Eliminat de l'empresa",
+        "order_list_column_headers_contact": "Contacte"
       },
       "addresses": {
         "add_billing_address_button": "Afegeix l'adreça de facturació",
@@ -2886,7 +2945,10 @@
         "discard_changes_modal_title": "Descartar els canvis?",
         "edit_accessibility_label": "Editeu el número de comanda",
         "edit_modal_title": "Editeu el número de comanda",
-        "title": "PO # {{poNumber}}"
+        "title": "PO # {{poNumber}}",
+        "cancel": "Cancel · lar",
+        "discard": "Descartar",
+        "save": "Desa"
       }
     },
     "payment_methods": {
@@ -3177,7 +3239,8 @@
       },
       "load_orders_error": {
         "title": "No es poden carregar les comandes",
-        "description": "Torna-ho a provar o torna més tard."
+        "description": "Torna-ho a provar o torna més tard.",
+        "retry_button": "Torna-ho a provar"
       }
     },
     "enable_javascript": "Per veure el vostre compte, activeu JavaScript a la configuració del vostre navegador o inicieu sessió amb un altre navegador.",
