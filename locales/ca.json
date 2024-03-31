@@ -933,7 +933,135 @@
       "company": "Companyia",
       "fully_refunded_label": "REEMBOLSAT",
       "group_title_label": "Part de: {{groupTitle}}",
-      "discount": "Descompte"
+      "discount": "Descompte",
+      "hide_items": "Amaga els elements",
+      "loading": "S'estan carregant els detalls de la comanda",
+      "loading_finished_accessibility_message": "S'han carregat els detalls de la comanda",
+      "location": "Ubicació",
+      "image_gallery": {
+        "next": "Mostra els següents elements",
+        "previous": "Mostra els elements anteriors"
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Mostra el resum de la comanda",
+        "closed": "Amaga el resum de la comanda"
+      },
+      "no_data": "Cap",
+      "no_data_provided_accessibility_label": "{{fieldName}} està buit",
+      "paid_amount": "Pagat",
+      "partially_refunded_label": "Devolució parcial",
+      "payment": {
+        "status_in_review": "Pagament pendent després de la revisió",
+        "status_unpaid": "Pagament vençut el {{date}}",
+        "title": "Pagament",
+        "card_payment_details": "acabant amb {{lastDigits}} - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "acabant amb {{lastDigits}} - {{formattedTransactionAmount}}",
+        "store_credit_payment_details": "Crèdit de la botiga: {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Pagament amb quotes Shop Pay",
+          "view_schedule": "Veure horari"
+        },
+        "manual_payment_methods": {
+          "money_order": "Giro postal: {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Efectiu contra lliurament (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "Dipòsit bancari: {{formattedTransactionAmount}}",
+          "manual": "Manual: {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "show_all": "Mostrar tots",
+          "show_less": "Mostra menys"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Pagat amb quotes de pagament a la botiga",
+        "description": "Estigueu al dia del vostre calendari de pagaments amb recordatoris a l'aplicació Botiga.",
+        "payment_reminders_button": "Obteniu recordatoris de pagament",
+        "desktop_qr_code_content": {
+          "title": "Busca recordatoris",
+          "description": "Obteniu recordatoris de les vostres quotes amb Shop."
+        }
+      },
+      "refunded_amount": "Reemborsat",
+      "request_return_failed": "S'ha produït un problema en processar la vostra sol·licitud. Siusplau torna-ho a provar.",
+      "remaining_amount": "Restant",
+      "marketing_section_title": "Notícies i ofertes",
+      "marketing_description": "Rebràs correus electrònics de màrqueting. Pots donar-te de baixa en qualsevol moment.",
+      "marketing_checkbox_label": "Envieu-me un correu electrònic amb notícies i ofertes",
+      "marketing_checkmark_label": "Esteu subscrit per rebre notícies i ofertes per correu electrònic",
+      "returns": {
+        "expand_events_label": "Mostra els detalls",
+        "hide_events_label": "Amaga els detalls",
+        "ineligible_return_message": "Cap article d'aquesta comanda és apte per a la devolució.",
+        "ineligible_return_message_when_returned": "No hi ha articles addicionals d'aquesta comanda elegibles per a la devolució.",
+        "print_shipping_label": "Imprimeix l'etiqueta d'enviament",
+        "return_and_refund_modal_header": "Política de reemborsament",
+        "tracking_number": "Número de seguiment:"
+      },
+      "shipping": {
+        "address": "Adreça d'enviament",
+        "address_map_marker": "Adreça d'enviament",
+        "method": "Mètode d'enviament",
+        "summary": "Enviament",
+        "free": "Gratuït",
+        "free_shipping_discount": "Enviament gratuït",
+        "one_time": "Enviament únic",
+        "subscription": "Enviament de subscripció"
+      },
+      "pickup": {
+        "pickup": "Recollida",
+        "pickup_location": "Lloc de recollida",
+        "pickup_point": "Punt de recollida"
+      },
+      "show_items": "Mostra els elements",
+      "show_order_summary": "Mostra el resum de la comanda",
+      "hide_order_summary": "Amaga el resum de la comanda",
+      "subtitle": "Confirmat {{date}}",
+      "summary_list_title_accessibility_label": "Comanda articles",
+      "summary_title": "Resum de la comanda",
+      "summary_totals_title_accessibility_label": "Totals de comanda",
+      "shop_order_tracking": {
+        "download_shop_to_track": "Baixeu Shop per fer un seguiment del paquet",
+        "track_order_with_shop": "Seguiment de la comanda amb la botiga",
+        "title_header": "Escaneja amb el teu telèfon",
+        "real_time_delivery_updates": "Shop us enviarà actualitzacions de lliurament en temps real un cop s'enviï la vostra comanda."
+      },
+      "edit_summary": {
+        "added": "Afegit",
+        "added_with_quantity": "{{quantity}} afegit",
+        "removed": "Eliminat",
+        "removed_with_quantity": "S'ha eliminat {{quantity}}",
+        "updated_at": "La teva comanda es va actualitzar el {{date}}",
+        "returned": "Tornat",
+        "returned_with_quantities": "S'han retornat {{delta}} de {{total}}",
+        "removed_with_quantities": "S'han eliminat {{delta}} de {{total}}",
+        "return_line_item_removed": "Eliminat del retorn",
+        "return_line_item_removed_with_quantities": "S'ha eliminat {{delta}} del retorn"
+      },
+      "shop_pay": {
+        "order_completed_with": "Comanda completada amb",
+        "learn_more": "Aprèn més"
+      },
+      "taxes": "Impostos",
+      "duties": "Deures",
+      "ok_duties_tooltip": "Aquesta comanda s'està enviant des d'un altre país, per la qual cosa s'han afegit drets al total de la comanda.",
+      "error_duties_tooltip": "Aquesta comanda s'envia des d'un altre país, de manera que es poden cobrar impostos i aranzels en el moment de l'entrega.",
+      "zero_duties_tooltip": "Aquesta comanda s'envia des d'un altre país. No es cobren drets a les comandes d'aquest valor.",
+      "tip": "Consell",
+      "title": "Comanda {{name}}",
+      "unit_price": "{{price}} \/u",
+      "pagination": {
+        "load_more": "Carrega més",
+        "load_more_accessibility_label": "Carregueu més articles",
+        "loading_accessibility_label": "S'estan carregant articles"
+      },
+      "login_to_view_all_order_details": "Inicieu sessió per veure tots els detalls de la comanda.",
+      "log_in": "Iniciar Sessió",
+      "logged_in_account_no_permission_to_order": "Has iniciat sessió com a {{email}} . Aquest compte no té permís per gestionar aquesta comanda.",
+      "log_in_to_a_different_account": "Inicieu sessió en un compte diferent",
+      "fees": {
+        "restocking_fee": "Taxa de reposició",
+        "return_shipping_fee": "Enviament de devolució"
+      }
     },
     "addresses": {
       "add_button_text": "Afegeix",
@@ -976,7 +1104,8 @@
       },
       "save_new_address_accessibility_label": "Desa l'adreça",
       "title": "Adreces",
-      "billing_address_dropdown_placeholder": "Adreça de facturació"
+      "billing_address_dropdown_placeholder": "Adreça de facturació",
+      "add_button": "Afegeix una adreça"
     },
     "address_form": {
       "attention": "Atenció",
@@ -1130,5 +1259,10 @@
     "country_label": "País\/regió",
     "language_label": "Llenguatge",
     "update_language": "Actualitza l'idioma"
+  },
+  "gift_cards": {
+    "issued": {
+      "print_gift_card": "Imprimir"
+    }
   }
 }
