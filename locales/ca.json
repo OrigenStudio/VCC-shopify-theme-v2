@@ -605,7 +605,8 @@
         "card_change_label": "Canviar",
         "card_update_label": "Actualitzar la targeta",
         "ends_with_label": "acabant amb %{last_digits}",
-        "same_billing_address_checkbox_label": "Utilitza l'adreça d'enviament com a adreça de facturació"
+        "same_billing_address_checkbox_label": "Utilitza l'adreça d'enviament com a adreça de facturació",
+        "billing_address_title": "Adreça de facturació"
       },
       "billing": {
         "billing_address_title": "Factura a",
