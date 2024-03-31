@@ -579,6 +579,292 @@
           }
         }
       }
+    },
+    "errors": {
+      "verify_email": "Hem enviat un correu electrònic a %{customer_email}, feu clic a l'enllaç inclòs per verificar la vostra adreça electrònica.",
+      "product_not_available": "el producte no es publica per a aquest client.",
+      "shop_404": {
+        "title": "Creeu un lloc web de comerç electrònic i veneu en línia! Programari de comerç electrònic de Shopify",
+        "heros": {
+          "store_unavailable": "Ho sentim, aquesta botiga no està disponible actualment.",
+          "store_not_exist": "Aquesta botiga no existeix.",
+          "no_storefront": "Aquesta botiga encara no té cap lloc web."
+        },
+        "links": {
+          "explore_other_stores": "Exploreu altres botigues",
+          "start_free_trial": "Inicieu una prova gratuïta"
+        },
+        "owner_ctas": {
+          "header": "Ets el propietari de la botiga?",
+          "fix_domain": "Acabeu de configurar la vostra nova adreça web, aneu a %{domain_settings_link}. Feu clic a \"Connecta el domini\" i introduïu: %{domain}.<br> Si teniu problemes per entrar a la vostra botiga, proveu la pàgina %{forgot_your_store_link}.",
+          "fix_domain_link_text": "la configuració del vostre domini",
+          "forgot_your_store_link_text": "has oblidat la teva botiga",
+          "add_storefront": "Podeu configurar el vostre lloc web afegint el canal de la botiga en línia al vostre %{admin_link}. Si teniu problemes per entrar a la vostra botiga, proveu la pàgina %{forgot_your_store_link}."
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Vendre en persona",
+            "caption": "Aconsegueix les funcions que necessites per fer funcionar la teva botiga minorista tant si estàs començant com si estàs ampliant.",
+            "link_text": "Comença la prova gratuïta"
+          },
+          "open_a_store": {
+            "header": "Obre una botiga Shopify nova",
+            "caption": "Inicieu una prova gratuïta de 3 dies i, a continuació, continueu per 1 $\/mes durant els propers 3 mesos.",
+            "link_text": "Registra't ara"
+          },
+          "editions": {
+            "header": "Fes una ullada a les edicions de Shopify",
+            "caption": "Amb més de 100 actualitzacions de productes, podeu ser més productiu i creatiu i poderós en el comerç del que mai us imagineu.",
+            "link_text": "Exploreu les darreres edicions"
+          },
+          "store_owner": {
+            "header": "Ets el propietari de la botiga?",
+            "caption": "Tens problemes per entrar a la teva botiga? Proveu la funció %{forgot_your_store_link}. Si voleu reactivar la vostra botiga, contacteu amb %{shopify_support_link}.",
+            "shopify_support_link_text": "Suport de Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Error de restabliment de la contrasenya",
+        "no_account_found": "No s'ha trobat cap compte amb aquest correu electrònic.",
+        "invalid_credentials": "Correu electrònic o contrasenya incorrectes.",
+        "denylisted_reset_password": "No s'ha pogut accedir al vostre compte perquè la contrasenya actual no és segura. Rebràs un correu electrònic per actualitzar la teva contrasenya.",
+        "signup_disabled": "La creació del compte de client s'ha desactivat."
+      },
+      "address": {
+        "updated": "Adreça actualitzada correctament.",
+        "error_updating": "S'ha produït un error en actualitzar l'adreça",
+        "created": "Adreça creada correctament",
+        "error_creating": "S'ha produït un error en crear l'adreça.",
+        "deleted": "L'adreça s'ha suprimit correctament",
+        "error_deleting": "S'ha produït un error en suprimir l'adreça."
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "S'ha afegit %{delta}",
+          "increment_item": "S'ha afegit %{delta}",
+          "decrement_item": "S'ha eliminat %{delta} de %{total}",
+          "decrement_fulfilled_line_item": "S'ha retornat %{delta} de %{total}",
+          "decrement_return_line_item": "S'ha eliminat %{delta} del retorn"
+        }
+      },
+      "order": {
+        "not_available": "Aquesta comanda no està disponible",
+        "financial_status": {
+          "authorized": "Autoritzat",
+          "pending": "Pendents",
+          "paid": "Pagat",
+          "unpaid": "Sense pagar",
+          "voided": "Anulat",
+          "partially_paid": "Pagat parcialment",
+          "partially_refunded": "Reemborsat parcialment",
+          "refunded": "Reemborsat",
+          "expired": "Caducat"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Complert",
+          "complete": "Completa",
+          "partial": "Parcial",
+          "unfulfilled": "Incomplert",
+          "restocked": "Reaprovisionat"
+        },
+        "transaction_status": {
+          "success": "Èxit",
+          "pending": "Pendents",
+          "failure": "Fracàs"
+        },
+        "cancel_reason": {
+          "declined": "Pagament rebutjat",
+          "inventory": "Elements no disponibles",
+          "fraud": "Comanda fraudulenta",
+          "customer": "El client ha canviat\/cancel·lat la comanda",
+          "staff": "Error de personal",
+          "other": "Altres"
+        },
+        "cash_on_delivery": "Contra reemborsament (COD)"
+      },
+      "cart": {
+        "only_n_items_available": "Només podeu afegir %{count} %{name} al carretó.",
+        "too_many_items_in_cart": "No podeu afegir més %{name} al carretó.",
+        "less_than_minimum": "Aquest element té un mínim de %{min}.",
+        "more_than_maximum": "Aquest element té un màxim de %{max}.",
+        "not_respect_step": "Només podeu afegir aquest element en increments de %{step}.",
+        "all_items_in_cart": "Tots els %{count} %{name} són al vostre carretó.",
+        "empty_update": "no es pot actualitzar el carretó buit",
+        "missing_parameters": "cap identificador vàlid o paràmetre de línia",
+        "generic_error": "Error al carretó",
+        "product_not_available": "El producte no està disponible",
+        "too_many_line_items_error": "El vostre carretó no pot contenir més de %{max} articles.",
+        "link_expired": "L'enllaç ha caducat",
+        "link_no_longer_exists": "L'enllaç ja no existeix.",
+        "stock_problems_html": "Un o més articles ja no estan disponibles. Hem proporcionat un <a href=\"%{link}\">carretó actualitzat<\/a> .",
+        "changed": "Carro canviat",
+        "items_changed": "Un o més elements han canviat.",
+        "product_sold_out": "El producte '%{name}' ja està esgotat.",
+        "variant_not_found": "No es pot trobar la variant",
+        "variant_requires_selling_plan": "La variant només es pot comprar amb un pla de venda.",
+        "selling_plan_not_available_for_company_locations": "Només hi ha una compra disponible per a comandes B2B",
+        "digital_product_not_available_for_company_locations": "Aquest article no es pot afegir a una comanda B2B",
+        "selling_plan_not_applicable": "No es pot aplicar el pla de venda a la variant",
+        "shipping_address_not_required": "Aquest carretó no requereix enviament",
+        "shipping_address_invalid": "S'ha produït un problema en calcular les tarifes d'enviament. Continueu la compra per triar una tarifa d'enviament abans de completar la vostra comanda.",
+        "bundle_requires_components": "El producte del paquet \"%{name}\" no es pot afegir al carretó.",
+        "gift_card_with_components_not_supported": "El producte del paquet \"%{name}\" no es pot afegir al carretó.",
+        "gift_card_price_must_be_greater_than_zero": "El producte del paquet \"%{name}\" no es pot afegir al carretó.",
+        "bundle_products_not_supported_for_b2b_draft": "Els articles agrupats no es poden afegir a les comandes B2B d'aquesta ubicació.",
+        "view_lines_limit_reached": "Les línies han de ser inferiors a %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "S'ha produït un error al vostre carretó."
+        }
+      },
+      "storefront": {
+        "invalid_password": "La contrasenya és incorrecta, torneu-ho a provar."
+      },
+      "tags": {
+        "add_articles": "Restringeix la cerca als articles que també tenen l'etiqueta %{tag}"
+      }
+    }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_list": {
+        "table_view": "Mostra la vista de taula",
+        "show_order_actions_accessibility_label": "Mostra les accions de comanda per a la comanda {{name}}"
+      },
+      "order_status": {
+        "attempted_delivery_label": "Intent de lliurament",
+        "attempted_delivery_description": "L'intent de lliurament no va tenir èxit.",
+        "attempted_to_deliver_label": "S'ha intentat lliurar",
+        "confirmed_description": "Hem rebut la teva comanda.",
+        "on_its_way_description": "Aquest enviament està en camí.",
+        "out_for_delivery_description": "Aquest enviament està disponible per al lliurament.",
+        "preparing_for_shipping_label": "Preparant l'enviament",
+        "preparing_for_shipping_description": "Aquests articles s'estan preparant per enviar-los.",
+        "ready_for_pickup_label": "A punt per a la recollida",
+        "ready_for_pickup_description": "Aquests articles estan preparats per a la recollida. Si us plau, porteu la confirmació de la vostra comanda quan recolliu la vostra comanda.",
+        "ready_for_pickup_location": "La teva comanda està a punt per recollir-la a la ubicació",
+        "picked_up_label": "Recollit",
+        "picked_up_description": "Aquests articles s'han recollit.",
+        "canceled_description": "La teva comanda es va cancel·lar el {{date}} .",
+        "canceled_label": "Cancel·lat",
+        "canceled_title": "La teva comanda s'ha cancel·lat",
+        "come_back": "Torneu a aquesta pàgina per obtenir actualitzacions sobre l'estat del vostre enviament.",
+        "company_tracking_number": "Número de seguiment {{company}} :",
+        "confirmed_label": "Confirmat",
+        "confirmed_title": "La teva comanda està confirmada",
+        "confirmed_description_pickup": "Rebràs un correu electrònic quan la teva comanda estigui llesta per a la recollida.",
+        "confirmed_description_digital": "Rebràs un correu electrònic quan la teva comanda estigui a punt.",
+        "confirmed_description_gift_card_text": "Rebràs un missatge de text quan la teva comanda estigui a punt.",
+        "delivered_description": "Aquest enviament ha estat lliurat.",
+        "delivered_label": "Lliurat",
+        "delivered_title": "El vostre enviament ha estat lliurat",
+        "delivered_description_digital": "La teva comanda està completa.",
+        "delivered_description_gift_card": {
+          "one": "La targeta regal s'ha enviat per correu electrònic.",
+          "other": "Les targetes regal es van enviar per correu electrònic."
+        },
+        "delivered_description_gift_card_text": {
+          "one": "La targeta regal s'ha enviat per missatge de text.",
+          "other": "Les targetes de regal es van enviar per missatge de text."
+        },
+        "gift_card_label": {
+          "one": "Targeta regal",
+          "other": "Targetes regal"
+        },
+        "gift_card_resend": {
+          "one": "Reenvia l'email",
+          "other": "Torna a enviar correus electrònics"
+        },
+        "gift_card_resend_text": {
+          "one": "Torna a enviar el text",
+          "other": "Tornar a enviar textos"
+        },
+        "gift_resend_success": {
+          "one": "Reenviat la targeta regal",
+          "other": "Les targetes de regal es reenvien"
+        },
+        "gift_resend_failure": {
+          "one": "S'ha produït un problema en tornar a enviar la targeta de regal. Torna-ho a provar o contacta amb nosaltres.",
+          "other": "S'ha produït un problema en tornar a enviar les vostres targetes regal. Torna-ho a provar o contacta amb nosaltres."
+        },
+        "gift_card_resend_description": {
+          "one": "Si no s'ha rebut, torneu a enviar el correu electrònic o",
+          "other": "Si no s'han rebut, torneu a enviar els correus electrònics o"
+        },
+        "gift_card_resend_description_text": {
+          "one": "Si no s'ha rebut, torna a enviar el text o",
+          "other": "Si no s'han rebut, torneu a enviar els textos o"
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "La targeta regal s'enviarà en un correu electrònic separat.",
+          "other": "Cada targeta regal s'enviarà en un correu electrònic independent."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "La targeta regal s'enviarà en un text separat.",
+          "other": "Cada targeta regal s'enviarà en un text independent."
+        },
+        "estimated_delivery": "Lliurament estimat {{date}}",
+        "in_review_description": "T'informarem si necessitem més informació o quan es confirmi la teva comanda.",
+        "in_review_label": "En revisió",
+        "in_review_title": "La teva comanda s'està revisant",
+        "last_updated": "Darrera actualització {{date}}",
+        "multiple_shipments_label": "Enviaments múltiples",
+        "no_tracking_number": "No hi ha cap número de seguiment per a aquest enviament.",
+        "on_its_way_label": "En el seu camí",
+        "on_its_way_title": "El vostre enviament està en camí",
+        "out_for_delivery_label": "Sortida per lliurament",
+        "out_for_delivery_title": "El vostre enviament està disponible per al lliurament",
+        "resume_tracking": "Reprèn el seguiment",
+        "submitted_label": "Presentat",
+        "submitted_description": "Reviseu els detalls de la comanda i el pagament.",
+        "there_was_a_problem_label": "Hi va haver un problema",
+        "track_shipment": "Seguiment de l'enviament",
+        "request_return": "Sol·licita la devolució",
+        "view_order_for_details": "Consulteu la comanda per obtenir més informació",
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Fes un seguiment i gestiona Compra amb la comanda Prime",
+            "new_window_disclaimer": "(obre una finestra nova)"
+          }
+        }
+      },
+      "status_mark_as_delivered": "Marca com a lliurat",
+      "status_title": "Estat de la comanda",
+      "buy_again": "Comprar de nou",
+      "buy_again_accessibility_label": "Torna a comprar per a la comanda {{orderId}}",
+      "manage": "Gestionar",
+      "manage_accessiblity_label": "Gestiona la comanda {{orderId}}",
+      "group_title_label": "Part de: {{groupTitle}}",
+      "havent_received_your_delivery": "No has rebut el teu lliurament?",
+      "didnt_pick_up_order": "No has recollit la teva comanda?",
+      "if_you_didnt_receive_this": "Si no has rebut això,",
+      "if_not_received": {
+        "one": "Si no es va rebre,",
+        "other": "Si no es van rebre,"
+      },
+      "let_us_know": "Fes-nos-ho saber",
+      "contact_us": "contacta amb nosaltres."
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "Mostra els detalls",
+        "expand_events_accessibility_label": "Mostra els detalls d'enviament de la comanda",
+        "hide_events_label": "Amaga els detalls",
+        "hide_events_accessibility_label": "Amaga els detalls d'enviament de la comanda"
+      },
+      "addresses_section_title": "Facturació i enviament",
+      "order_details": "Detalls de l'encarrec",
+      "order_details_skeleton_accessibility_label": "Inicieu sessió per veure tots els detalls de la comanda.",
+      "billing_address": "Adreça de facturació",
+      "card_ending_with": "acabant amb {{lastDigits}}",
+      "contact": "Contacte",
+      "contact_information": "Informació de contacte",
+      "company": "Companyia",
+      "fully_refunded_label": "REEMBOLSAT",
+      "group_title_label": "Part de: {{groupTitle}}",
+      "discount": "Descompte"
     }
   }
 }
