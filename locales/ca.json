@@ -1317,7 +1317,9 @@
         "gift_card_confirmation_by_email": "Si no l'has rebut, torna a enviar el correu electrònic o posa't en contacte amb nosaltres.",
         "thank_you_confirmed_order_with_email_pick_up": "Rebràs un correu electrònic quan la teva comanda estigui llesta per a la recollida.",
         "thank_you_confirmed_order_with_phone_pick_up": "Rebràs un missatge de text quan la teva comanda estigui llesta per a la recollida.",
-        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Rebràs un correu electrònic quan la teva comanda estigui llesta per a la recollida."
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Rebràs un correu electrònic quan la teva comanda estigui llesta per a la recollida.",
+        "print_link_label": "Imprimir Rebut",
+        "page_title_no_name": "Gràcies!"
       },
       "vaulted": {
         "change_button": "Canviar"
