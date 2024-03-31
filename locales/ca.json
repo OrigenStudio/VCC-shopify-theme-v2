@@ -221,7 +221,7 @@
             "unsupported_expectation": "La línia de descompte subministrada contenia una expectativa que la política no podia interpretar.",
             "allocations_mismatch": "L'assignació de descompte esperada no coincideix amb l'assignació de descompte real.",
             "discounts_not_allowed_for_b2b": "No es permeten descomptes a les botigues B2B.",
-            "discount_code_not_honoured": "Codi de descompte no aplicat."
+            "discount_code_not_honoured": "Codi de descompte no aplicat"
           },
           "tax": {
             "new_tax_must_be_accepted": "Per continuar, s'ha d'acceptar una nova línia fiscal a la proposta del venedor.",
@@ -456,7 +456,7 @@
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> no s'ha pogut utilitzar amb els vostres descomptes existents.",
         "maximum_discount_code_limit_reached": "Heu arribat al nombre màxim de codis de descompte. Elimina un codi existent per utilitzar <strong style=\"text-transform:uppercase\">%{code}<\/strong> .",
         "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> no funciona ara mateix. Contacta amb nosaltres per obtenir ajuda.",
-        "discount_code_applied": "S'ha aplicat el codi de descompte",
+        "discount_code_applied": "Codi de descompte aplicat",
         "enter_shipping_address": "Introduïu l'adreça d'enviament",
         "discount_has_been_applied": "S'ha aplicat el descompte",
         "discount_has_been_removed": "S'ha eliminat el descompte",
