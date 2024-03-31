@@ -18,7 +18,8 @@
         "view_store_info": "Comprova la disponibilitat a la botiga",
         "pick_up_available_at_html": "Recollida disponible a <span class=\"color-foreground\">{{ location_name }}<\/span>",
         "pick_up_unavailable_at_html": "Recollida actualment no disponible a <span class=\"color-foreground\">{{ location_name }}<\/span>",
-        "unavailable": "Recollida actualment no disponible"
+        "unavailable": "Recollida actualment no disponible",
+        "pick_up_available": "Recollida disponible"
       },
       "shipping_time": "L'enviem avui si ho compreu abans de",
       "shipping_time_tomorrow": "L'enviem demà si ho compreu abans de",
@@ -32,6 +33,13 @@
       "sold_out": "ESGOTAT",
       "unavailable": "No disponible",
       "vendor": "Proveïdor"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "page_title": "Pagament"
+      }
     }
   }
 }
