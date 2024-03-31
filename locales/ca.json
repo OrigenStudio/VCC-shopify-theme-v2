@@ -2581,7 +2581,7 @@
       "remove_title": "Elimina {{ title }}",
       "new_subtotal": "Nou subtotal",
       "note": "Demaneu instruccions especials",
-      "checkout": "Fes una ullada",
+      "checkout": "Pagament",
       "empty": "El teu carro està buit",
       "cart_error": "S'ha produït un error en actualitzar el carretó. Siusplau torna-ho a provar.",
       "cart_quantity_error_html": "Només podeu afegir {{ quantity }} d'aquest article al vostre carretó.",
