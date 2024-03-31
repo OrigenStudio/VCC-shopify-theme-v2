@@ -332,7 +332,7 @@
           "custom_position_spacing_bottom": "55",
           "custom_position_spacing_left": "16",
           "custom_switcher_font_size": "12px",
-          "custom_switcher_border_width": 1,
+          "custom_switcher_border_width": 0,
           "custom_switcher_text_color": "#5c5c5c",
           "custom_switcher_background_color": "#ffffff",
           "custom_switcher_border_color": "#000000"
