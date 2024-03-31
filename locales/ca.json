@@ -383,7 +383,8 @@
         "close_modal_label": "Tanca",
         "close_notice_label": "Tanca",
         "back_button_label": "Tornar",
-        "submit_for_review_notice_label": "El pagament no s'haurà de pagar fins que no es revisi la vostra comanda"
+        "submit_for_review_notice_label": "El pagament no s'haurà de pagar fins que no es revisi la vostra comanda",
+        "expand_notice_label": "Ver mas"
       },
       "contact": {
         "title": "Informació",
