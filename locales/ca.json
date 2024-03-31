@@ -1420,7 +1420,112 @@
         "invalid_password": "La contrasenya és incorrecta, torneu-ho a provar."
       },
       "tags": {
-        "add_articles": "Restringeix la cerca als articles que també tenen l'etiqueta %{tag}"
+        "add_articles": "Restringeix la cerca als articles que també tenen l'etiqueta %{tag}",
+        "add_products": "Restringeix la selecció als productes que coincideixen amb l'etiqueta %{tag}",
+        "remove_articles": "Amplieu la cerca als articles que no estan etiquetats %{tag}",
+        "remove_products": "Elimina l'etiqueta %{tag}"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Gràcies per subscriure't a la nostra llista de correu.",
+        "disclaimer": "Pots donar-te de baixa en qualsevol moment.",
+        "unsubscribe": "Cancel·la la subscripció"
+      },
+      "unsubscribed": {
+        "confirmation": "T'has cancel·lat la subscripció a la nostra llista de correu.",
+        "disclaimer": "No rebràs més actualitzacions de màrqueting de la nostra part. Pots tornar a subscriure't en qualsevol moment.",
+        "preview": "Esteu previsualitzant què veuran els clients quan es cancel·lin la subscripció."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Heu optat per enviar el seguiment obert per correu electrònic.<\/b>",
+          "visibility": "Les taxes d'obertura de correu electrònic s'informaran de manera anònima. Només veurem si heu obert un correu electrònic com a part d'una taxa d'obertura de correu electrònic agregada.",
+          "opt_out_html": "Podeu <a style=\"text-decoration:underline;\" href=\"%{link}\">desactivar<\/a> el seguiment obert de correu electrònic si no voleu compartir aquesta informació.",
+          "preview_bar": "Esteu previsualitzant què veuran els clients quan activen el seguiment obert per correu electrònic."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Heu desactivat el seguiment obert de correu electrònic.<\/b>",
+          "visibility": "No veurem si heu obert els nostres correus electrònics.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Activa<\/a> el seguiment obert per correu electrònic.",
+          "preview_bar": "Esteu previsualitzant què veuran els clients quan desactivin el seguiment obert de correu electrònic."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Ja no fem un seguiment de cap correu electrònic obert.<\/b>",
+          "privacy_policy": "Després d'enviar aquest correu electrònic, hem actualitzat la nostra política de privadesa i ja no fem el seguiment de les obertures."
+        },
+        "track": {
+          "status_html": "<b>S'informa del seguiment obert del correu electrònic.<\/b>",
+          "visibility": "Només veurem si heu obert el correu electrònic, com a part de la taxa total d'obertura del correu electrònic."
+        },
+        "updated_policy": {
+          "status_html": "<b>S'informa del seguiment obert del correu electrònic.<\/b>",
+          "visibility": "Hem actualitzat la nostra política i ara s'obre el seguiment dels correus electrònics. Les taxes d'obertura de correu electrònic s'informaran de manera anònima. Només veurem si heu obert un correu electrònic com a part de la taxa total d'obertura de correu electrònic.",
+          "opt_out_html": "Si no vols compartir aquesta informació, pots <a style=\"text-decoration:underline;\" href=\"%{link}\">donar-te de baixa.<\/a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "En estoc",
+          "out_of_stock": "Esgotat"
+        }
+      },
+      "boolean": {
+        "true_label": "Sí"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Pertinença",
+        "price_ascending": "Preu, de baix a alt",
+        "price_descending": "Preu, d'alt a baix"
+      }
+    },
+    "page_titles": {
+      "products": "Productes",
+      "shopping_cart": "La teva cistella de la compra",
+      "account": "Compte",
+      "create_account": "Crear compte",
+      "reset_account": "Restableix el compte",
+      "addresses": "Adreces",
+      "order": "Comanda %{name}",
+      "search": "Cerca",
+      "search_results": {
+        "one": "Cerca: %{count} resultat trobat per a \"%{terms}\"",
+        "other": "Cerca: s'han trobat %{count} resultats per a \"%{terms}\""
+      },
+      "collections": "Col·leccions",
+      "not_found": "404 No trobat",
+      "challenge": "Desafiament",
+      "checkpoint": "Punt de control"
+    },
+    "cart": {
+      "discounts_with_count": "S'han aplicat %{count} descomptes"
+    },
+    "challenge": {
+      "message": "Per continuar, fes-nos saber que no ets un robot.",
+      "error": "La teva resposta no ha estat correcta, torna-ho a provar.",
+      "submit_button_text": "Presentar"
+    },
+    "checkpoint": {
+      "message": "Resol Captcha per continuar",
+      "error": "La validació del captcha ha fallat",
+      "submit_button_text": "Presentar"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Normalment llest en 1 hora",
+        "two_hours": "Normalment llest en 2 hores",
+        "four_hours": "Normalment llest en 4 hores",
+        "twenty_four_hours": "Normalment llest en 24 hores",
+        "two_to_four_days": "Normalment llest en 2-4 dies",
+        "five_or_more_days": "Normalment llest en més de 5 dies",
+        "zero_to_two_hours": "Normalment llest en 2 hores",
+        "two_to_four_hours": "Normalment llest en 4 hores",
+        "immediately": "A punt per a la recollida ara",
+        "next_day": "A punt per a la recollida l'endemà"
       }
     }
   },
@@ -2153,7 +2258,15 @@
         "phone_number_help_text": "El número de telèfon utilitzat per iniciar la sessió no es pot canviar",
         "save": "Desa",
         "save_accessibility_label": "Desa el perfil",
-        "title": "Perfil"
+        "title": "Perfil",
+        "cancel": "Cancel · lar",
+        "cancel_accessibility_label": "Cancel·la l'edició del perfil",
+        "edit": "Edita",
+        "edit_accessibility_label": "Edita el perfil",
+        "email_help_text": "El correu electrònic utilitzat per iniciar la sessió no es pot canviar",
+        "first_name": "Nom",
+        "last_name": "Cognom",
+        "no_name_provided_accessibility_label": "No s'ha afegit cap nom"
       },
       "profile_update_confirmation_message": "Perfil actualitzat",
       "title": "Perfil",
@@ -2164,7 +2277,9 @@
           "loading_accessibility_label": "Carregant gent"
         }
       },
-      "add_button": "Afegeix"
+      "add_button": "Afegeix",
+      "loading_accessibility_message": "S'està carregant la informació del compte",
+      "loading_finished_accessibility_message": "La informació del compte s'ha carregat"
     },
     "errors": {
       "logout_everywhere": {
@@ -2194,6 +2309,39 @@
         "description": "Actualitza aquesta pàgina o torna-ho a provar d'aquí a uns minuts.",
         "refresh_button": "Actualitza la pàgina"
       }
+    },
+    "enable_javascript": "Per veure el vostre compte, activeu JavaScript a la configuració del vostre navegador o inicieu sessió amb un altre navegador.",
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Amaga el menú del compte",
+        "label": "Compte",
+        "show_accessibility_label": "Mostra el menú del compte",
+        "nav_accessibility_label": "Navegació del compte",
+        "open_menu_accessibility_label": "Obriu la navegació del compte",
+        "close_menu_accessibility_label": "Tanca la navegació del compte",
+        "loading_message": "S'està carregant la navegació del compte"
+      },
+      "action_menu_accessibility_label": "Més accions",
+      "close_menu_accessibility_label": "Tanca la navegació principal",
+      "contact_email_subject": "Contacta de la botiga en línia {{shopName}}",
+      "contact_link": "Contacta amb nosaltres",
+      "delete_confirmation": {
+        "cancel": "Cancel · lar",
+        "delete": "Suprimeix"
+      },
+      "dismiss_toast": "Descartar",
+      "document_title": "{{sectionName}} - {{shopName}} - Compte",
+      "go_to_store_link": "Vés a la botiga",
+      "loading_message": "Carregant",
+      "log_out_link": "Tancar sessió",
+      "logout_overlay_label": "Tancant la sessió...",
+      "nav_label_accessibility_label": "Navegació principal",
+      "navigation_accessibility_message": "Has navegat a {{sectionName}}",
+      "open_menu_accessibility_label": "Obre la navegació principal",
+      "orders_link_label": "Comandes",
+      "shop_logo_accessibility_label": "Logotip de {{shopName}}",
+      "subscriptions_link_label": "Subscripcions",
+      "settings_link": "Configuració"
     }
   },
   "accessibility": {
