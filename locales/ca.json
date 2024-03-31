@@ -1274,7 +1274,133 @@
         "physical_gift_card_invalid_code": "El codi físic de la targeta regal no és vàlid.",
         "email_blank": "Introduïu un correu electrònic",
         "phone_blank": "Introduïu un número de telèfon",
-        "address_country_invalid": "Seleccioneu un país\/regió de la llista"
+        "address_country_invalid": "Seleccioneu un país\/regió de la llista",
+        "address_zip_invalid": "Introduïu un codi postal vàlid",
+        "gift_card_invalid": "La targeta regal \"••••%{last_four_characters}\" ja no és vàlida",
+        "vaulting_agreement_blank": "Per continuar, heu de desar la vostra nova targeta de crèdit perquè el pagament d'aquesta comanda es farà més endavant.",
+        "sms_marketing_phone_invalid": "Introduïu un número de telèfon vàlid",
+        "address_suggestion_did_you_mean_html": "Volíeu dir %{html}?"
+      },
+      "store_credit_errors": {
+        "generic_error": "S'ha produït un problema amb el crèdit de la botiga. Torna-ho a provar o torna a carregar la pàgina."
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "La targeta regal ja s'ha aplicat a la teva comanda",
+          "insufficient_funds": "Aquesta targeta regal no té fons",
+          "expired": "Aquesta targeta regal ha caducat",
+          "not_available": "Aquesta targeta regal ja no està disponible",
+          "invalid": "Introduïu una targeta regal vàlida",
+          "currency_mismatch": "Només s'accepten targetes regal en %{shop_currency}",
+          "generic": "No s'ha pogut afegir la targeta regal a la compra",
+          "throttle_limit_exceeded": "Heu superat el nombre màxim d'intents. Torna-ho a provar més tard."
+        }
+      },
+      "payment_errors": {
+        "amount_too_small": "L'import mínim del pagament ha de ser superior a 0,50 USD. Si us plau, torna-ho a provar amb una quantitat més alta.",
+        "method_not_available": "La forma de pagament sol·licitada no està disponible.",
+        "available_methods_updated": "S'han actualitzat les formes de pagament disponibles.",
+        "generic_error": "S'ha produït un problema en processar el vostre pagament. Torna-ho a provar o utilitza una altra forma de pagament.",
+        "rejected_transaction": "S'ha rebutjat el vostre pagament. Torna-ho a provar o utilitza una altra forma de pagament.",
+        "credit_card_processing": "El vostre pagament no es pot processar per motius tècnics. Torna-ho a provar d'aquí a uns minuts o utilitza una altra forma de pagament.",
+        "checkout_amount_changed": "No s'ha pogut processar el vostre pagament perquè ha canviat l'import que s'ha de pagar al pagar. Si us plau, comproveu la vostra comanda i torneu-ho a provar.",
+        "deferred_payment_not_allowed": "No es permeten pagaments ajornats. Si us plau, comproveu la vostra comanda i torneu-ho a provar.",
+        "deferred_payment_required": "Aquesta comanda requereix un pagament ajornat. Si us plau, comproveu la vostra comanda i torneu-ho a provar.",
+        "deferred_amount_changed": "El vostre pagament no s'ha pogut processar perquè l'import del pagament ajornat ha canviat. Si us plau, comproveu la vostra comanda i torneu-ho a provar.",
+        "deferred_date_changed": "El vostre pagament no s'ha pogut processar perquè la data de pagament ajornat ha canviat. Si us plau, comproveu la vostra comanda i torneu-ho a provar.",
+        "order_total_changed": "El vostre pagament no s'ha pogut processar perquè el total de la comanda ha canviat. Comproveu el total de la vostra comanda i torneu-ho a provar.",
+        "payment_processing": "El vostre pagament no es pot processar per motius tècnics. Torna-ho a provar o utilitza una altra forma de pagament.",
+        "payment_processing_no_retry": "El vostre pagament no es pot processar per motius tècnics. Proveu una altra forma de pagament.",
+        "paypal_zero_amount": "No podeu utilitzar PayPal per a comandes de %{amount}. Confirmeu que la vostra comanda és correcta i comproveu sense PayPal.",
+        "paypal_invalid_token": "PayPal no estava disponible. Torna-ho a provar o utilitza una opció de pagament diferent.",
+        "pay_later_failed": "S'ha produït un error en processar el vostre pagament amb Pay més tard. Trieu un altre mètode de pagament i torneu-ho a provar.",
+        "three_d_secure_failed": "No s'ha pogut verificar el vostre pagament. Torna-ho a provar o utilitza una altra forma de pagament.",
+        "three_d_secure_failed_duplicate": "L'autenticació 3D Secure de la targeta de crèdit ha fallat perquè ja n'hi ha una altra.",
+        "three_d_secure_throttled": "Massa intents; si us plau, espereu abans de tornar-ho a provar",
+        "subscription_agreement_blank": "Per comprar una subscripció, cal desar les vostres dades de pagament. Per continuar, confirmeu que accepteu o elimineu els articles de subscripció de la vostra comanda.",
+        "insufficient_funds": "El vostre pagament s'ha rebutjat perquè no hi ha prou fons. Torna-ho a provar o utilitza una altra forma de pagament.",
+        "multiple_deferred_payment_not_allowed": "Només es permet un pagament ajornat per sol·licitud. Comproveu la vostra sol·licitud i torneu-ho a provar.",
+        "shipping_must_match_billing": "L'adreça de facturació ha de coincidir amb l'adreça d'enviament. Si us plau, utilitzeu un mètode de pagament diferent.",
+        "decision_rule_block": "S'ha produït un problema en processar el vostre pagament. Poseu-vos en contacte amb el propietari de la botiga.",
+        "pick_up_card": "La teva targeta s'ha rebutjat. Torna-ho a provar o utilitza una altra forma de pagament.",
+        "cannot_verify": "No s'han pogut verificar les vostres dades de pagament. Comprova els detalls de la teva targeta i torna-ho a provar.",
+        "invalid_number": "Introduïu un número de targeta vàlid",
+        "invalid_expiry_date": "Introduïu una data de caducitat vàlida",
+        "invalid_cvc": "Introduïu un codi de seguretat vàlid",
+        "expired_card": "La teva targeta ha caducat. Utilitzeu un mètode de pagament diferent.",
+        "card_declined": "La teva targeta s'ha rebutjat. Torna-ho a provar o utilitza una altra forma de pagament.",
+        "processing_error": "S'ha produït un problema en processar el vostre pagament. Torna-ho a provar o utilitza una altra forma de pagament.",
+        "processing_error_checkout_as_guest": "S'ha produït un problema en processar el vostre pagament. Torna-ho a provar amb una altra forma de pagament o {{checkout_as_guest_link}} .",
+        "selected_payment_method": "S'ha produït un problema amb la forma de pagament seleccionada i no se us ha cobrat. Torna-ho a provar o utilitza una altra forma de pagament.",
+        "payment_method_billing_address": "S'ha produït un problema amb l'adreça de facturació del mètode de pagament seleccionat i no se us ha cobrat. Comproveu l'adreça i torneu-ho a provar o utilitzeu una altra forma de pagament.",
+        "call_issuer": "La teva targeta s'ha rebutjat. Utilitzeu un mètode de pagament diferent o poseu-vos en contacte amb el vostre banc per obtenir més informació.",
+        "test_mode_live_card": "Aquesta botiga no pot acceptar comandes reals ni pagaments reals.",
+        "transient_error": "S'ha produït un problema en processar el vostre pagament. Proveu d'actualitzar aquesta pàgina o comproveu la vostra connexió a Internet.",
+        "missing_shipping_address": "El vostre pagament no s'ha pogut processar perquè falta la vostra adreça d'enviament. Afegeix una adreça d'enviament i torna-ho a provar.",
+        "invalid_shipping_address": "El vostre pagament no s'ha pogut processar perquè no hem trobat la vostra adreça d'enviament. Comproveu la vostra adreça d'enviament i torneu-ho a provar.",
+        "successful_offsite_with_gift_card_error": "S'ha produït un problema en processar el pagament de la targeta de regal. Torna-ho a provar o utilitza una altra forma de pagament.",
+        "development_store_order_limit_reached": "Heu assolit el límit de comandes de botigues de desenvolupament amb aquest processador de pagaments. Per fer una altra comanda, haureu d'utilitzar una passarel·la de pagament de prova. Més informació sobre %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Per fer una comanda de prova, haureu d'utilitzar una passarel·la de pagament de prova. Més informació sobre %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "prova de comandes a les botigues de desenvolupament"
+      },
+      "shipping_errors": {
+        "shipping_method": "Les opcions d'enviament han canviat per a la teva comanda. Revisa la teva selecció i torna-ho a provar.",
+        "shipping_method_not_available": "El vostre carretó s'ha actualitzat i els articles que heu afegit no es poden enviar a la vostra adreça. Elimina els articles per completar la teva comanda.",
+        "shipping_method_not_available_generic": {
+          "one": "La teva comanda no es pot enviar a l'adreça seleccionada. Revisa la teva adreça per assegurar-te que és correcta i torna-ho a provar o selecciona una adreça diferent.",
+          "other": "Alguns articles del vostre carretó no es poden enviar a l'adreça que heu introduït. Revisa la teva adreça per assegurar-te que és correcta i torna-ho a provar o selecciona una adreça diferent."
+        },
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Els articles del carretó no compleixen els requisits de preu o pes per poder ser enviats. Actualitza el teu carretó i torna-ho a provar.",
+        "shipping_method_not_available_updated": {
+          "one": "L'article que has afegit no s'envia a la teva ubicació. Traieu-lo per comprovar-ho o poseu-vos en contacte amb la botiga.",
+          "other": "Un o més articles que heu afegit no s'envien a la vostra ubicació. Traieu-los per comprovar-ho o poseu-vos en contacte amb la botiga."
+        },
+        "payment_method_not_supported": "No podeu utilitzar aquesta forma de pagament per a %{country}. Si us plau, utilitzeu un mètode de pagament diferent per enviar-los a aquest país.",
+        "empty_state": "Introduïu la vostra adreça d'enviament per veure els mètodes d'enviament disponibles.",
+        "title": "Enviament no disponible"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Pagament exprés",
+        "or": "O",
+        "or_pay_another_way": "O pagar d'una altra manera",
+        "or_check_out_another_way": "O consulta d'una altra manera",
+        "or_pay_with_credit_card": "O pagar amb targeta de crèdit",
+        "show_more_options": "Mostra més opcions",
+        "hide_more_options": "Amaga més opcions"
+      },
+      "post_purchase": {
+        "page_title": "Post-compra",
+        "title": "Post-compra",
+        "escape_confirmation": "Has pagat la teva comanda.",
+        "escape_action": "Veure la confirmació de la comanda ›",
+        "components": {
+          "close": "Tanca",
+          "expand": "Veure més",
+          "processing": "S'està processant...",
+          "submit": "Presentar"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "S'està redirigint...",
+        "redirecting_title": "S'està redirigint...",
+        "redirecting_notice": "Espera mentre et redirigim.",
+        "complete_your_purchase_title": "Completa la teva compra",
+        "continue_to_payment_gateway_notice": "Continueu amb el pagament per afegir la vostra informació de pagament.",
+        "continue_to_payment_gateway_button_label": "Continueu amb el pagament",
+        "complete_your_purchase_title_error": "Corregiu la vostra informació de pagament",
+        "continue_to_payment_gateway_notice_error": "No s'ha pogut verificar la vostra informació de pagament.",
+        "continue_to_payment_gateway_button_label_error": "Actualitza la informació de pagament",
+        "page_title": "Tramitació de l'ordre",
+        "title": "Tramitació de l'ordre",
+        "your_order_has_been_received_title": "Gràcies per la teva comanda",
+        "you_will_receive_confirmation": "Estem rebent moltes comandes ara mateix. Hauríeu de rebre una confirmació per correu electrònic o missatge de text aviat. Si no el rebeu en l'hora següent, feu-nos-ho saber.",
+        "you_will_not_be_charged": "Encara no se us cobrarà",
+        "wait": {
+          "short": "La teva comanda s'està processant.",
+          "medium": {
+            "one": "La teva comanda s'està processant. El temps d'espera estimat és de %{count} minut."
+          }
+        }
       }
     },
     "errors": {
