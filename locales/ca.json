@@ -27,7 +27,11 @@
       "shipping_time_warehouse_weekend": "Producte en magatzem extern. L'enviarem el proper",
       "ship_day_tuesday": "Dimarts",
       "ship_day_monday": "Dilluns",
-      "shipping_text_pre_order": "Feu la reserva ara per rebre-la el"
+      "shipping_text_pre_order": "Feu la reserva ara per rebre-la el",
+      "shipping_time_pre_order": "setmanes",
+      "sold_out": "ESGOTAT",
+      "unavailable": "No disponible",
+      "vendor": "Proveïdor"
     }
   }
 }
