@@ -22,7 +22,12 @@
       },
       "shipping_time": "L'enviem avui si ho compreu abans de",
       "shipping_time_tomorrow": "L'enviem demà si ho compreu abans de",
-      "shipping_time_day": "L'enviarem el proper dia laborable, que és"
+      "shipping_time_day": "L'enviarem el proper dia laborable, que és",
+      "shipping_time_warehouse": "Producte en magatzem extern. L'enviarem en",
+      "shipping_time_warehouse_weekend": "Producte en magatzem extern. L'enviarem el proper",
+      "ship_day_tuesday": "Dimarts",
+      "ship_day_monday": "Dilluns",
+      "shipping_text_pre_order": "Feu la reserva ara per rebre-la el"
     }
   }
 }
