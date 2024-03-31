@@ -1943,7 +1943,20 @@
         "delete_and_replace_button": "Suprimeix i substitueix",
         "delete_and_replace_button_accessibility_label": "Suprimiu {{currentPaymentMethodName}} i substituïu-lo per {{newPaymentMethodName}} .",
         "deleted_successfully": "La forma de pagament s'ha suprimit correctament.",
-        "loading_available_payment_methods_accessibility_label": "S'estan carregant les formes de pagament disponibles"
+        "loading_available_payment_methods_accessibility_label": "S'estan carregant les formes de pagament disponibles",
+        "title": "Suprimeix la forma de pagament",
+        "description_without_replacement": "Aquesta forma de pagament ja no estarà disponible per a futures compres.",
+        "description_with_replacement": "La supressió d'aquesta forma de pagament afectarà els pagaments preautoritzats. Opcionalment, podeu substituir-lo per un altre mètode de pagament per continuar rebent les properes comandes.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "La supressió d'aquesta forma de pagament afectarà els pagaments preautoritzats. A menys que seleccioneu un mètode de pagament alternatiu, aquest mètode de pagament encara es cobrarà per qualsevol saldo pendent de les comandes existents. La selecció d'un mètode de pagament alternatiu us permetrà rebre les properes comandes de subscripció sense interrupcions.",
+          "with_pending_orders": "Si suprimiu aquesta forma de pagament, se l'eliminarà del vostre compte i ja no estarà disponible per a futures compres. A menys que seleccioneu un mètode de pagament alternatiu, es cobrarà per qualsevol saldo pendent de les comandes existents.",
+          "with_subscriptions": "La supressió d'aquesta forma de pagament afectarà els pagaments preautoritzats. Substituïu-lo per un mètode de pagament alternatiu per continuar rebent comandes properes."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "La supressió d'aquesta forma de pagament afectarà els pagaments preautoritzats. Aquest mètode de pagament encara es cobrarà per qualsevol saldo pendent de les comandes existents, però no rebràs les properes comandes de subscripció. Afegiu un mètode de pagament alternatiu per continuar rebent comandes de subscripció.",
+          "with_pending_orders": "Si suprimeixes aquesta forma de pagament, l'eliminarà del teu compte i ja no estarà disponible per a futures compres. Encara es cobrarà per qualsevol saldo pendent de les comandes existents.",
+          "with_subscriptions": "La supressió d'aquesta forma de pagament afectarà els pagaments preautoritzats. Afegiu un mètode de pagament alternatiu per continuar rebent les properes comandes."
+        }
       },
       "add_payment_method": {
         "title": "Afegeix una forma de pagament",
@@ -1956,6 +1969,101 @@
           "choose_billing_address_from_list_button_accessibility_label": "Trieu una adreça de facturació de la llista",
           "missing_billing_address_error_message": "Especifiqueu una adreça de facturació",
           "default_checkbox": "Estableix com a mètode de pagament predeterminat"
+        }
+      },
+      "title": "Mètodes de Pagament",
+      "add_payment_method_button": "Afegeix una forma de pagament",
+      "add_payment_method_banner": "Afegiu una forma de pagament per a un pagament més ràpid o serveis preautoritzats",
+      "no_payment_methods_banner": "No s'ha afegit cap mètode de pagament",
+      "edit_payment_method_button_accessibility_label": "Edita {{paymentMethodName}} acabat en {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Edita {{paymentMethodName}}",
+      "delete_payment_method_button": "Suprimeix",
+      "delete_payment_method_button_accessibility_label": "Suprimeix {{paymentMethodName}}",
+      "back_button": "esquena",
+      "back_button_accessibility_label": "Torna a {{paymentMethodStepTitle}}",
+      "default": "Per defecte",
+      "generic_card": "Targeta",
+      "expiration_warning_button_accessibility_label": "Mostra l'avís de caducitat per a {{paymentMethodName}} acabat en {{lastDigits}}",
+      "expires_soon": "Aquesta targeta caducarà aviat",
+      "expired": "Aquesta targeta està caducada",
+      "card_update_consent": "Aquesta forma de pagament es desarà per a futures compres.",
+      "digital_wallet_title": "Cartera digital",
+      "credit_or_debit_card_title": "Targeta de crèdit o dèbit",
+      "google_pay": {
+        "loading": "S'està carregant Google Pay",
+        "errors": {
+          "generic": "Hi ha hagut un problema amb Google Pay. Torna-ho a provar o utilitza una altra forma de pagament.",
+          "missing_billing_address": "Google Pay requereix una adreça de facturació. Si us plau, afegiu-ne un al vostre compte."
+        }
+      },
+      "apple_pay": {
+        "loading": "S'està carregant Apple Pay",
+        "errors": {
+          "generic": "Hi ha hagut un problema amb Apple Pay. Torna-ho a provar o utilitza una altra forma de pagament.",
+          "not_available": "Apple Pay no està disponible en aquest dispositiu.",
+          "missing_billing_address": "Apple Pay requereix una adreça de facturació. Si us plau, afegiu-ne un al vostre compte."
+        }
+      },
+      "payment_details": {
+        "title": "Detalls del mètode de pagament",
+        "credit_card_details_accessibility_label": "acabat en {{lastDigits}}",
+        "billing_title": "Adreça de facturació",
+        "card_info_title": "Informació de la targeta",
+        "payment_method_expiring_on": "Caduca el dia {{expiryDate}}",
+        "payment_method_expired_on": "Va caducar el {{expiryDate}}",
+        "preauthorized_payments": "Pagaments preautoritzats",
+        "close_payment_modal": "Tanca",
+        "close_payment_modal_accessibility_label": "Tanca els detalls del mètode de pagament modal",
+        "payment_method_not_found_error": "No s'ha pogut trobar la forma de pagament",
+        "payment_details_loading": "S'estan carregant els detalls del mètode de pagament",
+        "pre_authorized_payments": "Pagaments preautoritzats",
+        "total_amount_of_subscription_line_items_left": "i {{total}} més",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} elements en total, mostrant {{totalItemsToDisplay}} elements.",
+        "next_payment_due": "El proper pagament vencerà el dia {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Edita",
+        "edit_payment_method_button_accessibility_label": "Edita la forma de pagament acabada en {{lastDigits}}",
+        "loading_shop_pay": "Carregant Shop Pay",
+        "invalid_payment_method": "Forma de pagament no vàlida",
+        "invalid_payment_method_message": "Utilitzeu una targeta de crèdit nova per continuar rebent comandes properes.",
+        "replace_payment_method": "Substitueix la forma de pagament",
+        "checkout_card_banner": "Aquesta forma de pagament només es pot utilitzar per a pagaments preautoritzats. No apareixerà a la compra si heu iniciat sessió en aquesta botiga.",
+        "default_checkbox": "Establir com a defecte",
+        "default_checkbox_accessibility_label": "Estableix aquesta forma de pagament com a predeterminada"
+      },
+      "edit_payment_method": {
+        "title": "Edita la forma de pagament",
+        "save_payment_method_button": "Desa",
+        "cancel_edit_payment_method_button": "Cancel · lar",
+        "payment_method_updated_toast": "Forma de pagament actualitzada",
+        "billing_address": "Adreça de facturació",
+        "billing_address_add_new": "Afegir nou",
+        "billing_address_choose_from_list": "Trieu de la llista",
+        "future_purchases_notice": "Aquesta forma de pagament es desarà per a futures compres.",
+        "generic_error": "Hi ha hagut un problema en l'actualització. Siusplau torna-ho a provar."
+      },
+      "card_fields": {
+        "card_number_label": "Número de targeta",
+        "card_number_placeholder": "Número de targeta",
+        "name_on_card_label": "Nom a la targeta",
+        "name_on_card_placeholder": "Nom a la targeta",
+        "card_expiry_label": "Data de caducitat (MM\/AA)",
+        "card_expiry_placeholder": "Data de caducitat (MM\/AA)",
+        "card_verification_value_label": "Codi de seguretat",
+        "card_verification_value_placeholder": "Codi de seguretat",
+        "card_start_label": "Data d'emissió (MM\/AA)",
+        "card_start_placeholder": "Data d'emissió (MM\/AA)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Més informació",
+          "card_verification_value_explanation_amex": "Codi de seguretat de 4 dígits al davant de la targeta",
+          "card_verification_value_explanation_other": "Codi de seguretat de 3 dígits a la part posterior de la targeta",
+          "card_verification_value_explanation": "El codi de seguretat de 3 dígits es troba habitualment a la part posterior de la targeta. Les targetes American Express tenen un codi de 4 dígits situat al davant.",
+          "card_security_notice": "Totes les transaccions són segures i xifrades."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Introduïu el vostre nom exactament tal com està escrit a la vostra targeta",
+          "credit_card_number_invalid": "Introduïu un número de targeta vàlid",
+          "credit_card_expiry_invalid": "Introduïu una data de caducitat de la targeta vàlida",
+          "credit_card_verification_value_blank": "Introduïu el CVV o el codi de seguretat a la vostra targeta"
         }
       }
     },
@@ -2057,6 +2165,35 @@
         }
       },
       "add_button": "Afegeix"
+    },
+    "errors": {
+      "logout_everywhere": {
+        "description": "S'ha produït un error durant la sessió. Siusplau torna-ho a provar."
+      },
+      "no_access": {
+        "back_to_authentication_link": "Inicieu sessió en un compte diferent",
+        "description": "No esteu registrat com a client B2B amb {{shopName}}",
+        "title": "Sense accès"
+      },
+      "no_access_to_locations": {
+        "description": "No tens accés a cap ubicació"
+      },
+      "not_found": {
+        "description": "Comproveu l'URL o torneu-ho a provar d'aquí a uns minuts.",
+        "title": "Hi ha un problema en carregar aquesta pàgina"
+      },
+      "order_not_found": {
+        "description": "Aquesta comanda no existeix o no teniu permís per veure-la.",
+        "title": "No s'ha trobat la comanda"
+      },
+      "profile_update_error": {
+        "description": "S'ha produït un problema en actualitzar el teu perfil. Proveu d'actualitzar aquesta pàgina o comproveu la vostra connexió a Internet."
+      },
+      "retry_action_label": "Torna-ho a provar",
+      "load_extension_error": {
+        "description": "Actualitza aquesta pàgina o torna-ho a provar d'aquí a uns minuts.",
+        "refresh_button": "Actualitza la pàgina"
+      }
     }
   },
   "accessibility": {
