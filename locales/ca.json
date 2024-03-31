@@ -606,7 +606,9 @@
         "card_update_label": "Actualitzar la targeta",
         "ends_with_label": "acabant amb %{last_digits}",
         "same_billing_address_checkbox_label": "Utilitza l'adreça d'enviament com a adreça de facturació",
-        "billing_address_title": "Adreça de facturació"
+        "billing_address_title": "Adreça de facturació",
+        "billing_address_associated_with_mandate_info": "Si desitja canviar la seva adreça de facturació, si us plau, eliminis i torni a introduir els detalls de la seva targeta de crèdit.",
+        "different_credit_card_label": "Utilitza una altra targeta de crèdit"
       },
       "billing": {
         "billing_address_title": "Factura a",
@@ -1403,6 +1405,9 @@
             "one": "La teva comanda s'està processant. El temps d'espera estimat és de %{count} minut."
           }
         }
+      },
+      "payment_gateway": {
+        "credit_card_label": "Targeta de crèdit"
       }
     },
     "errors": {
