@@ -219,7 +219,12 @@
         "pincode_placeholder": "Codi PIN",
         "civic_number_warning": "Afegiu un número de casa si en teniu",
         "optional_last_name_label": "Cognoms (opcional)",
-        "optional_recipient_label": "Atenció (opcional)"
+        "optional_recipient_label": "Atenció (opcional)",
+        "different_shipping_address_label": "Envia a una adreça diferent",
+        "different_shipping_address_text": "Utilitzeu una adreça única per a aquesta comanda",
+        "change_company_location_link_label": "Canviar la ubicació de l'empresa",
+        "change_location_link_label": "Canvia la ubicació",
+        "ship_to_company": "Envia a {{companyName}}"
       },
       "order_summary": {
         "subscriptions": "Subscripcions",
@@ -249,7 +254,23 @@
             "other": "%{count} elements"
           }
         },
-        "alternative_payment_currency_total": "Cobrat com a %{amount_due}"
+        "alternative_payment_currency_total": "Cobrat com a %{amount_due}",
+        "title": "Resum de la comanda",
+        "group_title_label": "Part de \"%{group_title}\"",
+        "order_name_label": "Comanda %{name}",
+        "shopping_cart_label": "Carret de compra",
+        "discount_title": "Descompte",
+        "discount_title_stacking": {
+          "one": "Descompte",
+          "other": "Descomptes"
+        },
+        "discount_order_stacking": {
+          "one": "Descompte de comanda",
+          "other": "Descomptes de comanda"
+        },
+        "discount_label": "Codi de descompte",
+        "discount_not_found": "No es pot trobar un descompte vàlid que coincideixi amb el codi introduït",
+        "discount_placeholder": "Codi de descompte"
       },
       "shipping": {
         "title": "Lliurament",
@@ -1028,6 +1049,129 @@
           "unsupported": {
             "address": "El comerciant no pot lliurar a aquesta adreça"
           }
+        }
+      },
+      "delivery_options": {
+        "free_total_label": "Gratuït",
+        "ship": "Vaixell",
+        "ship_to_address": "Enviament a adreça",
+        "shipping_address": "Adreça d'enviament",
+        "pick_up": "Recollir",
+        "pick_up_from_store": "Recollir a la botiga",
+        "pick_up_locations": "Llocs de recollida",
+        "pick_up_in_one_hour": "Normalment llest en 1 hora",
+        "pick_up_in_two_hours": "Normalment llest en 2 hores",
+        "pick_up_in_four_hours": "Normalment llest en 4 hores",
+        "pick_up_in_twenty_four_hours": "Normalment llest en 24 hores",
+        "pick_up_in_two_to_four_days": "Normalment llest en 2-4 dies",
+        "pick_up_in_five_or_more_days": "Normalment llest en més de 5 dies",
+        "pick_up_in_zero_to_two_hours": "A punt per a la recollida en 2 hores",
+        "pick_up_in_two_to_four_hours": "A punt per a la recollida en 4 hores",
+        "pick_up_immediately": "A punt per a la recollida ara",
+        "pick_up_next_day": "A punt per a la recollida l'endemà",
+        "pickup_point_method_definition": "Enviament al punt de recollida",
+        "retail_method_definition": "Enviament al detall",
+        "none_method_definition": "Sense enviament",
+        "subscription_pickup_information": "Aquest mètode de lliurament s'aplicarà a tots els articles d'aquesta comanda i a totes les comandes futures d'aquesta subscripció."
+      },
+      "customer_account": {
+        "not_user_label": "No %{first_name}?",
+        "have_an_account_label": "Tens un compte?",
+        "sign_in_link_label": "Iniciar Sessió",
+        "sign_out_link_label": "Tancar sessió",
+        "save_my_information_label": "Guarda aquesta informació per a la propera vegada",
+        "invalid_address": "L'adreça seleccionada no és vàlida. %{update_address_link} o seleccioneu una adreça diferent.",
+        "incomplete_address": "L'adreça seleccionada és incompleta. %{update_address_link} o seleccioneu una adreça diferent.",
+        "rollup_label": "Compte",
+        "invalid_shipping_method_summary": "Seleccioneu una adreça d'enviament vàlida per veure els mètodes d'enviament disponibles"
+      },
+      "stock": {
+        "page_title": "Problemes d'inventari",
+        "title": "Esgotat",
+        "items_unavailable_notice": "Alguns articles ja no estan disponibles.",
+        "product_column_header": "Productes",
+        "quantity_column_header": "Quantitat",
+        "price_column_header": "Preu",
+        "status_column_header": "Estat",
+        "removed_from_cart_notice": "Eliminat del carretó",
+        "sold_out_label": "Venut",
+        "reduced_label": "Reduït",
+        "reduced_with_quantity_label": "Només queda %{quantity_available}",
+        "remove_from_cart_button_label": "Retirar del carro",
+        "continue_shopping_button_label": "Continua",
+        "go_back_to_cart_button_label": "Torna al meu carro",
+        "remove": "Eliminar",
+        "return_to_store_label": "Tornar a la botiga",
+        "continue_cta_label": "Continueu la compra",
+        "item_label": {
+          "one": "{{count}} element",
+          "other": "{{count}} elements"
+        },
+        "empty_cart_label": "El teu carro està buit",
+        "quantity_update": {
+          "page_title": "Actualització de la quantitat",
+          "title": "Actualització de la quantitat",
+          "description": "Les quantitats disponibles per a aquests articles han canviat i s'actualitzen al vostre carretó."
+        },
+        "unpurchasable_product": {
+          "title": "Producte no comprable",
+          "header": "S'han eliminat alguns articles del vostre carretó",
+          "message": "Aquests articles no estan disponibles per a comandes B2B.",
+          "status_column_header": "No disponible"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Producte no comprable",
+          "header": "S'han eliminat alguns articles del vostre carretó",
+          "message": "Aquests articles no estan disponibles.",
+          "status_column_header": "No disponible"
+        },
+        "unshippable_product": {
+          "title": "No hi ha lliurament disponible",
+          "header": {
+            "one": "No hi ha lliurament disponible per a %{count} article",
+            "other": "No hi ha lliurament disponible per a %{count} articles"
+          },
+          "message": {
+            "one": "Aquest article s'eliminarà del vostre carretó perquè no hi ha mètodes de lliurament disponibles per a la vostra adreça.",
+            "other": "Aquests articles s'eliminaran del vostre carretó perquè no hi ha mètodes de lliurament disponibles per a la vostra adreça."
+          },
+          "status_column_header": "Sense lliurament"
+        },
+        "price_update": {
+          "title": "Actualització de preus",
+          "description": "Els preus d'aquests articles han canviat i s'actualitzen al vostre carretó."
+        },
+        "out_of_stock": {
+          "description": "Aquests articles ja no estan disponibles i s'han eliminat del vostre carretó.",
+          "items_unavailable": "Alguns articles ja no estan disponibles i s'han eliminat del vostre carretó."
+        }
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Producte no disponible",
+          "other": "Productes no disponibles"
+        },
+        "products_not_available": {
+          "one": "Aquest producte s'eliminarà del vostre carretó perquè no està disponible al vostre país\/regió.",
+          "other": "Aquests productes s'eliminaran del vostre carretó perquè no estan disponibles al vostre país\/regió."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Aquest producte no està disponible al vostre país\/regió.",
+          "other": "Aquests productes no estan disponibles al vostre país\/regió."
+        },
+        "unavailable_label": "No disponible"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "No hi ha lliurament disponible per a %{count} article",
+            "other": "No hi ha lliurament disponible per a %{count} articles"
+          },
+          "message": {
+            "one": "Aquest article s'eliminarà del vostre carretó perquè no hi ha mètodes de lliurament disponibles per a la vostra adreça.",
+            "other": "Aquests articles s'eliminaran del vostre carretó perquè no hi ha mètodes de lliurament disponibles per a la vostra adreça."
+          },
+          "label": "Sense lliurament"
         }
       }
     },
