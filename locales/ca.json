@@ -1993,7 +1993,7 @@
       },
       "change_country": {
         "cart_and_currency_updated_based_on_country": "El vostre carretó i la vostra moneda s'han actualitzat en funció del vostre país d'enviament.",
-        "cart_updated_based_on_country": "El vostre carretó s'ha actualitzat en funció del vostre país d'enviament."
+        "cart_updated_based_on_country": "El vostre carret s'ha actualitzat segons el vostre país d'enviament."
       },
       "change_cart_localization": {
         "verify_shipping_address": "El vostre país\/regió s'ha actualitzat. Introduïu la vostra adreça d'enviament per continuar la compra."
