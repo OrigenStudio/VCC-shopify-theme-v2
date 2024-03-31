@@ -582,7 +582,10 @@
         "total_outstanding_label": "Quantitat a pagar",
         "cost_table_title": "Resum del cost",
         "description_label": "Descripció",
-        "quantity_label": "Quantitat"
+        "quantity_label": "Quantitat",
+        "sale_price": "Preu de oferta",
+        "order_total_updated_label": "Preu actualitzat",
+        "estimated_tax_label": "Impost estimat"
       },
       "shipping": {
         "title": "Lliurament",
