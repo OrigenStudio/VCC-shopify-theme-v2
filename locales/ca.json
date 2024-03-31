@@ -1,0 +1,28 @@
+{
+  "products": {
+    "product": {
+      "add_to_cart": "AFEGIR AL CISTELL",
+      "pay_deposit": "REALITZAR EL DEPÒSIT",
+      "deposit": "Depòsit de",
+      "deposit_note": "NOTA DE DEPÒSIT: Esteu pagant un dipòsit per aquest producte. El nostre equip es posarà en contacte amb vós i farà la comanda del producte després de rebre el dipòsit. El saldo restant es pagarà en rebre el producte al nostre magatzem",
+      "inventory_in_stock": "En estoc",
+      "inventory_in_stock_show_count": "+3 unitats en estoc",
+      "inventory_low_stock": "Estoc baix",
+      "inventory_low_stock_show_count": "Estoc baix: {{ quantity }} restants",
+      "inventory_out_of_stock": "Sense estoc",
+      "inventory_out_of_stock_continue_selling": "En estoc",
+      "inventory_only_on_warehouse": "Producte no disponible per recollir avui a la botiga",
+      "on_sale": "Rebaixa",
+      "pickup_availability": {
+        "check_other_stores": "Comprova la disponibilitat a la botiga",
+        "view_store_info": "Comprova la disponibilitat a la botiga",
+        "pick_up_available_at_html": "Recollida disponible a <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Recollida actualment no disponible a <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "unavailable": "Recollida actualment no disponible"
+      },
+      "shipping_time": "L'enviem avui si ho compreu abans de",
+      "shipping_time_tomorrow": "L'enviem demà si ho compreu abans de",
+      "shipping_time_day": "L'enviarem el proper dia laborable, que és"
+    }
+  }
+}
