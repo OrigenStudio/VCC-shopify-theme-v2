@@ -271,7 +271,8 @@
         "discount_label": "Codi de descompte",
         "discount_not_found": "No es pot trobar un descompte vàlid que coincideixi amb el codi introduït",
         "discount_placeholder": "Codi de descompte",
-        "shipping_label": "Enviament"
+        "shipping_label": "Enviament",
+        "vat_label_html": "Inclòs %{amount} en impostos"
       },
       "shipping": {
         "title": "Lliurament",
