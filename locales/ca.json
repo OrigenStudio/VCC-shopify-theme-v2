@@ -575,7 +575,8 @@
         "expand_order_summary_short": "Espectacle",
         "collapse_order_summary_short": "Amaga",
         "total_already_paid_label": "Pagat",
-        "gift_card_subscriptions_notice": "Les targetes de regal només s'aplicaran al primer pagament"
+        "gift_card_subscriptions_notice": "Les targetes de regal només s'aplicaran al primer pagament",
+        "free_shipping_discount_label": "Envío Grauito"
       },
       "shipping": {
         "title": "Lliurament",
