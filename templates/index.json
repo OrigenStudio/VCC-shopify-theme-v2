@@ -60,12 +60,12 @@
         "slide_ejjnRm": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/65dff37b9c42d04f7d969abe_maap_road_HP_BILL_D.webp",
+            "image": "shopify:\/\/shop_images\/kaskxmaapslider.webp",
             "heading": "A NEW SEASON DAWNS",
             "heading_size": "h1",
-            "subheading": "The latest Maap launches have arrived.",
-            "button_label": "BUY MAAP",
-            "link": "shopify:\/\/collections\/maap-new-arrivals",
+            "subheading": "KASK X MAAP",
+            "button_label": "BUY KASK X MAAP",
+            "link": "shopify:\/\/collections\/kask-x-maap",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
