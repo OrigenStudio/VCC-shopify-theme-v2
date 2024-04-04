@@ -3,6 +3,24 @@
     "e0911e38-e306-463a-9877-cdf1960a5028": {
       "type": "slideshow",
       "blocks": {
+        "slide_ejjnRm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kaskxmaapslider.webp",
+            "heading": "KASK X MAAP COLLAB",
+            "heading_size": "h1",
+            "subheading": "Protone Icon AS\/NZS",
+            "button_label": "BUY KASK X MAAP",
+            "link": "shopify:\/\/collections\/kask-x-maap",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "e78dd58c-61c5-4122-9152-2b6a6c6f0321": {
           "type": "slide",
           "settings": {
@@ -57,24 +75,6 @@
             "text_alignment_mobile": "left"
           }
         },
-        "slide_ejjnRm": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/kaskxmaapslider.webp",
-            "heading": "KASK X MAAP COLLAB",
-            "heading_size": "h1",
-            "subheading": "Protone Icon AS\/NZS",
-            "button_label": "BUY KASK X MAAP",
-            "link": "shopify:\/\/collections\/kask-x-maap",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_TdPr94": {
           "type": "slide",
           "settings": {
@@ -95,10 +95,10 @@
         }
       },
       "block_order": [
+        "slide_ejjnRm",
         "e78dd58c-61c5-4122-9152-2b6a6c6f0321",
         "97e73aef-1ac7-4d7c-babc-783ca2d37e4f",
         "slide_WDTFHg",
-        "slide_ejjnRm",
         "slide_TdPr94"
       ],
       "settings": {
