@@ -41,9 +41,9 @@
           "type": "shopify:\/\/apps\/aftership-order-tracking\/blocks\/edd\/3375afd5-c790-4ee3-abbc-ae4972ab72ed",
           "settings": {
             "description": "Estimated delivery",
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "text-color": "#232933",
-            "icon-color": "#5C5F62",
+            "icon-color": "#5c5f62",
             "top-padding": 28,
             "bottom-padding": 28
           }
@@ -235,7 +235,6 @@
       "block_order": [
         "technical_specifications_9Ftd3c"
       ],
-      "disabled": true,
       "settings": {
         "heading": "TECHNICAL SPECIFICATIONS",
         "open_collapsible_row": true,
@@ -255,7 +254,6 @@
       "block_order": [
         "geometry_nPwPkg"
       ],
-      "disabled": true,
       "settings": {
         "heading": "GEOMETRY",
         "open_collapsible_row": true,
