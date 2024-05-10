@@ -3,6 +3,24 @@
     "e0911e38-e306-463a-9877-cdf1960a5028": {
       "type": "slideshow",
       "blocks": {
+        "slide_TdPr94": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TDF24-JERSEY-FLOWERS-01.webp",
+            "heading": "Temps de Flors 24 Late Drop Jersey",
+            "heading_size": "h0",
+            "subheading": "the ultimate cycling jersey collaboration between Velodrom and Ramon Monegal",
+            "button_label": "BUY THE JERSEY",
+            "link": "shopify:\/\/products\/velodrom-x-ramon-monegal-jersey-temps-de-flor-2024-late-drop",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_WDTFHg": {
           "type": "slide",
           "settings": {
@@ -19,24 +37,6 @@
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
             "text_alignment_mobile": "left"
-          }
-        },
-        "slide_TdPr94": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/aac2c8bc81cf02c4e2b687c1a5578077ca0b62ae-3840x2160.jpg",
-            "heading": "PAS NORMAL STUDIOS X FIZIK",
-            "heading_size": "h0",
-            "subheading": "Advanced movement and power transfer",
-            "button_label": "BUY THE SHOES",
-            "link": "shopify:\/\/products\/fizik-x-pas-normal-studios-mechanism-vento-road-cycling-shoes-silver",
-            "button_style_secondary": true,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 40,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
           }
         },
         "slide_ejjnRm": {
@@ -95,8 +95,8 @@
         }
       },
       "block_order": [
-        "slide_WDTFHg",
         "slide_TdPr94",
+        "slide_WDTFHg",
         "slide_ejjnRm",
         "e78dd58c-61c5-4122-9152-2b6a6c6f0321",
         "97e73aef-1ac7-4d7c-babc-783ca2d37e4f"
