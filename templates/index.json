@@ -3,6 +3,24 @@
     "e0911e38-e306-463a-9877-cdf1960a5028": {
       "type": "slideshow",
       "blocks": {
+        "e78dd58c-61c5-4122-9152-2b6a6c6f0321": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sr_red_axs_2x-hero-desktop-2880x1480.jpg",
+            "heading": "NEW SRAM RED 2024",
+            "heading_size": "h0",
+            "subheading": "Riding isn't effortless. RED IS.",
+            "button_label": "PRE-ORDER NOW",
+            "link": "shopify:\/\/products\/sram-red-axs-2024-complete-groupset-with-quarq-power-meter-black-silver",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "left"
+          }
+        },
         "slide_ejjnRm": {
           "type": "slide",
           "settings": {
@@ -57,24 +75,6 @@
             "text_alignment_mobile": "left"
           }
         },
-        "e78dd58c-61c5-4122-9152-2b6a6c6f0321": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/aba62697d85d347b50a5d24400f5e22be1b6505f-2200x2200.jpg",
-            "heading": "PNS X SALOMON",
-            "heading_size": "h0",
-            "subheading": "Merging routines on and off the bike. Pas Normal Studios x Salomon is a collaboration built on minimalistic and advanced functionality. For the daily commute. Adventure and recovery. The little escape, a moment of rest.",
-            "button_label": "SHOP NOW",
-            "link": "shopify:\/\/collections\/pas-normal-studios-x-salomon",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "left"
-          }
-        },
         "97e73aef-1ac7-4d7c-babc-783ca2d37e4f": {
           "type": "slide",
           "settings": {
@@ -95,10 +95,10 @@
         }
       },
       "block_order": [
+        "e78dd58c-61c5-4122-9152-2b6a6c6f0321",
         "slide_ejjnRm",
         "slide_TdPr94",
         "slide_WDTFHg",
-        "e78dd58c-61c5-4122-9152-2b6a6c6f0321",
         "97e73aef-1ac7-4d7c-babc-783ca2d37e4f"
       ],
       "settings": {
