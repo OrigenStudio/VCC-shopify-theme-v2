@@ -37,17 +37,6 @@
           "settings": {
           }
         },
-        "aftership_order_tracking_edd_NFhM7V": {
-          "type": "shopify:\/\/apps\/aftership-order-tracking\/blocks\/edd\/3375afd5-c790-4ee3-abbc-ae4972ab72ed",
-          "settings": {
-            "description": "Estimated delivery",
-            "background-color": "#ffffff",
-            "text-color": "#232933",
-            "icon-color": "#5c5f62",
-            "top-padding": 28,
-            "bottom-padding": 28
-          }
-        },
         "f41fc082-2e8f-4f05-9bb6-4ded1482267e": {
           "type": "shopify:\/\/apps\/alert-me-restock-alerts\/blocks\/product-form\/88d8595d-225a-4087-b3c0-661d0d859357",
           "settings": {
@@ -165,7 +154,7 @@
           }
         },
         "f57b8618-0949-4b1a-8c3e-e6b02651a179": {
-          "type": "shopify:\/\/apps\/mbc-product-bundle-discounts\/blocks\/mbc-bundles-shortcode-widget-for-product-page\/57c94b78-e464-47f4-9403-7ffcfcddb33f",
+          "type": "shopify:\/\/apps\/mbc-bundles-volume-discount\/blocks\/mbc-bundles-shortcode-widget-for-product-page\/57c94b78-e464-47f4-9403-7ffcfcddb33f",
           "disabled": true,
           "settings": {
             "widget_type": "default"
@@ -179,7 +168,6 @@
         "368899bd-d2da-4493-adf0-e55a2be77906",
         "variant_picker",
         "1baf60dc-4380-44ae-abcc-3f75e9306fe8",
-        "aftership_order_tracking_edd_NFhM7V",
         "f41fc082-2e8f-4f05-9bb6-4ded1482267e",
         "buy_buttons",
         "5867240e-6103-4cb1-94cc-15bff73ae412",
