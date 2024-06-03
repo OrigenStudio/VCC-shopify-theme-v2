@@ -115,7 +115,7 @@
       "add_to_cart": "ADD TO CART",
       "pay_deposit": "PAY DEPOSIT",
       "deposit": "Deposit of",
-      "full_price": "", 
+      "full_price": "",
       "deposit_note": "DEPOSIT NOTE: You are paying a deposit for this product. Our team will contact you and order the product after receiving the deposit. The remaining balance will be paid upon the reception of the product at our warehouse.",
       "choose_options": "Choose options",
       "choose_product_options": "Choose options for {{ product_name }}",
@@ -180,7 +180,7 @@
       "view_full_details": "View full details",
       "xr_button": "View in your space",
       "xr_button_label": "View in your space, loads item in augmented reality window",
-      "include_taxes": "Tax included.",
+      "include_taxes": "Outside EU: No Taxes.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout."
     },
     "modal": {
