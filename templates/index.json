@@ -21,6 +21,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_TdPr94": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2024-06-05_a_las_18.41.02.png",
+            "heading": "VELODROM RACE DAY SS24",
+            "heading_size": "h0",
+            "subheading": "The ultimate Velodrom Raceday  Collection SS24",
+            "button_label": "BUY COLLECTION",
+            "link": "shopify:\/\/collections\/velodrom-raceday-ss24",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "e78dd58c-61c5-4122-9152-2b6a6c6f0321": {
           "type": "slide",
           "settings": {
@@ -57,24 +75,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_TdPr94": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2024-06-05_a_las_18.41.02.png",
-            "heading": "VELODROM RACE DAY SS24",
-            "heading_size": "h0",
-            "subheading": "The ultimate Velodrom Raceday  Collection SS24",
-            "button_label": "BUY COLLECTION",
-            "link": "shopify:\/\/collections\/velodrom-raceday-ss24",
-            "button_style_secondary": true,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 20,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_WDTFHg": {
           "type": "slide",
           "settings": {
@@ -96,9 +96,9 @@
       },
       "block_order": [
         "97e73aef-1ac7-4d7c-babc-783ca2d37e4f",
+        "slide_TdPr94",
         "e78dd58c-61c5-4122-9152-2b6a6c6f0321",
         "slide_ejjnRm",
-        "slide_TdPr94",
         "slide_WDTFHg"
       ],
       "settings": {
