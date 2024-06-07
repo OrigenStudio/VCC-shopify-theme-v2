@@ -3,24 +3,6 @@
     "e0911e38-e306-463a-9877-cdf1960a5028": {
       "type": "slideshow",
       "blocks": {
-        "97e73aef-1ac7-4d7c-babc-783ca2d37e4f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2024-06-05_a_las_9.50.46.png",
-            "heading": "PAS NORMAL STUDIOS Solitude",
-            "heading_size": "h1",
-            "subheading": "Rides filled with old rituals and new roads.",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/pas-normal-studios-solitude-ss24",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_TdPr94": {
           "type": "slide",
           "settings": {
@@ -35,6 +17,24 @@
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 20,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "97e73aef-1ac7-4d7c-babc-783ca2d37e4f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2024-06-05_a_las_9.50.46.png",
+            "heading": "PAS NORMAL STUDIOS Solitude",
+            "heading_size": "h1",
+            "subheading": "Rides filled with old rituals and new roads.",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/pas-normal-studios-solitude-ss24",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
@@ -95,8 +95,8 @@
         }
       },
       "block_order": [
-        "97e73aef-1ac7-4d7c-babc-783ca2d37e4f",
         "slide_TdPr94",
+        "97e73aef-1ac7-4d7c-babc-783ca2d37e4f",
         "e78dd58c-61c5-4122-9152-2b6a6c6f0321",
         "slide_ejjnRm",
         "slide_WDTFHg"
