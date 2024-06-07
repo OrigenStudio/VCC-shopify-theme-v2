@@ -307,11 +307,10 @@
         "settings": {
           "enable_language_switcher": true,
           "enable_country_region_switcher": false,
-          "use_modal_dialog": false,
           "use_currency_for_region": false,
           "switcher_position": "custom",
           "show_flags": true,
-          "language_label": "language-name",
+          "use_modal_dialog": false,
           "language_country_mapping": "",
           "countries_filter": "",
           "custom_css": "",
