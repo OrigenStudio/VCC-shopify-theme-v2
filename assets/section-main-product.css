@@ -167,7 +167,7 @@
 }
 
 /* Form Elements */
-.product-form__input {
+.product-form__input { /* Sizes Button Group */
   flex: 0 0 100%;
   padding: 0;
   margin: 0 0 1.2rem 0;
@@ -185,9 +185,9 @@
   min-width: 100%;
 }
 
-.product-form__input.fullbleed input[type="radio"] + label {
+.product-form__input.fullbleed input[type="radio"] + label { /* Size Individual Button */
   flex: auto;
-  max-width: 145px;
+  /* max-width: 145px; */
 }
 
 variant-radios,
