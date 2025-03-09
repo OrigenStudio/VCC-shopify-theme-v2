@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -106,22 +115,22 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/Velodrom.cc",
+    "social_facebook_link": "https://www.facebook.com/Velodrom.cc",
     "social_pinterest_link": "",
-    "social_instagram_link": "http:\/\/instagram.com\/velodrom.cc",
+    "social_instagram_link": "http://instagram.com/velodrom.cc",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UChsjeH5tK_e0qbrCj9ZCrTw",
+    "social_youtube_link": "https://www.youtube.com/channel/UChsjeH5tK_e0qbrCj9ZCrTw",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/shopify_logo_800x_v2_800x_297aa4fc-af3b-4790-b031-ea953a727d74.jpg",
+    "favicon": "shopify://shop_images/shopify_logo_800x_v2_800x_297aa4fc-af3b-4790-b031-ea953a727d74.jpg",
     "currency_code_enabled": false,
     "cart_type": "drawer",
     "cart_drawer_collection": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Screenshot_2023-04-24_at_16.09.16.png",
+    "checkout_logo_image": "shopify://shop_images/Screenshot_2023-04-24_at_16.09.16.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "sections": {
@@ -135,20 +144,19 @@
               "text": "MAAP Mid Year Sale! 15% of Maap products: USE THE CODE \"MAAPMIDYEARSALE\"",
               "text_alignment": "center",
               "color_scheme": "accent-1",
-              "link": "shopify:\/\/collections\/maap"
+              "link": "shopify://collections/maap"
             }
           }
         },
         "block_order": [
           "127d21ed-09e3-43b4-93ba-5e568ed753de"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/VelodromLogoSM_1.png",
+          "logo": "shopify://shop_images/VelodromLogoSM_1.png",
           "menu": "cro-menu-2024",
           "menu_type_desktop": "mega"
         }
@@ -160,14 +168,14 @@
             "type": "text",
             "settings": {
               "heading": "Locations",
-              "subtext": "<p><strong>Velodrom Barcelona<\/strong><br\/>Comte de Salvatierra 6, 08006 – Barcelona<br\/><a href=\"mailto:info@velodrom.cc\">info@velodrom.cc<\/a><br\/>+34 937682373<\/p><p><strong>Velodrom Girona<\/strong><br\/>Carrer de l'Argenteria 9 - 17004 Girona<br\/><a href=\"mailto:info@velodrom.cc\">info@velodrom.cc<br\/><\/a>+34 872001688<br\/><br\/><strong>Velodrom Katowice<\/strong><br\/>Kępowa 45, 40-583 Katowice, Poland<br\/><a href=\"mailto:katowice@velodrom.cc\">katowice@velodrom.cc<\/a><\/p><p><strong>Velodrom Ecuador<\/strong><br\/>Los Cipreses C, Ruta Viva 8, Quito 170184, Ecuador<br\/><a href=\"mailto:ecuador@velodrom.cc\">ecuador@velodrom.cc<\/a><\/p>"
+              "subtext": "<p><strong>Velodrom Barcelona</strong><br/>Comte de Salvatierra 6, 08006 – Barcelona<br/><a href=\"mailto:info@velodrom.cc\">info@velodrom.cc</a><br/>+34 937682373</p><p><strong>Velodrom Girona</strong><br/>Carrer de l'Argenteria 9 - 17004 Girona<br/><a href=\"mailto:info@velodrom.cc\">info@velodrom.cc<br/></a>+34 872001688<br/><br/><strong>Velodrom Katowice</strong><br/>Kępowa 45, 40-583 Katowice, Poland<br/><a href=\"mailto:katowice@velodrom.cc\">katowice@velodrom.cc</a></p><p><strong>Velodrom Ecuador</strong><br/>Los Cipreses C, Ruta Viva 8, Quito 170184, Ecuador<br/><a href=\"mailto:ecuador@velodrom.cc\">ecuador@velodrom.cc</a></p>"
             }
           },
           "534d578a-bebf-4586-a5b1-8c2b0349f3ff": {
             "type": "text",
             "settings": {
               "heading": "Working Hours",
-              "subtext": "<p><strong>Velodrom Barcelona<br\/><\/strong>Monday to Friday: 10:00-13:30 and 16:30-20:30<br\/>Saturday: 16:30-20:30<br\/>Sundays: Closed<br\/><br\/><strong>Velodrom Girona<br\/><\/strong>Tuesday to Saturday: 10:00-13:30 and 16:30-20:30<br\/>Monday: 16:30 - 20:30<br\/>Sundays: Closed<br\/><br\/><strong>Velodrom Katowice<br\/><\/strong>Monday to Friday: 10:00-18:00<br\/>Saturdays: 10:00 - 15:00 Monday: 16:30 - 20:30<br\/>Sundays: Closed<br\/><br\/><strong>Velodrom Ecuador<br\/><\/strong>Monday to Friday: 10:30-13:30 and 14:30-19:30<br\/>Saturdays: 11:00 - 14:00 Monday: 16:00 - 19:00<br\/>Sundays: Closed<\/p>"
+              "subtext": "<p><strong>Velodrom Barcelona<br/></strong>Monday to Friday: 10:00-13:30 and 16:30-20:30<br/>Saturday: 16:30-20:30<br/>Sundays: Closed<br/><br/><strong>Velodrom Girona<br/></strong>Tuesday to Saturday: 10:00-13:30 and 16:30-20:30<br/>Monday: 16:30 - 20:30<br/>Sundays: Closed<br/><br/><strong>Velodrom Katowice<br/></strong>Monday to Friday: 10:00-18:00<br/>Saturdays: 10:00 - 15:00 Monday: 16:30 - 20:30<br/>Sundays: Closed<br/><br/><strong>Velodrom Ecuador<br/></strong>Monday to Friday: 10:30-13:30 and 14:30-19:30<br/>Saturdays: 11:00 - 14:00 Monday: 16:00 - 19:00<br/>Sundays: Closed</p>"
             }
           },
           "footer-0": {
@@ -218,79 +226,28 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
-      "16881471024131275657": {
-        "type": "shopify:\/\/apps\/smart-search-bar-filters\/blocks\/app-embed\/d8f24ada-02b1-458a-bbeb-5bf16d5c921e",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "12793297677437526120": {
-        "type": "shopify:\/\/apps\/t-lab-ai-language-translate\/blocks\/custom_translations\/b5b83690-efd4-434d-8c6a-a5cef4019faf",
+        "type": "shopify://apps/t-lab-ai-language-translate/blocks/custom_translations/b5b83690-efd4-434d-8c6a-a5cef4019faf",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "1909789295049107559": {
-        "type": "shopify:\/\/apps\/mbc-bundle-products\/blocks\/mbc-bundles-core-snippet\/57c94b78-e464-47f4-9403-7ffcfcddb33f",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "7878088468538493966": {
-        "type": "shopify:\/\/apps\/wisepops-smart-popups-bars\/blocks\/app-embed\/e7d7a4f7-0df4-4073-9375-5f36db513952",
-        "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "11348531219507317188": {
-        "type": "shopify:\/\/apps\/easy-bundles\/blocks\/app-embed\/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
+        "type": "shopify://apps/easy-bundles/blocks/app-embed/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "8847685616676869210": {
-        "type": "shopify:\/\/apps\/webrex-announcement\/blocks\/app-embed\/3494d573-4520-4d27-b2eb-ba0554423f65",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "16231151010375598674": {
-        "type": "shopify:\/\/apps\/kobu-menu-highlight\/blocks\/app-embed\/09834ec7-34c9-444c-86c6-fab2bbb63d27",
-        "disabled": false,
-        "settings": {
-          "menu_shape": "square",
-          "menu_margin_top": 8,
-          "menu_margin_bottom": 8,
-          "menu_gap": 20,
-          "menu_width": 80,
-          "menu_height": 80,
-          "menu_title_alignment": "center",
-          "menu_title_font_size": 14,
-          "menu_title_font_weight": 4,
-          "menu_title_font_decoration": "none",
-          "menu_title_font_style": "normal",
-          "menu_mode": "slider",
-          "menu_position": "flex-start",
-          "menu_display_max_width": "9999",
-          "custom_css": "",
-          "custom_js": ""
-        }
+        "settings": {}
       },
       "8765772171712610185": {
-        "type": "shopify:\/\/apps\/t-lab-ai-language-translate\/blocks\/language_switcher\/b5b83690-efd4-434d-8c6a-a5cef4019faf",
+        "type": "shopify://apps/t-lab-ai-language-translate/blocks/language_switcher/b5b83690-efd4-434d-8c6a-a5cef4019faf",
         "disabled": false,
         "settings": {
           "enable_language_switcher": true,
           "enable_country_region_switcher": false,
-          "use_modal_dialog": false,
           "use_currency_for_region": false,
           "switcher_position": "custom",
           "show_flags": true,
-          "language_label": "language-name",
+          "use_modal_dialog": false,
           "language_country_mapping": "",
           "countries_filter": "",
           "custom_css": "",
@@ -300,16 +257,17 @@
           "mobile_switcher_relative_position": "before",
           "header_switcher_border_width": 0,
           "switcher_viewport_position": "bottom-right",
-          "custom_position_spacing_top": "55",
-          "custom_position_spacing_right": "20",
-          "custom_position_spacing_bottom": "20",
-          "custom_position_spacing_left": "20",
           "custom_switcher_font_size": "14px",
           "custom_switcher_border_width": 1,
           "custom_switcher_text_color": "#5c5c5c",
           "custom_switcher_background_color": "#ffffff",
           "custom_switcher_border_color": "#000000"
         }
+      },
+      "5182184951224911228": {
+        "type": "shopify://apps/rapid-search/blocks/script/bd827795-feaa-41a8-9219-2b83f238aa7d",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -449,8 +407,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -479,7 +436,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
